@@ -1,0 +1,1859 @@
+{
+  "translation-revision-date": "2026-08-29",
+  "generator": "peyvast-auth build",
+  "source": "languages/peyvast-auth-fa_IR.po",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "lang": "fa_IR",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "%s %d": [
+        "%s %d"
+      ],
+      "A customizable phone-first authentication interface for WordPress.": [
+        "رابط احراز هویت قابل شخصی‌سازی مبتنی بر شماره همراه برای وردپرس."
+      ],
+      "A server error occurred. Please try again in a few minutes.": [
+        "خطایی در سمت سرور رخ داد. لطفاً چند دقیقه دیگر دوباره تلاش کنید."
+      ],
+      "Please sign in or register before continuing to checkout.": [
+        "برای ادامه خرید و ثبت سفارش، ابتدا وارد حساب کاربری خود شوید یا ثبت‌نام کنید."
+      ],
+      "Please sign in before viewing your order receipt.": [
+        "برای مشاهده رسید سفارش، ابتدا وارد حساب کاربری خود شوید."
+      ],
+      "A verification code was sent to the selected contact method.": [
+        "کد تأیید به روش ارتباطی انتخاب‌شده ارسال شد."
+      ],
+      "A verification code was sent to {identifier} and {email}.<br>This code is valid for {valid_minutes} minutes.": [
+        "کد تأیید به {identifier} و {email} ارسال شد. <br>کد تا {valid_minutes} دقیقه معتبر است."
+      ],
+      "A verification code was sent to {identifier}.<br>This code is valid for {valid_minutes} minutes.": [
+        "کد تأیید به {identifier} ارسال شد. این کد تا ۵ دقیقه معتبر است {valid_minutes} minutes."
+      ],
+      "Accessibility label": [
+        "برچسب دسترسی‌پذیری"
+      ],
+      "Action Buttons": [
+        "دکمه‌های عملیاتی"
+      ],
+      "Action buttons": [
+        "دکمه‌های عملیاتی"
+      ],
+      "After text": [
+        "بعد از متن"
+      ],
+      "All channels": [
+        "همه کانال‌ها"
+      ],
+      "All levels": [
+        "همه سطوح"
+      ],
+      "All providers": [
+        "همه ارائه‌دهندگان"
+      ],
+      "An account already exists for this mobile number.": [
+        "حساب کاربری برای این شماره همراه از قبل وجود دارد."
+      ],
+      "Authentication": [
+        "احراز هویت"
+      ],
+      "Authentication events": [
+        "رویدادهای احراز هویت"
+      ],
+      "Authentication identifier must be a valid Iranian mobile number.": [
+        "شناسه احراز هویت باید یک شماره همراه معتبر ایران باشد."
+      ],
+      "Authentication is currently unavailable. Please try again later.": [
+        "احراز هویت در حال حاضر در دسترس نیست. لطفاً بعداً دوباره تلاش کنید."
+      ],
+      "Authentication page": [
+        "صفحه احراز هویت"
+      ],
+      "Authentication target": [
+        "هدف احراز هویت"
+      ],
+      "Back": [
+        "بازگشت"
+      ],
+      "Back button": [
+        "دکمه بازگشت"
+      ],
+      "Before text": [
+        "قبل از متن"
+      ],
+      "Built-in registration field.": [
+        "فیلد داخلی ثبت‌نام."
+      ],
+      "Button background": [
+        "پس‌زمینه دکمه"
+      ],
+      "Button radius": [
+        "شعاع دکمه"
+      ],
+      "Button text color": [
+        "رنگ متن دکمه"
+      ],
+      "Change SVG icon": [
+        "تغییر آیکن SVG"
+      ],
+      "Changes across all sections are kept in one form and saved together.": [
+        "تغییرات تمام بخش‌ها در یک فرم نگهداری و با هم ذخیره می‌شوند."
+      ],
+      "Changes saved.": [
+        "تغییرات ذخیره شد."
+      ],
+      "Channel": [
+        "کانال"
+      ],
+      "Clear logs": [
+        "پاک کردن لاگ‌ها"
+      ],
+      "Close": [
+        "بستن"
+      ],
+      "Complete the required account information to finish registration.": [
+        "اطلاعات موردنیاز حساب کاربری را برای تکمیل ثبت‌نام وارد کنید."
+      ],
+      "Complete your account": [
+        "تکمیل حساب کاربری"
+      ],
+      "Configuration": [
+        "پیکربندی"
+      ],
+      "Google sign-in.": [
+        "ورود به سیستم گوگل."
+      ],
+      "Email delivery and OTP template.": [
+        "ارسال ایمیل و قالب OTP."
+      ],
+      "SMS provider and test delivery.": [
+        "ارائه دهنده پیامک و ارسال آزمایشی."
+      ],
+      "Container": [
+        "کانتینر"
+      ],
+      "Container background": [
+        "پس‌زمینه کانتینر"
+      ],
+      "Container border": [
+        "حاشیه کانتینر"
+      ],
+      "Container padding": [
+        "فاصله داخلی کانتینر"
+      ],
+      "Container radius": [
+        "شعاع کانتینر"
+      ],
+      "Container shadow": [
+        "سایه کانتینر"
+      ],
+      "Content": [
+        "محتوا"
+      ],
+      "Continue": [
+        "ادامه"
+      ],
+      "Continue with Google": [
+        "ادامه با گوگل"
+      ],
+      "Continue with password": [
+        "ادامه با رمز عبور"
+      ],
+      "Code length, expiry and cooldown.": [
+        "طول کد، انقضا و زمان انتظار."
+      ],
+      "Create account": [
+        "ایجاد حساب کاربری"
+      ],
+      "Delete all logs?": [
+        "همه لاگ‌ها حذف شوند؟"
+      ],
+      "Delete all logs? This action cannot be undone.": [
+        "همه لاگ‌ها حذف شوند؟ این عملیات قابل بازگشت نیست."
+      ],
+      "Description typography": [
+        "تایپوگرافی توضیحات"
+      ],
+      "Design": [
+        "طراحی"
+      ],
+      "Destination page": [
+        "صفحه مقصد"
+      ],
+      "Details": [
+        "جزئیات"
+      ],
+      "Diagnostic records for authentication, OTP delivery, providers and security. Sensitive values are redacted before storage.": [
+        "سوابق تشخیصی احراز هویت، ارسال OTP، ارائه‌دهندگان و امنیت. مقادیر حساس پیش از ذخیره‌سازی حذف یا ماسک می‌شوند."
+      ],
+      "Disable": [
+        "غیرفعال"
+      ],
+      "Disable / none": [
+        "غیرفعال / هیچ‌کدام"
+      ],
+      "Disabled": [
+        "غیرفعال"
+      ],
+      "Email": [
+        "ایمیل"
+      ],
+      "Email address": [
+        "آدرس ایمیل"
+      ],
+      "Email placeholder": [
+        "Placeholder ایمیل"
+      ],
+      "Bricks and Block integration.": [
+        "ادغام بریکزبیلدر و بلاکس."
+      ],
+      "Enabled": [
+        "فعال"
+      ],
+      "Enter a new password": [
+        "رمز عبور جدید را وارد کنید"
+      ],
+      "Enter the one-time code below to continue.": [
+        "برای ادامه، کد یکبارمصرف را وارد کنید."
+      ],
+      "Enter the verification code": [
+        "کد تأیید را وارد کنید"
+      ],
+      "Enter your email address": [
+        "آدرس ایمیل خود را وارد کنید"
+      ],
+      "Enter your full name": [
+        "نام و نام خانوادگی خود را وارد کنید"
+      ],
+      "Enter your mobile number": [
+        "شماره همراه خود را وارد کنید"
+      ],
+      "Enter your mobile number or email address": [
+        "شماره همراه یا ایمیل خود را وارد کنید"
+      ],
+      "Enter your password": [
+        "رمز عبور خود را وارد کنید"
+      ],
+      "Errors": [
+        "خطاها"
+      ],
+      "Event": [
+        "رویداد"
+      ],
+      "Event, message, provider or request ID": [
+        "رویداد، پیام، ارائه‌دهنده یا شناسه درخواست"
+      ],
+      "Fallback page": [
+        "صفحه جایگزین"
+      ],
+      "Field": [
+        "فیلد"
+      ],
+      "Field background": [
+        "پس‌زمینه فیلد"
+      ],
+      "Field border color": [
+        "رنگ حاشیه فیلد"
+      ],
+      "Field label typography": [
+        "تایپوگرافی برچسب فیلد"
+      ],
+      "Field radius": [
+        "شعاع فیلد"
+      ],
+      "Fields": [
+        "فیلدها"
+      ],
+      "Filter logs": [
+        "فیلتر لاگ‌ها"
+      ],
+      "Forgot your password?": [
+        "رمز عبور را فراموش کرده‌اید؟"
+      ],
+      "Full log details": [
+        "جزئیات کامل لاگ"
+      ],
+      "Full name": [
+        "نام و نام خانوادگی"
+      ],
+      "Full name placeholder": [
+        "Placeholder نام و نام خانوادگی"
+      ],
+      "Global title": [
+        "عنوان کلی"
+      ],
+      "Global title typography": [
+        "تایپوگرافی عنوان کلی"
+      ],
+      "Google sign-in could not be verified. Please try again.": [
+        "تأیید ورود با گوگل انجام نشد. لطفاً دوباره تلاش کنید."
+      ],
+      "Google sign-in is currently unavailable.": [
+        "ورود با گوگل در حال حاضر در دسترس نیست."
+      ],
+      "ID": [
+        "شناسه"
+      ],
+      "Icon": [
+        "آیکن"
+      ],
+      "Icon position": [
+        "موقعیت آیکن"
+      ],
+      "Identifier placeholder": [
+        "Placeholder شناسه ورود"
+      ],
+      "If you did not request this code, you can safely ignore this message.": [
+        "اگر این کد را درخواست نکرده‌اید، می‌توانید این پیام را نادیده بگیرید."
+      ],
+      "Independent back control for Peyvast authentication stages.": [
+        "کنترل مستقل بازگشت برای مراحل احراز هویت پیوست."
+      ],
+      "Information messages": [
+        "پیام‌های اطلاعاتی"
+      ],
+      "Input background": [
+        "پس‌زمینه ورودی"
+      ],
+      "Input border": [
+        "حاشیه ورودی"
+      ],
+      "Input shadow": [
+        "سایه ورودی"
+      ],
+      "Input text color": [
+        "رنگ متن ورودی"
+      ],
+      "Input typography": [
+        "تایپوگرافی ورودی"
+      ],
+      "Integrations": [
+        "یکپارچه‌سازی‌ها"
+      ],
+      "WooCommerce phone synchronization.": [
+        "همگام‌سازی تلفن ووکامرس."
+      ],
+      "Leave empty to keep the saved value.": [
+        "برای حفظ مقدار ذخیره‌شده خالی بگذارید."
+      ],
+      "Leave text fields empty to use the dynamic system defaults.": [
+        "فیلدهای متنی را خالی بگذارید تا مقادیر پویا و پیش‌فرض سیستم استفاده شوند."
+      ],
+      "Level": [
+        "سطح"
+      ],
+      "Logging": [
+        "ثبت لاگ"
+      ],
+      "Logging is disabled": [
+        "ثبت لاگ غیرفعال است"
+      ],
+      "Logs": [
+        "لاگ‌ها"
+      ],
+      "OTP, password and reset methods.": [
+        "روش‌های OTP، رمز عبور و تنظیم مجدد."
+      ],
+      "Diagnostics and log retention.": [
+        "تشخیص و نگهداری لاگ."
+      ],
+      "Fields shown after mobile verification.": [
+        "فیلدهایی که پس از تأیید شماره همراه نشان داده می‌شوند."
+      ],
+      "Plugin status and lifecycle.": [
+        "وضعیت و چرخه حیات افزونه."
+      ],
+      "Post-login destinations.": [
+        "مقاصد پس از ورود."
+      ],
+      "Messages & Information": [
+        "پیام‌ها و اطلاعات"
+      ],
+      "Mobile": [
+        "شماره همراه"
+      ],
+      "Mobile number": [
+        "شماره همراه"
+      ],
+      "Mobile number or email": [
+        "شماره همراه یا ایمیل"
+      ],
+      "New diagnostic records will not be stored until logging is enabled in Settings.": [
+        "تا زمانی که ثبت لاگ در تنظیمات فعال نشود، رکورد تشخیصی جدیدی ذخیره نخواهد شد."
+      ],
+      "New password": [
+        "رمز عبور جدید"
+      ],
+      "New password placeholder": [
+        "Placeholder رمز عبور جدید"
+      ],
+      "No SMS provider is selected.": [
+        "هیچ ارائه‌دهنده SMS انتخاب نشده است."
+      ],
+      "No delivery method is currently available for this request.": [
+        "در حال حاضر روش ارسال در دسترس نیست."
+      ],
+      "No existing account matches this Google account. Please register with your mobile number first.": [
+        "حساب کاربری موجودی برای این حساب گوگل پیدا نشد. ابتدا با شماره همراه ثبت‌نام کنید."
+      ],
+      "No matching logs were found.": [
+        "لاگ مطابق با فیلتر یافت نشد."
+      ],
+      "No settings were submitted.": [
+        "هیچ تنظیماتی ارسال نشده است."
+      ],
+      "Mobile number storage format.": [
+        "فرمت ذخیره شماره همراه."
+      ],
+      "Notice Queue": [
+        "صف اعلان"
+      ],
+      "Notice icons": [
+        "آیکن‌های اعلان"
+      ],
+      "OTP": [
+        "OTP"
+      ],
+      "OTP background": [
+        "پس‌زمینه OTP"
+      ],
+      "OTP border": [
+        "حاشیه OTP"
+      ],
+      "OTP cell gap": [
+        "فاصله خانه‌های OTP"
+      ],
+      "OTP cell size": [
+        "اندازه خانه OTP"
+      ],
+      "OTP gap": [
+        "فاصله OTP"
+      ],
+      "OTP size": [
+        "اندازه OTP"
+      ],
+      "OTP typography": [
+        "تایپوگرافی OTP"
+      ],
+      "Operational Logs": [
+        "لاگ‌های عملیاتی"
+      ],
+      "Operational log": [
+        "لاگ عملیاتی"
+      ],
+      "Optional CSS selector for a specific authentication instance.": [
+        "در صورت نیاز، سلکتور CSS یک نمونه احراز هویت مشخص را وارد کنید."
+      ],
+      "Overview": [
+        "نمای کلی"
+      ],
+      "Page #%d": [
+        "صفحه شماره %d"
+      ],
+      "Password": [
+        "رمز عبور"
+      ],
+      "Password placeholder": [
+        "Placeholder رمز عبور"
+      ],
+      "Password reset identifier placeholder": [
+        "Placeholder شناسه بازیابی رمز عبور"
+      ],
+      "Password sign-in identifier placeholder": [
+        "Placeholder شناسه ورود با رمز عبور"
+      ],
+      "Peyvast Auth": [
+        "احراز هویت پیوست"
+      ],
+      "Peyvast Auth Back Button": [
+        "دکمه بازگشت احراز هویت پیوست"
+      ],
+      "Peyvast Authentication": [
+        "احراز هویت پیوست"
+      ],
+      "Peyvast Authentication Back Button": [
+        "دکمه بازگشت احراز هویت پیوست"
+      ],
+      "Peyvast Authentication Identifier": [
+        "شناسه احراز هویت پیوست"
+      ],
+      "Phone / sign-in": [
+        "شماره همراه / ورود"
+      ],
+      "Placeholder: {seconds}.": [
+        "جای‌نگهدار: {seconds}."
+      ],
+      "Supported placeholders: {identifier}, {channel}, {site_name}, {otp_length}, {valid_minutes}.": [
+        "Placeholderهای پشتیبانی‌شده: {identifier}، {channel}، {site_name}، {otp_length} و {valid_minutes}."
+      ],
+      "Supported variable: {method}.": [
+        "متغیر پشتیبانی‌شده: {method}."
+      ],
+      "Supported variable: {method}. HTML is allowed and sanitized before output.": [
+        "متغیر پشتیبانی‌شده: {method}. انجام HTML مجاز بوده و پیش از نمایش پالایش می‌شود."
+      ],
+      "{identifier}: the destination(s) the code was sent to. {channel}: accepted delivery channels from the server response. {site_name}, {otp_length} and {valid_minutes}: data from the server. {seconds}: resend countdown. {method}: the stage sign-in method.": [
+        "{identifier}: مقصد(های) ارسال کد. {channel}: کانال‌های پذیرفته‌شده ارسال از پاسخ سرور. {site_name}، {otp_length} و {valid_minutes}: داده‌های سرور. {seconds}: شمارش معکوس ارسال مجدد. {method}: روش ورود مرحله."
+      ],
+      "Placeholders: {identifier}, {identifiers}, {email}, {site_name}, {otp_length}, {channel}, {channels}, {valid_minutes}.": [
+        "متغیرهای قابل استفاده: {identifier}، {identifiers}، {email}، {site_name}، {otp_length}، {channel}، {channels} و {valid_minutes}."
+      ],
+      "Please choose a password with at least 8 characters.": [
+        "لطفاً رمزی با حداقل ۸ کاراکتر انتخاب کنید."
+      ],
+      "Please complete all required fields.": [
+        "لطفاً تمام فیلدهای الزامی را کامل کنید."
+      ],
+      "Please do not leave this field empty.": [
+        "لطفاً این قسمت را خالی نگذارید."
+      ],
+      "Please enter a valid Iranian mobile number.": [
+        "لطفاً شماره همراه معتبر ایران وارد کنید."
+      ],
+      "Please enter a valid email address.": [
+        "لطفاً ایمیل معتبر وارد کنید."
+      ],
+      "Please enter a valid mobile number or email address.": [
+        "لطفاً شماره همراه یا ایمیل معتبر وارد کنید."
+      ],
+      "Please enter the complete verification code.": [
+        "لطفاً کد تأیید کامل را وارد کنید."
+      ],
+      "Preview": [
+        "پیش‌نمایش"
+      ],
+      "Preview stage": [
+        "مرحله پیش‌نمایش"
+      ],
+      "Rate limits and abuse protection.": [
+        "محدودیت درخواست و محافظت در برابر سوءاستفاده."
+      ],
+      "Provider": [
+        "ارائه‌دهنده"
+      ],
+      "Provider errors": [
+        "خطاهای ارائه‌دهنده"
+      ],
+      "Providers": [
+        "ارائه‌دهندگان"
+      ],
+      "Redirects": [
+        "انتقال‌ها"
+      ],
+      "Registration": [
+        "ثبت‌نام"
+      ],
+      "Rendered only when the stage description is enabled.": [
+        "فقط زمانی نمایش داده می‌شود که توضیحات مرحله فعال باشد."
+      ],
+      "Request ID": [
+        "شناسه درخواست"
+      ],
+      "Required": [
+        "اجباری"
+      ],
+      "Resend code": [
+        "ارسال مجدد کد"
+      ],
+      "Resend timer text": [
+        "متن شمارنده ارسال مجدد"
+      ],
+      "Resend verification code in {seconds}": [
+        "ارسال مجدد کد تأیید تا {seconds}"
+      ],
+      "Reset your password": [
+        "بازیابی رمز عبور"
+      ],
+      "SMS delivery is not configured.": [
+        "ارسال پیامک پیکربندی نشده است."
+      ],
+      "SVG icon": [
+        "آیکن SVG"
+      ],
+      "SVG selected": [
+        "آیکن SVG انتخاب‌شده"
+      ],
+      "Save changes": [
+        "ذخیره تغییرات"
+      ],
+      "Save password": [
+        "ذخیره رمز عبور"
+      ],
+      "Saving changes…": [
+        "در حال ذخیره تغییرات…"
+      ],
+      "Search": [
+        "جستجو"
+      ],
+      "Security": [
+        "امنیت"
+      ],
+      "Select SVG icon": [
+        "انتخاب آیکن SVG"
+      ],
+      "Select a page": [
+        "انتخاب صفحه"
+      ],
+      "Select a provider to enable SMS OTP delivery.": [
+        "برای فعال کردن ارسال پیامک OTP، یک ارائه دهنده را انتخاب کنید."
+      ],
+      "Select the page that contains the login or registration element.": [
+        "صفحه دارای المنت ورود یا ثبت‌نام را انتخاب کنید."
+      ],
+      "Sends a real OTP through the selected provider.": [
+        "یک OTP واقعی را از طریق ارائه دهنده انتخاب شده ارسال می کند."
+      ],
+      "Set a new password": [
+        "تنظیم رمز عبور جدید"
+      ],
+      "Settings": [
+        "تنظیمات"
+      ],
+      "Settings navigation": [
+        "ناوبری تنظیمات"
+      ],
+      "Settings saved successfully.": [
+        "تنظیمات با موفقیت ذخیره شد."
+      ],
+      "Severity": [
+        "شدت"
+      ],
+      "Show description": [
+        "نمایش توضیحات"
+      ],
+      "Show description for": [
+        "نمایش توضیحات برای"
+      ],
+      "Show icon": [
+        "نمایش آیکن"
+      ],
+      "Show text": [
+        "نمایش متن"
+      ],
+      "Sign in": [
+        "ورود"
+      ],
+      "Sign in or create an account": [
+        "ورود یا ایجاد حساب کاربری"
+      ],
+      "Sign in with Google": [
+        "ورود با گوگل"
+      ],
+      "Sign in with password": [
+        "ورود با رمز عبور"
+      ],
+      "Stage title typography": [
+        "تایپوگرافی عنوان مرحله"
+      ],
+      "Stage titles & descriptions": [
+        "عنوان و توضیحات مراحل"
+      ],
+      "Stages": [
+        "مراحل"
+      ],
+      "Standalone back control for Peyvast authentication stages.": [
+        "کنترل مستقل بازگشت برای مراحل احراز هویت پیوست."
+      ],
+      "Surface color": [
+        "رنگ سطح"
+      ],
+      "Test mobile number": [
+        "شماره همراه آزمایشی"
+      ],
+      "Text": [
+        "متن"
+      ],
+      "The authentication session is no longer valid. Please try again.": [
+        "جلسه احراز هویت دیگر معتبر نیست. لطفاً دوباره تلاش کنید."
+      ],
+      "The editor preview is representative; authentication runs on the published page.": [
+        "پیش‌نمایش ویرایشگر نمایشی است؛ احراز هویت در صفحه منتشرشده اجرا می‌شود."
+      ],
+      "The information provided could not be used to continue. Please review it and try again.": [
+        "اطلاعات واردشده قابل استفاده برای ادامه نیست. لطفاً آن را بررسی و دوباره تلاش کنید."
+      ],
+      "The mobile number or email address is incorrect.": [
+        "شماره همراه یا ایمیل نادرست است."
+      ],
+      "The number of requests exceeds the allowed limit.": [
+        "تعداد درخواست‌ها بیش از حد مجاز است."
+      ],
+      "The password reset session is no longer valid. Please start again.": [
+        "جلسه بازیابی رمز عبور دیگر معتبر نیست. لطفاً دوباره شروع کنید."
+      ],
+      "The registration session is no longer valid. Please start again.": [
+        "جلسه ثبت‌نام دیگر معتبر نیست. لطفاً دوباره شروع کنید."
+      ],
+      "The request could not be verified. Please refresh the page and try again.": [
+        "درخواست قابل تأیید نیست. لطفاً صفحه را تازه‌سازی کرده و دوباره تلاش کنید."
+      ],
+      "The settings could not be saved. Please try again.": [
+        "تنظیمات ذخیره نشد. لطفاً دوباره تلاش کنید."
+      ],
+      "The settings will activate automatically when WooCommerce is installed.": [
+        "این تنظیمات پس از نصب ووکامرس به‌صورت خودکار فعال می‌شوند."
+      ],
+      "The sign-in details are not valid.": [
+        "اطلاعات ورود صحیح نیست."
+      ],
+      "The verification code could not be sent. Please try again in a few minutes.": [
+        "ارسال کد تأیید انجام نشد. لطفاً چند دقیقه دیگر دوباره تلاش کنید."
+      ],
+      "The verification code has expired. Please request a new code.": [
+        "کد تأیید منقضی شده است. لطفاً کد جدید درخواست کنید."
+      ],
+      "The verification code is incorrect.": [
+        "کد تأیید صحیح نیست."
+      ],
+      "The verification code is incomplete. Enter all {otp_length} digits.": [
+        "کد تأیید ناقص است؛ همهٔ {otp_length} رقم را وارد کنید."
+      ],
+      "The verification code is invalid or expired.": [
+        "کد تأیید نامعتبر یا منقضی شده است."
+      ],
+      "This authentication identifier is already assigned to another user.": [
+        "این شناسه احراز هویت قبلاً به کاربر دیگری اختصاص داده شده است."
+      ],
+      "This authentication request is not available.": [
+        "این درخواست احراز هویت در دسترس نیست."
+      ],
+      "This code is valid for {expiration} minutes.": [
+        "این کد به مدت {expiration} دقیقه معتبر است."
+      ],
+      "This email address is already in use.": [
+        "این شناسه ایمیل قبلا ثبت نام شده است."
+      ],
+      "This verification session has already been used.": [
+        "این جلسه تأیید قبلاً استفاده شده است."
+      ],
+      "Time": [
+        "زمان"
+      ],
+      "Total": [
+        "مجموع"
+      ],
+      "Try a different filter or search term.": [
+        "فیلتر یا عبارت جستجوی دیگری را امتحان کنید."
+      ],
+      "Unified authentication, OTP delivery and builder integrations.": [
+        "احراز هویت یکپارچه، ارسال OTP و یکپارچه‌سازی با سازنده‌ها."
+      ],
+      "Unified phone/email authentication with OTP, password and optional Google sign-in.": [
+        "احراز هویت یکپارچه با شماره همراه و ایمیل، OTP، رمز عبور و ورود اختیاری با گوگل."
+      ],
+      "Unique normalized identifier used for mobile authentication. Leave empty to keep the current value.": [
+        "شناسه نرمال‌شده و یکتای مورد استفاده برای احراز هویت موبایلی. برای حفظ مقدار فعلی خالی بگذارید."
+      ],
+      "Unsaved changes": [
+        "تغییرات ذخیره‌نشده"
+      ],
+      "Used when visible button text is hidden.": [
+        "وقتی متن دکمه مخفی است برای برچسب دسترسی‌پذیری استفاده می‌شود."
+      ],
+      "User": [
+        "کاربر"
+      ],
+      "User #%d": [
+        "کاربر #%d"
+      ],
+      "User ID": [
+        "شناسه کاربر"
+      ],
+      "User display name": [
+        "نام نمایشی کاربر"
+      ],
+      "User email": [
+        "ایمیل کاربر"
+      ],
+      "User mobile number": [
+        "شماره همراه کاربر"
+      ],
+      "Verification code": [
+        "کد تأیید"
+      ],
+      "Verification code for %s": [
+        "کد تأیید برای %s"
+      ],
+      "Verify and continue": [
+        "تأیید و ادامه"
+      ],
+      "View Details": [
+        "مشاهده جزئیات"
+      ],
+      "Visible": [
+        "نمایش داده شود"
+      ],
+      "WooCommerce": [
+        "ووکامرس"
+      ],
+      "WooCommerce customer phone integration is available.": [
+        "یکپارچه‌سازی شماره همراه مشتری ووکامرس در دسترس است."
+      ],
+      "WooCommerce detected": [
+        "ووکامرس شناسایی شد"
+      ],
+      "WooCommerce is not active": [
+        "ووکامرس فعال نیست"
+      ],
+      "You are not allowed to access this page.": [
+        "اجازه دسترسی به این صفحه را ندارید."
+      ],
+      "You are not allowed to perform this operation.": [
+        "شما اجازه انجام این عملیات را ندارید."
+      ],
+      "You are not allowed to save these settings.": [
+        "اجازه ذخیره این تنظیمات را ندارید."
+      ],
+      "You have signed in successfully.": [
+        "با موفقیت وارد شدید."
+      ],
+      "Your account was created successfully.": [
+        "ثبت‌نام شما با موفقیت انجام شد."
+      ],
+      "Your password was reset successfully.": [
+        "رمز عبور شما با موفقیت تغییر کرد."
+      ],
+      "Your previous verification session was restored.": [
+        "جلسه تأیید قبلی شما بازیابی شد."
+      ],
+      "Your verification code": [
+        "کد تأیید شما"
+      ],
+      "Your verification code has been verified.": [
+        "کد تأیید شما با موفقیت بررسی شد."
+      ],
+      "Your verification session is no longer available. Please request a new code.": [
+        "جلسه تأیید شما دیگر در دسترس نیست. لطفاً کد جدید درخواست کنید."
+      ],
+      "Your website": [
+        "وب‌سایت شما"
+      ],
+      "and": [
+        "و"
+      ],
+      "description": [
+        "توضیحات"
+      ],
+      "email": [
+        "ایمیل"
+      ],
+      "icon": [
+        "آیکن"
+      ],
+      "mobile": [
+        "شماره همراه"
+      ],
+      "title": [
+        "عنوان"
+      ],
+      "A verification code was sent to {identifier}.": [
+        "کد تأیید به {identifier} ارسال شد."
+      ],
+      "A verification code was sent to {identifier} and {email}.": [
+        "کد تأیید به {identifier} و {email} ارسال شد."
+      ],
+      "Please enter a valid mobile number.": [
+        "لطفاً شماره همراه معتبر وارد کنید."
+      ],
+      "The code sent to you remains valid for {valid_minutes} minutes. If you have not received it, use Resend code.": [
+        "کد ارسال شده برای شما تا {valid_minutes} دقیقه معتبر می‌باشد. در صورتی که کد برای شما ارسال نشده، از گزینه ارسال مجدد کد استفاده کنید."
+      ],
+      "WooCommerce phone storage format": [
+        "فرمت ذخیره شماره ووکامرس"
+      ],
+      "Outline": [
+        "خط دور"
+      ],
+      "Resend": [
+        "ارسال مجدد"
+      ],
+      "Inline error padding": [
+        "فاصله داخلی خطای درون‌خطی"
+      ],
+      "Password sign-in": [
+        "ورود با رمز عبور"
+      ],
+      "Resend cooldown (seconds)": [
+        "فاصله زمانی ارسال مجدد (ثانیه)"
+      ],
+      "Inline error typography": [
+        "تایپوگرافی خطای درون‌خطی"
+      ],
+      "Fallback options": [
+        "تنظیمات مسیر جایگزین"
+      ],
+      "Options": [
+        "تنظیمات"
+      ],
+      "Warning": [
+        "هشدار"
+      ],
+      "Placeholder color": [
+        "رنگ Placeholder"
+      ],
+      "Style": [
+        "سبک"
+      ],
+      "Fallback custom URL": [
+        "نشانی اینترنتی سفارشی جایگزین"
+      ],
+      "Font weight": [
+        "ضخامت فونت"
+      ],
+      "Close icon typography": [
+        "تایپوگرافی آیکن بستن"
+      ],
+      "Success": [
+        "موفقیت"
+      ],
+      "Inline error margin": [
+        "حاشیه خطای درون‌خطی"
+      ],
+      "The preview is representative. Authentication runs on the published page.": [
+        "این پیش‌نمایش نمایی از ظاهر نهایی است؛ احراز هویت در صفحه منتشرشده اجرا می‌شود."
+      ],
+      "Timer typography": [
+        "تایپوگرافی تایمر"
+      ],
+      "Password reset request stage": [
+        "مرحله درخواست بازیابی رمز عبور"
+      ],
+      "Password reset link text": [
+        "متن لینک بازیابی رمز عبور"
+      ],
+      "Width": [
+        "عرض"
+      ],
+      "Default": [
+        "پیش‌فرض"
+      ],
+      "Password reset request": [
+        "درخواست بازیابی رمز عبور"
+      ],
+      "Margin": [
+        "حاشیه"
+      ],
+      "OTP behavior": [
+        "رفتار OTP"
+      ],
+      "HTTP request timeout (seconds)": [
+        "مهلت درخواست HTTP (ثانیه)"
+      ],
+      "Mobile number normalization": [
+        "نرمال‌سازی شماره همراه"
+      ],
+      "Background": [
+        "پس‌زمینه"
+      ],
+      "Redirect after login or registration": [
+        "انتقال پس از ورود یا ثبت‌نام"
+      ],
+      "Registration fields": [
+        "فیلدهای ثبت‌نام"
+      ],
+      "Register": [
+        "ثبت‌نام"
+      ],
+      "Registration stage": [
+        "مرحله ثبت‌نام"
+      ],
+      "SMS providers": [
+        "ارائه‌دهندگان پیامک"
+      ],
+      "Relative": [
+        "نسبی"
+      ],
+      "Fallback mode": [
+        "حالت مسیر جایگزین"
+      ],
+      "Secondary Actions": [
+        "عملیات ثانویه"
+      ],
+      "Placeholder typography": [
+        "تایپوگرافی Placeholder"
+      ],
+      "Close icon": [
+        "آیکن بستن"
+      ],
+      "Identifier": [
+        "شناسه ورود"
+      ],
+      "Builder integrations": [
+        "یکپارچه‌سازی سازنده‌ها"
+      ],
+      "Form": [
+        "فرم"
+      ],
+      "Primary": [
+        "اصلی"
+      ],
+      "Input height": [
+        "ارتفاع فیلد"
+      ],
+      "Inline error label typography": [
+        "تایپوگرافی برچسب خطای درون‌خطی"
+      ],
+      "Space between": [
+        "فاصله بین عناصر"
+      ],
+      "Error": [
+        "خطا"
+      ],
+      "Example: 8px.": [
+        "مثال: 8px."
+      ],
+      "Typography": [
+        "تایپوگرافی"
+      ],
+      "Password sign-in link text": [
+        "متن لینک ورود با رمز عبور"
+      ],
+      "Info": [
+        "اطلاعات"
+      ],
+      "Gap": [
+        "فاصله"
+      ],
+      "Circle": [
+        "دایره‌ای"
+      ],
+      "Example: 1px solid #d0d5dd.": [
+        "مثال: 1px solid #d0d5dd."
+      ],
+      "Subject": [
+        "موضوع"
+      ],
+      "Notice typography": [
+        "تایپوگرافی اعلان"
+      ],
+      "Information": [
+        "اطلاعات"
+      ],
+      "Medium": [
+        "متوسط"
+      ],
+      "Resend verification code in 00:30": [
+        "ارسال مجدد کد تأیید تا 00:30"
+      ],
+      "Border": [
+        "حاشیه"
+      ],
+      "OTP sent": [
+        "ارسال OTP"
+      ],
+      "Static": [
+        "ثابت"
+      ],
+      "Google Client ID": [
+        "شناسه Client گوگل"
+      ],
+      "Phone stage": [
+        "مرحله شماره همراه"
+      ],
+      "Phone OTP is always sent by SMS. When enabled, a second OTP is also sent to the user's email.": [
+        "OTP شماره همراه همیشه از طریق پیامک ارسال می‌شود. در صورت فعال بودن، کد دوم نیز به ایمیل کاربر ارسال می‌شود."
+      ],
+      "Box shadow": [
+        "سایه کادر"
+      ],
+      "Password reset typography": [
+        "تایپوگرافی بازیابی رمز عبور"
+      ],
+      "Plugin status": [
+        "وضعیت افزونه"
+      ],
+      "Country code": [
+        "کد کشور"
+      ],
+      "A verification code was sent.": [
+        "کد تأیید ارسال شد."
+      ],
+      "Verify": [
+        "تأیید و ادامه"
+      ],
+      "Email delivery": [
+        "ارسال ایمیل"
+      ],
+      "Retention (days)": [
+        "مدت نگهداری (روز)"
+      ],
+      "OTP sign-in": [
+        "ورود با OTP"
+      ],
+      "Run this after changing User/Username or WooCommerce phone storage format so existing accounts are updated safely.": [
+        "پس از تغییر فرمت ذخیره شماره کاربر یا ووکامرس، این عملیات را اجرا کنید تا شماره‌های حساب‌های موجود نیز با فرمت جدید به‌روزرسانی شوند."
+      ],
+      "Redirect logged-in visitors from the login page": [
+        "انتقال کاربران واردشده از صفحه ورود"
+      ],
+      "Operational logging": [
+        "ثبت لاگ عملیاتی"
+      ],
+      "OTP validity (seconds)": [
+        "اعتبار کد OTP (ثانیه)"
+      ],
+      "Password stage": [
+        "مرحله ورود با رمز عبور"
+      ],
+      "Icon gap": [
+        "فاصله آیکن"
+      ],
+      "Minimum log level": [
+        "حداقل سطح ثبت لاگ"
+      ],
+      "Input focus box shadow": [
+        "سایه جعبه فوکوس فیلد"
+      ],
+      "Error input box shadow": [
+        "سایه جعبه فیلد در حالت خطا"
+      ],
+      "Absolute": [
+        "مطلق"
+      ],
+      "Rate limiting": [
+        "محدودیت درخواست"
+      ],
+      "Close icon padding": [
+        "فاصله داخلی آیکن بستن"
+      ],
+      "Input padding": [
+        "فاصله داخلی فیلد"
+      ],
+      "Password reset identifier": [
+        "شناسه بازیابی رمز عبور"
+      ],
+      "Label typography": [
+        "تایپوگرافی برچسب"
+      ],
+      "Position": [
+        "موقعیت"
+      ],
+      "Global description typography": [
+        "تایپوگرافی توضیحات کلی"
+      ],
+      "Link": [
+        "لینک"
+      ],
+      "New password stage": [
+        "مرحله رمز عبور جدید"
+      ],
+      "OTP stage": [
+        "مرحله OTP"
+      ],
+      "Error input background": [
+        "پس‌زمینه فیلد در حالت خطا"
+      ],
+      "Inline error border": [
+        "حاشیه خطای درون‌خطی"
+      ],
+      "Secondary": [
+        "ثانویه"
+      ],
+      "Leave title/description fields empty to use the translated system defaults.": [
+        "برای استفاده از متن‌های پیش‌فرض ترجمه‌شده، عنوان و توضیحات را خالی بگذارید."
+      ],
+      "Close icon border": [
+        "حاشیه آیکن بستن"
+      ],
+      "Sender address": [
+        "آدرس فرستنده"
+      ],
+      "Example: 12px 16px.": [
+        "مثال: 12px 16px."
+      ],
+      "Size": [
+        "اندازه"
+      ],
+      "Primary Actions": [
+        "عملیات اصلی"
+      ],
+      "Icon typography": [
+        "تایپوگرافی آیکن"
+      ],
+      "Small": [
+        "کوچک"
+      ],
+      "Password sign-in identifier": [
+        "شناسه ورود با رمز عبور"
+      ],
+      "Supported placeholders: {identifier}, {identifiers}, {email}, {site_name}, {otp_length}, {channel}, {channels}, {valid_minutes}.": [
+        "Placeholderهای پشتیبانی‌شده: {identifier}، {identifiers}، {email}، {site_name}، {otp_length}، {channel}، {channels}، {valid_minutes}."
+      ],
+      "Label margin": [
+        "حاشیه برچسب"
+      ],
+      "Supported placeholder: {seconds}.": [
+        "Placeholder پشتیبانی‌شده: {seconds}."
+      ],
+      "OTP length": [
+        "تعداد ارقام OTP"
+      ],
+      "Sender name": [
+        "نام فرستنده"
+      ],
+      "Password sign-in typography": [
+        "تایپوگرافی ورود با رمز عبور"
+      ],
+      "Close icon background": [
+        "پس‌زمینه آیکن بستن"
+      ],
+      "Custom URL": [
+        "نشانی اینترنتی سفارشی"
+      ],
+      "Padding": [
+        "فاصله داخلی"
+      ],
+      "Input outline": [
+        "خط دور فیلد"
+      ],
+      "WooCommerce integration": [
+        "یکپارچه‌سازی ووکامرس"
+      ],
+      "Large": [
+        "بزرگ"
+      ],
+      "Password reset": [
+        "بازیابی رمز عبور"
+      ],
+      "CSS color value, for example #ffffff.": [
+        "مقدار رنگ CSS؛ برای مثال #ffffff."
+      ],
+      "Component radius": [
+        "شعاع کامپوننت"
+      ],
+      "Component surface": [
+        "سطح کامپوننت"
+      ],
+      "Controls the main wrapper around the authentication element.": [
+        "کنترل پوشش اصلی اطراف عنصر احراز هویت."
+      ],
+      "Element styles": [
+        "استایل‌های عنصر"
+      ],
+      "Field border": [
+        "حاشیه فیلد"
+      ],
+      "Input preview": [
+        "پیش‌نمایش ورودی"
+      ],
+      "Notice layout": [
+        "چیدمان اعلان"
+      ],
+      "OTP field gap": [
+        "فاصله فیلدهای OTP"
+      ],
+      "OTP field size": [
+        "اندازه فیلد OTP"
+      ],
+      "Primary button background": [
+        "پس‌زمینه دکمه اصلی"
+      ],
+      "Primary button text": [
+        "متن دکمه اصلی"
+      ],
+      "Secondary actions": [
+        "اقدامات ثانویه"
+      ],
+      "Use the block toolbar and block settings for the outer wrapper. These controls style the authentication components inside it.": [
+        "برای پوشش بیرونی از نوار ابزار بلوک و تنظیمات بلوک استفاده کنید. این کنترلها کامپوننت‌های احراز هویت داخل آن را استایل می‌دهند."
+      ],
+      "label": [
+        "برچسب"
+      ],
+      "placeholder": [
+        "متن جایگزین"
+      ],
+      "Country": [
+        "کشور"
+      ],
+      "Iran (+98)": [
+        "ایران (+98)"
+      ],
+      "The country code is fixed by the plugin.": [
+        "کد کشور توسط افزونه ثابت شده است."
+      ],
+      "%1$s completed. %2$d numbers updated.": [
+        "%1$s کامل شد. %2$d شماره به‌روزرسانی شد."
+      ],
+      "%1$s finished with issues. %2$d updated, %3$d failed: %4$s.": [
+        "%1$s با خطا به پایان رسید. %2$d به‌روزرسانی شد، %3$d ناموفق: %4$s."
+      ],
+      "Phone migration": [
+        "مهاجرت شماره همراه"
+      ],
+      "Enable authentication": [
+        "فعال‌سازی احراز هویت"
+      ],
+      "Delete plugin data on uninstall": [
+        "حذف داده‌های افزونه هنگام حذف"
+      ],
+      "Enable or disable the authentication service.": [
+        "سرویس احراز هویت را فعال یا غیرفعال کنید."
+      ],
+      "Permanently removes plugin tables and settings on uninstall.": [
+        "جداول و تنظیمات افزونه را هنگام حذف، به‌طور دائم حذف می‌کند."
+      ],
+      "Shown only after OTP verification.": [
+        "فقط پس از تأیید OTP نشان داده می‌شود."
+      ],
+      "Allow OTP login with phone": [
+        "اجازه ورود OTP با شماره همراه"
+      ],
+      "Allow OTP login with email": [
+        "اجازه ورود OTP با ایمیل"
+      ],
+      "Send a second OTP to the user email when phone login is used": [
+        "ارسال OTP دوم به ایمیل کاربر هنگام ورود با شماره همراه"
+      ],
+      "Secondary delivery channel for existing accounts.": [
+        "کانال تحویل ثانویه برای حساب‌های موجود."
+      ],
+      "Email OTP only signs in existing accounts.": [
+        "ایمیل OTP فقط حساب‌های موجود را وارد می‌کند."
+      ],
+      "Enable password sign-in": [
+        "فعال‌سازی ورود با رمز عبور"
+      ],
+      "Allow phone as password identifier": [
+        "اجازه استفاده از شماره همراه به‌عنوان شناسه رمز عبور"
+      ],
+      "Allow email as password identifier": [
+        "اجازه استفاده از ایمیل به‌عنوان شناسه رمز عبور"
+      ],
+      "Accepts phone, email or both as identifiers.": [
+        "شماره همراه، ایمیل یا هر دو را به عنوان شناسه می‌پذیرد."
+      ],
+      "Enable password reset": [
+        "فعال‌سازی بازیابی رمز عبور"
+      ],
+      "Allow reset with phone": [
+        "اجازه بازیابی با شماره همراه"
+      ],
+      "Allow reset with email": [
+        "اجازه بازیابی با ایمیل"
+      ],
+      "Also send reset OTP to email when phone reset is used": [
+        "همچنین ارسال OTP بازیابی به ایمیل هنگام بازیابی با شماره همراه"
+      ],
+      "Allow email-only password reset": [
+        "اجازه بازیابی رمز عبور فقط با ایمیل"
+      ],
+      "Inherits password identifiers with its own delivery options.": [
+        "شناسه‌های رمز عبور را با گزینه‌های تحویل خاص خود به ارث می‌برد."
+      ],
+      "Enable SMS delivery": [
+        "فعال‌سازی ارسال پیامک"
+      ],
+      "Enable email delivery": [
+        "فعال‌سازی ارسال ایمیل"
+      ],
+      "Enable browser OTP autofill": [
+        "فعال‌سازی تکمیل خودکار OTP در مرورگر"
+      ],
+      "Uses the standard one-time-code autocomplete; autofill depends on browser support.": [
+        "از تکمیل خودکار کد یکبار مصرف استاندارد استفاده می‌کند؛ تکمیل خودکار به پشتیبانی مرورگر بستگی دارد."
+      ],
+      "For automatic one-time code filling, your message must include the code after the domain; for example: @website.com #Code.": [
+        "برای تکمیل خودکار کد یکبار مصرف، پیام شما باید کد را پس از دامنه شامل شود؛ مثال: @website.com #Code."
+      ],
+      "Cooldown applies per session; the first stage shows no timer.": [
+        "فاصله زمانی برای هر نشست اعمال می‌شود؛ مرحله اول تایمر نشان نمی‌دهد."
+      ],
+      "Returning with the same identifier restores the active session.": [
+        "بازگشت با همان شناسه، نشست فعال را بازیابی می‌کند."
+      ],
+      "Stored in seconds; the frontend shows minutes.": [
+        "بر حسب ثانیه ذخیره می‌شود و در ظاهر سایت به دقیقه نمایش داده می‌شود."
+      ],
+      "Normalize Persian and Arabic digits": [
+        "نرمال‌سازی ارقام فارسی و عربی"
+      ],
+      "Enable WooCommerce integration": [
+        "فعال‌سازی یکپارچگی ووکامرس"
+      ],
+      "Sync the billing phone from the Peyvast user phone": [
+        "همگام‌سازی شماره صورتحساب از شماره همراه کاربر پیوست"
+      ],
+      "Sync the shipping phone from the Peyvast user phone": [
+        "همگام‌سازی شماره ارسال از شماره همراه کاربر پیوست"
+      ],
+      "Keeps WooCommerce phone values separate from user phone storage.": [
+        "فیلدهای خالی از مقادیر پیش‌فرض تولید شده استفاده می‌کنند."
+      ],
+      "This setting affects WooCommerce phone values only.": [
+        "این تنظیم فقط روی مقادیر شماره همراه ووکامرس اثر می‌گذارد."
+      ],
+      "Empty fields use the generated defaults.": [
+        "فیلدهای خالی از مقادیر پیش‌فرض تولید شده استفاده می‌کنند."
+      ],
+      "Placeholders: {otp}, {expiration}, {site_name}, {email}. Empty uses the default.": [
+        "متغیرها: {otp}، {expiration}، {site_name}، {email}. مقدار خالی یعنی استفاده از پیش‌فرض."
+      ],
+      "Empty body uses the generated RTL template.": [
+        "متن خالی یعنی استفاده از قالب راست‌به‌چپ پیش‌فرض."
+      ],
+      "Server-side limits protect the endpoints.": [
+        "محدودیت‌های سمت سرور از نقاط پایانی محافظت می‌کنند."
+      ],
+      "Enable logging": [
+        "فعال‌سازی ثبت رویداد"
+      ],
+      "OTPs, passwords, tokens and API secrets are never stored.": [
+        "رمزهای عبور یک‌بارمصرف (OTP)، رمزهای عبور، توکن‌ها و اسرار API هرگز ذخیره نمی‌شوند."
+      ],
+      "Only events at or above this level are stored.": [
+        "فقط رویدادهای هم‌سطح یا بالاتر از این سطح ذخیره می‌شوند."
+      ],
+      "Debug": [
+        "دیباگ"
+      ],
+      "Notice": [
+        "توجه"
+      ],
+      "Critical": [
+        "بحرانی"
+      ],
+      "Enable Bricks integration": [
+        "فعال‌سازی یکپارچگی بریکس"
+      ],
+      "Enable WordPress Blocks integration": [
+        "فعال‌سازی یکپارچگی بلوک‌های وردپرس"
+      ],
+      "Bricks and Blocks only add presentation and editor controls.": [
+        "نسخه‌های Bricks و Blocks فقط کنترل‌های ارائه و ویرایشگر را اضافه می‌کنند."
+      ],
+      "Choose where signed-in users go after login or registration.": [
+        "انتخاب کنید که کاربران وارد شده پس از ورود یا ثبت نام به کجا بروند."
+      ],
+      "Choose how successful authentication should redirect the user.": [
+        "نحوه تغییر مسیر کاربر پس از احراز هویت موفق را انتخاب کنید."
+      ],
+      "Return to origin": [
+        "بازگشت به مبدأ"
+      ],
+      "Specific page": [
+        "صفحه خاص"
+      ],
+      "Only internal site URLs are accepted.": [
+        "فقط URLهای داخلی سایت پذیرفته می‌شوند."
+      ],
+      "Used when the origin cannot be restored.": [
+        "زمانی استفاده می‌شود که نتوان مبدا را بازیابی کرد."
+      ],
+      "Choose a fallback destination.": [
+        "یک مقصد جایگزین انتخاب کنید."
+      ],
+      "Homepage": [
+        "صفحه نخست"
+      ],
+      "Frontend only; builder, editor, REST and AJAX are never redirected.": [
+        "فقط بخش کاربری؛ سازنده، ویرایشگر، REST و AJAX هرگز ریدایرکت نمی‌شوند."
+      ],
+      "Choose where an already signed-in visitor should go.": [
+        "انتخاب کنید که بازدیدکننده از قبل واردشده به کجا برود."
+      ],
+      "Do nothing": [
+        "کاری انجام ندهد"
+      ],
+      "Enable Google sign-in": [
+        "فعال‌سازی ورود با گوگل"
+      ],
+      "Independent identity provider; registration stays phone-only.": [
+        "ارائه دهنده هویت مستقل؛ ثبت نام فقط از طریق شماره همراه انجام می‌شود."
+      ],
+      "No provider": [
+        "بدون ارائه‌دهنده"
+      ],
+      "Kavenegar": [
+        "کاوه‌نگار"
+      ],
+      "Pattern-based verification lookup.": [
+        "جستجوی تأیید مبتنی بر الگو."
+      ],
+      "Melipayamak": [
+        "ملی‌پیامک"
+      ],
+      "Pattern-based verification delivery.": [
+        "ارسال تأیید مبتنی بر الگو."
+      ],
+      "Msgway": [
+        "مسجوی"
+      ],
+      "SMS.ir": [
+        "اس‌ام‌اس.آی‌آر"
+      ],
+      "IPPanel": [
+        "آی‌پی‌پنل"
+      ],
+      "API key pattern delivery.": [
+        "ارسال الگو با کلید API."
+      ],
+      "IPPanel username/password": [
+        "آی‌پی‌پنل قدیمی"
+      ],
+      "Username/password delivery.": [
+        "ارسال قدیمی با نام کاربری/رمز عبور."
+      ],
+      "API Key": [
+        "کلید API"
+      ],
+      "Template name": [
+        "نام قالب"
+      ],
+      "Template ID / body ID": [
+        "شناسه قالب / شناسه بدنه"
+      ],
+      "Delivery method": [
+        "روش ارسال"
+      ],
+      "Pattern 1": [
+        "الگوی ۱"
+      ],
+      "Pattern 2": [
+        "الگوی ۲"
+      ],
+      "Pattern 3": [
+        "الگوی ۳"
+      ],
+      "Pattern 4": [
+        "الگوی ۴"
+      ],
+      "Template ID": [
+        "شناسه قالب"
+      ],
+      "Pattern parameter name": [
+        "نام پارامتر الگو"
+      ],
+      "Pattern code": [
+        "کد الگو"
+      ],
+      "Originator": [
+        "فرستنده"
+      ],
+      "From": [
+        "از"
+      ],
+      "Pattern variable name": [
+        "نام متغیر الگو"
+      ],
+      "Leave blank to keep the saved secret.": [
+        "برای حفظ مقدار ذخیره‌شده خالی بگذارید."
+      ],
+      "One active provider with its own credentials.": [
+        "یک ارائه دهنده فعال با اعتبارنامه های خاص خود."
+      ],
+      "Timeout for provider HTTP requests.": [
+        "مهلت درخواست‌های HTTP ارائه‌دهنده به پایان رسیده است."
+      ],
+      "Leading 0": [
+        "صفر ابتدایی"
+      ],
+      "Raw": [
+        "خام"
+      ],
+      "Iran": [
+        "ایران"
+      ],
+      "%1$s completed. %2$d numbers updated, %3$d already in the requested format.": [
+        "%1$s با موفقیت انجام شد. %2$d شماره به‌روزرسانی شد و %3$d شماره از قبل در قالب درخواستی بود."
+      ],
+      "%1$s finished with issues. %2$d updated, %3$d already unchanged, %4$d failed: %5$s.": [
+        "%1$s با مشکل به پایان رسید. %2$d به‌روزرسانی شد، %3$d بدون تغییر باقی ماند و %4$d ناموفق بود: %5$s."
+      ],
+      "%1$s completed: %2$d numbers updated and %3$d already matched the requested format.": [
+        "%1$s تکمیل شد: %2$d شماره به‌روزرسانی و %3$d شماره از قبل در قالب درخواستی بودند."
+      ],
+      "%1$s completed: %2$d updated, %3$d unchanged and %4$d skipped because of invalid data or conflicts.": [
+        "%1$s تکمیل شد: %2$d به‌روزرسانی، %3$d بدون تغییر و %4$d مورد به‌دلیل داده نامعتبر یا تعارض رد شد."
+      ],
+      "%1$s failed after %2$d of %3$d users. Some changes may already have been applied before the failure. %4$s": [
+        "%1$s پس از پردازش %2$d از %3$d کاربر با خطا به پایان رسید. ممکن است بخشی از تغییرات پیش از خطا اعمال شده باشد. %4$s"
+      ],
+      "%1$s is running in the background: %2$d of %3$d users processed, %4$d updated and %5$d skipped.": [
+        "%1$s در پس‌زمینه در حال اجراست: %2$d از %3$d کاربر پردازش شد، %4$d به‌روزرسانی و %5$d مورد رد شد."
+      ],
+      "%1$s reported %2$d failures.": [
+        "%1$s تعداد %2$d خطا گزارش کرد."
+      ],
+      "This is a persistent background job. It updates only Peyvast phone fields, preserves user_login, resumes after the admin page closes, and reports updated, unchanged, skipped and conflicting accounts.": [
+        "این یک کار مداوم در پس‌زمینه است. فقط فیلدهای شماره همراه پیوست را به‌روزرسانی می‌کند، user_login را حفظ می‌کند، پس از بسته شدن صفحه مدیریت، از سر گرفته می‌شود و حساب‌های به‌روزرسانی‌شده، بدون تغییر، رد شده و دارای تداخل را گزارش می‌دهد."
+      ],
+      "This persistent background job updates WooCommerce billing and shipping phones only. It never changes WordPress usernames and resumes through WordPress Cron after the page is closed.": [
+        "این کار پس‌زمینه پایدار فقط شماره‌های صورتحساب و ارسال ووکامرس را به‌روزرسانی می‌کند. هرگز نام‌های کاربری وردپرس را تغییر نمی‌دهد و پس از بسته‌شدن صفحه از طریق وردپرس کرون ادامه می‌یابد."
+      ],
+      "Reads phone-looking user_login values and fills the enabled billing and shipping fields. Usernames never change.": [
+        "مقادیر user_login شبیه شماره را می‌خواند و فیلدهای فعال صورت‌حساب و حمل‌ونقل را پر می‌کند. نام کاربری هرگز تغییر نمی‌کند."
+      ],
+      "You are not allowed to view migration status.": [
+        "شما اجازه مشاهده وضعیت مهاجرت را ندارید."
+      ],
+      "Starting migration…": [
+        "آغاز مهاجرت…"
+      ],
+      "invalid phone data": [
+        "داده شماره همراه نامعتبر"
+      ],
+      "duplicate phone identity": [
+        "شناسه شماره همراه تکراری"
+      ],
+      "conflicting custom phone fields": [
+        "تعارض در فیلدهای سفارشی شماره همراه"
+      ],
+      "conflicting source username": [
+        "تعارض در نام کاربری منبع"
+      ],
+      "stale canonical phone hash": [
+        "هش استاندارد شماره همراه قدیمی یا ناسازگار"
+      ],
+      "missing WooCommerce customer profile": [
+        "پروفایل مشتری ووکامرس موجود نیست"
+      ],
+      "WooCommerce unavailable": [
+        "ووکامرس در دسترس نیست"
+      ],
+      "save failure": [
+        "خطا در ذخیره‌سازی"
+      ],
+      "unavailable user record": [
+        "رکورد کاربر در دسترس نیست"
+      ],
+      "other issue": [
+        "مشکل دیگر"
+      ],
+      "Reasons: %s.": [
+        "دلایل: %s."
+      ],
+      "%1$s completed: %2$d updated, %3$d unchanged, %4$d skipped and %5$d failed because of invalid data or conflicts.%6$s": [
+        "%1$s تکمیل شد: %2$d به‌روزرسانی، %3$d بدون تغییر، %4$d مورد ردشده و %5$d مورد ناموفق به‌دلیل داده نامعتبر یا تعارض.%6$s"
+      ],
+      "User phone storage format": [
+        "قالب ذخیره‌سازی شماره همراه کاربر"
+      ],
+      "User phone meta and username use the same storage format.": [
+        "متای شماره همراه کاربر و نام کاربری از یک قالب ذخیره‌سازی استفاده می‌کنند."
+      ],
+      "Acknowledge": [
+        "تأیید و بستن"
+      ],
+      "Mobile number migration": [
+        "مهاجرت شماره همراه"
+      ],
+      "Mobile number migration failed.": [
+        "مهاجرت شماره همراه با خطا مواجه شد."
+      ],
+      "You are not allowed to run the mobile number migration.": [
+        "شما مجاز به اجرای مهاجرت شماره همراه نیستید."
+      ],
+      "Runs in the background. Reads user_login as the source and fills the plugin phone field; usernames never change. Back up before running.": [
+        "در پس‌زمینه اجرا می‌شود. منبع داده user_login است و شماره همراه در فیلد تلفن افزونه ذخیره می‌شود؛ نام کاربری هرگز تغییر نمی‌کند. پیش از اجرا نسخه پشتیبان بگیرید."
+      ],
+      "Peyvast Auth": [
+        "احراز هویت پیوست"
+      ],
+      "Peyvast Agency": [
+        "آژانس پیوست"
+      ],
+      "High-performance, extensible WordPress authentication with phone/email OTP, password login, registration, WooCommerce integration, Bricks elements and Blocks.": [
+        "احراز هویت وردپرس با کارایی بالا و قابل توسعه با OTP تلفن/ایمیل، ورود با رمز عبور، ثبت نام، ادغام با WooCommerce، عناصر Bricks و بلوک‌های گوتنبرگ."
+      ],
+      "Active security blocks cleared.": [
+        "مسدودسازی‌های امنیتی فعال پاک شدند."
+      ],
+      "Clear all active security blocks? Blocks and rate-limit counters will be reset. This cannot be undone.": [
+        "همه مسدودسازی‌های امنیتی فعال پاک شوند؟ شمارنده‌های محدودیت درخواست حفظ می‌شوند و مرحله محافظت تدریجی بازنشانی می‌شود. این عمل قابل بازگشت نیست."
+      ],
+      "Clear all security blocks": [
+        "پاک کردن همه مسدودسازی‌های امنیتی"
+      ],
+      "Clearing security blocks…": [
+        "در حال پاک کردن مسدودسازی‌های امنیتی…"
+      ],
+      "Duration multiplier": [
+        "ضریب مدت مسدودسازی"
+      ],
+      "Enable progressive protection": [
+        "فعال‌سازی محافظت تدریجی"
+      ],
+      "Enable security protection": [
+        "فعال‌سازی محافظت امنیتی"
+      ],
+      "Initial block duration (seconds)": [
+        "مدت مسدودسازی اولیه (ثانیه)"
+      ],
+      "IP multiplier": [
+        "ضریب IP"
+      ],
+      "Maximum block duration (seconds)": [
+        "حداکثر مدت مسدودسازی (ثانیه)"
+      ],
+      "Multiplies the default IP limits (default 3).": [
+        "محدودیت‌های IP پیش‌فرض را در این ضریب ضرب می‌کند (پیش‌فرض: ۳)."
+      ],
+      "Progressive protection": [
+        "محافظت تدریجی"
+      ],
+      "Removes active blocks, progressive state and rate-limit counters. Security settings are preserved.": [
+        "مسدودسازی‌های فعال را حذف و مرحله محافظت تدریجی را بازنشانی می‌کند. شمارنده‌های محدودیت درخواست و تنظیمات حفظ می‌شوند."
+      ],
+      "Security blocks could not be cleared. Please try again.": [
+        "مسدودسازی‌های امنیتی پاک نشدند. لطفاً دوباره تلاش کنید."
+      ],
+      "When disabled, the Guard does not enforce limits or create security state; authentication continues normally.": [
+        "هنگامی که غیرفعال باشد، نگهبان محدودیت‌ها را اعمال نمی‌کند و وضعیت امنیتی جدیدی ایجاد نمی‌کند؛ احراز هویت به‌طور عادی ادامه می‌یابد."
+      ],
+      "You are not allowed to clear security blocks.": [
+        "شما مجاز به پاک کردن مسدودسازی‌های امنیتی نیستید."
+      ],
+      "Applies limits per request IP and per network range (IPv4 /24, IPv6 /64).": [
+        "محدودیت را برای هر IP درخواست و بازه شبکه (IPv4 /24 و IPv6 /64) اعمال می‌کند."
+      ],
+      "Confirm that you have a current database backup before starting this background migration. Usernames are read as source data only and are never changed.": [
+        "پیش از شروع این مهاجرت پس‌زمینه، از وجود نسخه پشتیبان به‌روز از پایگاه داده مطمئن شوید. نام‌های کاربری فقط به‌عنوان منبع خوانده می‌شوند و هرگز تغییر نمی‌کنند."
+      ],
+      "Network protection": [
+        "محافظت شبکه"
+      ],
+      "WooCommerce is not available in the current request.": [
+        "ووکامرس در درخواست فعلی در دسترس نیست."
+      ],
+      "One server-side policy for every authentication endpoint.": [
+        "یک سیاست واحد سمت سرور برای همهـ نقاط احراز هویت."
+      ],
+      "General request limit": [
+        "محدودیت درخواست عمومی"
+      ],
+      "General request window (seconds)": [
+        "بازه زمانی درخواست عمومی (ثانیه)"
+      ],
+      "General verification limit": [
+        "محدودیت تأیید عمومی"
+      ],
+      "General verification window (seconds)": [
+        "بازه زمانی تأیید عمومی (ثانیه)"
+      ],
+      "Applies to OTP sending, password sign-in, reset and identifier lookups.": [
+        "برای ارسال کد یکبارمصرف، ورود با رمز عبور، بازیابی رمز و جستجوی شناسه اعمال می‌شود."
+      ],
+      "Applies to every OTP code verification attempt, including the maximum attempts allowed for each code.": [
+        "برای تمام تلاش‌های تأیید کد یکبارمصرف، از جمله حداکثر تلاش مجاز برای هر کد، اعمال می‌شود."
+      ],
+      "Raises or lowers the per-IP limits (3 = baseline).": [
+        "محدودیت‌های هر IP را افزایش یا کاهش می‌دهد (۳ = حالت پایه)."
+      ],
+      "Blocks escalate for repeat violations.": [
+        "مدت مسدودسازی برای تخلف‌های مکرر افزایش می‌یابد."
+      ],
+      "Recovery duration (seconds)": [
+        "زمان بازگشت مرحله (ثانیه)"
+      ],
+      "After this clean period, the next block starts again from the initial duration.": [
+        "پس از این دورهـ بدون تخلف، مسدودسازی بعدی از مدت ابتدایی آغاز می‌شود."
+      ],
+      "Active security blocks": [
+        "مسدودسازی‌های امنیتی فعال"
+      ],
+      "Clears blocks, progressive state and rate-limit counters.": [
+        "فقط حالت مسدودسازی پاک می‌شود؛ شمارنده‌ها حفظ می‌شوند."
+      ],
+      "General protection": [
+        "محافظت عمومی"
+      ],
+      "In WordPress Multi-Site, security settings and blocks are independent per site.": [
+        "در وردپرس چندسایتی، هر سایت سیاست و مسدودسازیهای امنیتی مستقل خودش را دارد."
+      ],
+      "All security blocks and rate-limit counters were cleared.": [
+        "همه مسدودسازی‌های امنیتی و شمارنده‌های محدودیت درخواست پاک شدند."
+      ],
+      "Batch Migration completed.": [
+        "مهاجرت دسته‌ای تکمیل شد."
+      ],
+      "Batch Migration completed: %1$d migrated, %2$d already current, %3$d conflicts and %4$d failed records.": [
+        "مهاجرت دسته‌ای تکمیل شد: %1$d مورد منتقل شد، %2$d مورد از قبل به‌روز بود، %3$d مورد تعارض داشت و %4$d مورد ناموفق بود."
+      ],
+      "Batch Migration is running: %1$d of %2$d users processed. %3$d migrated and %4$d already current.": [
+        "مهاجرت دسته‌ای در حال اجراست: %1$d از %2$d کاربر پردازش شده‌اند. %3$d مورد منتقل و %4$d مورد از قبل به‌روز هستند."
+      ],
+      "Batch Migration stopped after %1$d of %2$d users. %3$d migrated and %4$d failures were recorded.": [
+        "مهاجرت دسته‌ای پس از پردازش %1$d از %2$d کاربر متوقف شد. %3$d مورد منتقل شد و %4$d خطا ثبت شد."
+      ],
+      "Batch and optional lazy phone migration.": [
+        "مهاجرت دسته‌ای و مهاجرت تنبل اختیاری شماره تلفن."
+      ],
+      "Checking sample values…": [
+        "در حال بررسی مقادیر نمونه…"
+      ],
+      "Current source": [
+        "منبع فعلی"
+      ],
+      "Enter a user meta key first.": [
+        "ابتدا یک کلید متای کاربر وارد کنید."
+      ],
+      "Enter your mobile number, email address, or username": [
+        "شماره همراه، ایمیل یا نام کاربری خود را وارد کنید"
+      ],
+      "Invalid — %3$d/%2$d values could not be recognized as valid phone numbers.": [
+        "نامعتبر — %3$d از %2$d مقدار به‌عنوان شماره تلفن معتبر شناسایی نشد."
+      ],
+      "Migrates the current phone source into the Peyvast phone field. WooCommerce migration is intentionally not part of this process. Create a database backup before starting.": [
+        "منبع فعلی شماره تلفن را به فیلد تلفن Peyvast منتقل می‌کند. مهاجرت WooCommerce عمداً بخشی از این فرایند نیست. پیش از شروع، از پایگاه داده نسخه پشتیبان تهیه کنید."
+      ],
+      "Migration": [
+        "مهاجرت"
+      ],
+      "No Batch Migration has been started.": [
+        "هنوز مهاجرت دسته‌ای شروع نشده است."
+      ],
+      "Partial — %1$d/%2$d values were recognized as valid phone numbers.": [
+        "نسبی — %1$d از %2$d مقدار به‌عنوان شماره تلفن معتبر شناسایی شد."
+      ],
+      "Peyvast Auth requires PHP %1$s or newer and PHP below %2$s, and WordPress %3$s or newer.": [
+        "افزونه Peyvast Auth به PHP نسخه %1$s یا بالاتر و کمتر از %2$s و همچنین WordPress نسخه %3$s یا بالاتر نیاز دارد."
+      ],
+      "Phone normalization and identity sources.": [
+        "نرمال‌سازی شماره تلفن و منابع هویت."
+      ],
+      "Please enter a valid mobile number, email address, or username.": [
+        "یک شماره همراه، نشانی ایمیل یا نام کاربری معتبر وارد کنید."
+      ],
+      "Run Batch Migration": [
+        "اجرای مهاجرت دسته‌ای"
+      ],
+      "The configured phone source changed or is incomplete. Review the source and run Batch Migration when a backup is available.": [
+        "منبع شماره تلفن پیکربندی‌شده تغییر کرده یا ناقص است. منبع را بررسی کنید و پس از اطمینان از وجود نسخه پشتیبان، مهاجرت دسته‌ای را اجرا کنید."
+      ],
+      "The configured phone source changed or is incomplete. Review the source before starting Batch Migration.": [
+        "منبع شماره تلفن پیکربندی‌شده تغییر کرده یا ناقص است. پیش از شروع مهاجرت دسته‌ای منبع را بررسی کنید."
+      ],
+      "The information provided could not be used to continue. Please contact the site administrator.": [
+        "اطلاعات واردشده برای ادامه قابل استفاده نیست. با مدیر سایت تماس بگیرید."
+      ],
+      "The requested authentication method is not available.": [
+        "روش احراز هویت درخواستی در دسترس نیست."
+      ],
+      "User login": [
+        "نام کاربری"
+      ],
+      "User meta key is not configured": [
+        "کلید متای کاربر پیکربندی نشده است."
+      ],
+      "User meta validation failed.": [
+        "اعتبارسنجی متای کاربر ناموفق بود."
+      ],
+      "Valid — %1$d/%2$d values recognized as valid phone numbers.": [
+        "معتبر — %1$d از %2$d مقدار به‌عنوان شماره تلفن معتبر شناسایی شد."
+      ],
+      "Validate User Meta": [
+        "اعتبارسنجی متای کاربر"
+      ],
+      "You are not allowed to search user meta.": [
+        "شما اجازه جست‌وجوی متای کاربران را ندارید."
+      ],
+      "You are not allowed to validate user meta.": [
+        "شما اجازه اعتبارسنجی متای کاربران را ندارید."
+      ]
+    }
+  }
+}

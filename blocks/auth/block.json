@@ -1,0 +1,1055 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "peyvast/auth",
+  "title": "Peyvast Auth",
+  "category": "widgets",
+  "icon": "shield-alt",
+  "description": "Unified phone/email authentication with OTP, password and optional Google sign-in.",
+  "textdomain": "peyvast-auth",
+  "editorScript": "peyvast-auth-blocks-editor",
+  "style": "peyvast-auth",
+  "editorStyle": "peyvast-auth-editor",
+  "supports": {
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "background": true,
+      "text": true,
+      "link": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "shadow": true,
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "fontFamily": true,
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": true,
+      "textDecoration": true,
+      "textTransform": true,
+      "textAlign": true
+    },
+    "layout": {
+      "allowSwitching": true,
+      "allowEditing": true
+    },
+    "html": false,
+    "inserter": true,
+    "selectors": {
+      "root": ".peyvast-auth.peyvast-auth--block"
+    }
+  },
+  "attributes": {
+    "preview_stage": {
+      "type": "string",
+      "default": "phone"
+    },
+    "preview_mode": {
+      "type": "string",
+      "default": "login"
+    },
+    "phone_title": {
+      "type": "string",
+      "default": ""
+    },
+    "password_title": {
+      "type": "string",
+      "default": ""
+    },
+    "otp_title": {
+      "type": "string",
+      "default": ""
+    },
+    "register_title": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_title": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_title": {
+      "type": "string",
+      "default": ""
+    },
+    "show_phone_description": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_password_description": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_otp_description": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_register_description": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_forgot_description": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_reset_description": {
+      "type": "boolean",
+      "default": false
+    },
+    "phone_description": {
+      "type": "string",
+      "default": ""
+    },
+    "password_description": {
+      "type": "string",
+      "default": ""
+    },
+    "otp_description": {
+      "type": "string",
+      "default": ""
+    },
+    "register_description": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_description": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_description": {
+      "type": "string",
+      "default": ""
+    },
+    "identifier_label": {
+      "type": "string",
+      "default": ""
+    },
+    "identifier_placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "first_name_label": {
+      "type": "string",
+      "default": ""
+    },
+    "first_name_placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "last_name_label": {
+      "type": "string",
+      "default": ""
+    },
+    "last_name_placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "email_label": {
+      "type": "string",
+      "default": ""
+    },
+    "email_placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "password_label": {
+      "type": "string",
+      "default": ""
+    },
+    "password_placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "password_identifier_label": {
+      "type": "string",
+      "default": ""
+    },
+    "password_identifier_placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_identifier_label": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_identifier_placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "new_password_label": {
+      "type": "string",
+      "default": ""
+    },
+    "new_password_placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "password_link_text": {
+      "type": "string",
+      "default": ""
+    },
+    "password_reset_link_text": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_text": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_text": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_text": {
+      "type": "string",
+      "default": ""
+    },
+    "login_text": {
+      "type": "string",
+      "default": ""
+    },
+    "register_text": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_text": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_text": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_timer_template": {
+      "type": "string",
+      "default": ""
+    },
+    "information_otp_sent": {
+      "type": "string",
+      "default": ""
+    },
+    "information_registration": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_icon": {
+      "type": "integer",
+      "default": 0
+    },
+    "continue_icon_position": {
+      "type": "string",
+      "default": "left"
+    },
+    "verify_icon": {
+      "type": "integer",
+      "default": 0
+    },
+    "verify_icon_position": {
+      "type": "string",
+      "default": "left"
+    },
+    "login_icon": {
+      "type": "integer",
+      "default": 0
+    },
+    "login_icon_position": {
+      "type": "string",
+      "default": "left"
+    },
+    "register_icon": {
+      "type": "integer",
+      "default": 0
+    },
+    "register_icon_position": {
+      "type": "string",
+      "default": "left"
+    },
+    "forgot_icon": {
+      "type": "integer",
+      "default": 0
+    },
+    "forgot_icon_position": {
+      "type": "string",
+      "default": "left"
+    },
+    "reset_password_icon": {
+      "type": "integer",
+      "default": 0
+    },
+    "reset_password_icon_position": {
+      "type": "string",
+      "default": "left"
+    },
+    "stage_title_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_title_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_title_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_title_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_title_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_title_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_description_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_description_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_description_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_description_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_description_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_description_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_description_background": {
+      "type": "string",
+      "default": ""
+    },
+    "container_header_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "container_content_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "container_actions_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "information_background": {
+      "type": "string",
+      "default": ""
+    },
+    "information_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "information_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "information_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "information_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "information_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "form_label_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "form_label_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "form_label_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "form_label_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "form_label_focus_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "form_label_focus_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "form_label_focus_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "form_label_focus_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "form_label_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "form_placeholder_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "form_placeholder_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "form_placeholder_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "form_placeholder_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "form_placeholder_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "form_input_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "form_input_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "form_input_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "form_input_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "form_input_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "form_input_background": {
+      "type": "string",
+      "default": ""
+    },
+    "inline_error_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "inline_error_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "inline_error_label_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "inline_error_label_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "inline_error_input_background": {
+      "type": "string",
+      "default": ""
+    },
+    "notice_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "notice_width": {
+      "type": "string",
+      "default": ""
+    },
+    "notice_position": {
+      "type": "string",
+      "default": ""
+    },
+    "notice_success_shadow": {
+      "type": "string",
+      "default": ""
+    },
+    "notice_error_shadow": {
+      "type": "string",
+      "default": ""
+    },
+    "notice_warning_shadow": {
+      "type": "string",
+      "default": ""
+    },
+    "notice_info_shadow": {
+      "type": "string",
+      "default": ""
+    },
+    "secondary_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "secondary_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "secondary_background": {
+      "type": "string",
+      "default": ""
+    },
+    "secondary_box_shadow": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_background": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_timer_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_timer_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "form_input_height": {
+      "type": "number",
+      "default": 0
+    },
+    "otp_field_width": {
+      "type": "string",
+      "default": ""
+    },
+    "otp_field_height": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_icon_size": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_icon_color": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_icon_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_icon_space": {
+      "type": "boolean",
+      "default": false
+    },
+    "verify_icon_size": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_icon_color": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_icon_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_icon_space": {
+      "type": "boolean",
+      "default": false
+    },
+    "login_icon_size": {
+      "type": "string",
+      "default": ""
+    },
+    "login_icon_color": {
+      "type": "string",
+      "default": ""
+    },
+    "login_icon_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "login_icon_space": {
+      "type": "boolean",
+      "default": false
+    },
+    "register_icon_size": {
+      "type": "string",
+      "default": ""
+    },
+    "register_icon_color": {
+      "type": "string",
+      "default": ""
+    },
+    "register_icon_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "register_icon_space": {
+      "type": "boolean",
+      "default": false
+    },
+    "forgot_icon_size": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_icon_color": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_icon_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_icon_space": {
+      "type": "boolean",
+      "default": false
+    },
+    "reset_password_icon_size": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_icon_color": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_icon_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_icon_space": {
+      "type": "boolean",
+      "default": false
+    },
+    "stage_title_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "stage_title_margin": {
+      "type": "object",
+      "default": {}
+    },
+    "stage_description_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "stage_description_margin": {
+      "type": "object",
+      "default": {}
+    },
+    "container_header_margin": {
+      "type": "object",
+      "default": {}
+    },
+    "container_content_margin": {
+      "type": "object",
+      "default": {}
+    },
+    "container_actions_margin": {
+      "type": "object",
+      "default": {}
+    },
+    "information_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "information_margin": {
+      "type": "object",
+      "default": {}
+    },
+    "information_border": {
+      "type": "object",
+      "default": {}
+    },
+    "form_label_margin": {
+      "type": "object",
+      "default": {}
+    },
+    "form_input_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "form_input_border": {
+      "type": "object",
+      "default": {}
+    },
+    "form_input_outline": {
+      "type": "string",
+      "default": ""
+    },
+    "inline_error_margin": {
+      "type": "object",
+      "default": {}
+    },
+    "inline_error_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "inline_error_border": {
+      "type": "object",
+      "default": {}
+    },
+    "inline_error_input_border": {
+      "type": "object",
+      "default": {}
+    },
+    "inline_error_input_outline": {
+      "type": "string",
+      "default": ""
+    },
+    "secondary_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "secondary_border": {
+      "type": "object",
+      "default": {}
+    },
+    "resend_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "resend_border": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_close_background": {
+      "type": "string",
+      "default": ""
+    },
+    "notice_close_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_close_border": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_success_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_success_border": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_error_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_error_border": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_warning_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_warning_border": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_info_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "notice_info_border": {
+      "type": "object",
+      "default": {}
+    },
+    "continue_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "login_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "login_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "login_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "login_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "register_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "register_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "register_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "register_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "secondary_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "secondary_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "secondary_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "secondary_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "resend_text_color": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_background": {
+      "type": "string",
+      "default": ""
+    },
+    "continue_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "continue_border": {
+      "type": "object",
+      "default": {}
+    },
+    "verify_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_background": {
+      "type": "string",
+      "default": ""
+    },
+    "verify_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "verify_border": {
+      "type": "object",
+      "default": {}
+    },
+    "login_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "login_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "login_background": {
+      "type": "string",
+      "default": ""
+    },
+    "login_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "login_border": {
+      "type": "object",
+      "default": {}
+    },
+    "register_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "register_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "register_background": {
+      "type": "string",
+      "default": ""
+    },
+    "register_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "register_border": {
+      "type": "object",
+      "default": {}
+    },
+    "forgot_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_background": {
+      "type": "string",
+      "default": ""
+    },
+    "forgot_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "forgot_border": {
+      "type": "object",
+      "default": {}
+    },
+    "reset_password_font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_background": {
+      "type": "string",
+      "default": ""
+    },
+    "reset_password_padding": {
+      "type": "object",
+      "default": {}
+    },
+    "reset_password_border": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "keywords": [
+    "peyvast",
+    "authentication",
+    "login",
+    "register",
+    "otp",
+    "phone",
+    "email",
+    "google"
+  ],
+  "render": "file:./render.php",
+  "version": "1.0.0"
+}

@@ -1,0 +1,56 @@
+.peyvast-auth-block-icon-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+.peyvast-auth-block-icon-control__selected {
+  font-size: 11px;
+  color: #667085;
+  white-space: nowrap;
+}
+.peyvast-auth-editor-preview {
+  outline: 1px dashed #cbd5e1;
+  outline-offset: 4px;
+  border-radius: 4px;
+  min-width: 0;
+}
+.peyvast-auth-editor-preview .peyvast-auth__form {
+  min-width: 0;
+}
+.peyvast-auth-editor-action-group {
+  margin: 0 0 20px;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: #fff;
+}
+.peyvast-auth-editor-action-group:last-child {
+  margin-bottom: 0;
+}
+.peyvast-auth-editor-action-group__title {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.peyvast-auth-editor-action-group__section {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #e5e7eb;
+}
+.peyvast-auth-editor-action-group__section:first-of-type {
+  margin-top: 12px;
+  padding-top: 0;
+  border-top: 0;
+}
+.peyvast-auth-editor-action-group__subtitle {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #344054;
+}
+.peyvast-auth-editor-action-group .components-base-control {
+  margin-bottom: 12px;
+}

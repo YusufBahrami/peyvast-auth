@@ -1,0 +1,139 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "peyvast/back-button",
+  "title": "Peyvast Auth Back Button",
+  "category": "widgets",
+  "icon": "arrow-left-alt2",
+  "description": "Independent back control for Peyvast authentication stages.",
+  "textdomain": "peyvast-auth",
+  "editorScript": "peyvast-auth-blocks-editor",
+  "style": "peyvast-auth",
+  "editorStyle": "peyvast-auth-editor",
+  "supports": {
+    "anchor": true,
+    "color": {
+      "text": true,
+      "background": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "shadow": true,
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "fontFamily": true,
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": true,
+      "textDecoration": true,
+      "textTransform": true,
+      "textAlign": true
+    },
+    "html": false,
+    "inserter": true,
+    "selectors": {
+      "root": ".peyvast-auth-back"
+    }
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": ""
+    },
+    "show_text": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_icon": {
+      "type": "boolean",
+      "default": false
+    },
+    "aria_label": {
+      "type": "string",
+      "default": ""
+    },
+    "target": {
+      "type": "string",
+      "default": ""
+    },
+    "icon": {
+      "type": "integer",
+      "default": 0
+    },
+    "icon_position": {
+      "type": "string",
+      "default": "before"
+    },
+    "icon_size": {
+      "type": "string",
+      "default": ""
+    },
+    "icon_color": {
+      "type": "string",
+      "default": ""
+    },
+    "icon_gap": {
+      "type": "string",
+      "default": ""
+    },
+    "font_size": {
+      "type": "string",
+      "default": ""
+    },
+    "font_weight": {
+      "type": "string",
+      "default": ""
+    },
+    "background": {
+      "type": "string",
+      "default": ""
+    },
+    "icon_space": {
+      "type": "boolean",
+      "default": false
+    },
+    "padding": {
+      "type": "object",
+      "default": {}
+    },
+    "border": {
+      "type": "object",
+      "default": {}
+    },
+    "line_height": {
+      "type": "string",
+      "default": ""
+    },
+    "letter_spacing": {
+      "type": "string",
+      "default": ""
+    },
+    "text_align": {
+      "type": "string",
+      "default": ""
+    },
+    "text_color": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "keywords": [
+    "peyvast",
+    "auth",
+    "back",
+    "button",
+    "login",
+    "otp"
+  ],
+  "render": "file:./render.php",
+  "version": "1.0.0"
+}

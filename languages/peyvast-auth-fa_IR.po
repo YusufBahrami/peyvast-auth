@@ -1,0 +1,3581 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Peyvast Auth 1.0.0\n"
+"Report-Msgid-Bugs-To: yusufbahrami985@gmail.com\n"
+"POT-Creation-Date: 2026-09-11 07:42+0330\n"
+"PO-Revision-Date: 2026-09-11 07:52+0330\n"
+"Last-Translator: Yusuf Bahrami <yusufbahrami985@gmail.com>\n"
+"Language-Team: fa_IR\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+"X-Generator: Poedit 3.9\n"
+
+#: assets/js/auth.js:107 src/Presentation/Admin/Logs.php:239
+#: src/Presentation/Frontend/AuthState.php:395
+msgid "Close"
+msgstr "بستن"
+
+#: assets/js/auth.js:321 assets/js/auth.js:374 assets/js/auth.js:502
+#: assets/js/auth.js:1541 assets/js/auth.js:1683
+#: src/Application/OTP/OtpService.php:43 src/Application/OTP/OtpService.php:74
+#: src/Application/OTP/OtpService.php:134
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:72
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:103
+#: src/Presentation/Rest/RestResponse.php:184
+#: src/Presentation/Rest/RestResponse.php:193
+msgid "The number of requests exceeds the allowed limit."
+msgstr "تعداد درخواست‌ها بیش از حد مجاز است."
+
+#: assets/js/auth.js:335 assets/js/auth.js:347 assets/js/auth.js:361
+#: assets/js/auth.js:622 assets/js/auth.js:1546 assets/js/auth.js:1754
+#: assets/js/auth.js:1865 assets/js/auth.js:1926 assets/js/auth.js:1955
+#: src/Application/Authentication/AuthenticationSessionService.php:66
+#: src/Application/OTP/OtpService.php:82 src/Application/OTP/OtpService.php:93
+#: src/Application/Password/PasswordService.php:46
+#: src/Application/Password/PasswordService.php:54
+#: src/Application/Password/PasswordService.php:65
+#: src/Application/Registration/RegistrationService.php:54
+#: src/Application/Registration/RegistrationService.php:115
+#: src/Application/Registration/RegistrationService.php:162
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:125
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:133
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:160
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:166
+#: src/Presentation/Rest/RestResponse.php:179
+msgid "A server error occurred. Please try again in a few minutes."
+msgstr "خطایی در سمت سرور رخ داد. لطفاً چند دقیقه دیگر دوباره تلاش کنید."
+
+#: assets/js/auth.js:829
+msgid "The verification code could not be delivered. Please request a new code."
+msgstr "کد تأیید ارسال نشد. لطفاً یک کد جدید درخواست کنید."
+
+#: assets/js/auth.js:926 src/Presentation/Frontend/AuthState.php:380
+#: src/Presentation/Frontend/AuthState.php:400
+msgid "Resend verification code in {seconds}"
+msgstr "ارسال مجدد کد تأیید تا {seconds}"
+
+#: assets/js/auth.js:1335 assets/js/auth.js:1726 assets/js/auth.js:1791
+#: assets/js/auth.js:1796 assets/js/auth.js:1803 assets/js/auth.js:1811
+#: assets/js/auth.js:1880
+msgid "Please do not leave this field empty."
+msgstr "لطفاً این قسمت را خالی نگذارید."
+
+#: assets/js/auth.js:1354
+msgid "Please enter a valid mobile number, email address, or username."
+msgstr "یک شماره همراه، نشانی ایمیل یا نام کاربری معتبر وارد کنید."
+
+#: assets/js/auth.js:1359 src/Application/OTP/OtpService.php:39
+#: src/Presentation/Rest/AuthController.php:111
+msgid "Please enter a valid mobile number or email address."
+msgstr "لطفاً شماره همراه یا ایمیل معتبر وارد کنید."
+
+#: assets/js/auth.js:1361
+msgid "Please enter a valid mobile number."
+msgstr "لطفاً شماره همراه معتبر وارد کنید."
+
+#: assets/js/auth.js:1381 assets/js/auth.js:1915
+msgid "Your password was reset successfully."
+msgstr "رمز عبور شما با موفقیت تغییر کرد."
+
+#: assets/js/auth.js:1478
+msgid ""
+"The verification code could not be sent. Please try again in a few minutes."
+msgstr "ارسال کد تأیید انجام نشد. لطفاً چند دقیقه دیگر دوباره تلاش کنید."
+
+#: assets/js/auth.js:1505 src/Presentation/Frontend/AuthState.php:397
+msgid "A new verification code has been sent."
+msgstr "کد تایید جدید ارسال شد."
+
+#: assets/js/auth.js:1506 src/Presentation/Frontend/AuthState.php:396
+msgid "The verification code has been sent."
+msgstr "کد تأیید ارسال شد."
+
+#: assets/js/auth.js:1512 src/Presentation/Frontend/AuthState.php:398
+msgid ""
+"The code sent to you remains valid for {valid_minutes} minutes. If you have not "
+"received it, use Resend code."
+msgstr ""
+"کد ارسال شده برای شما تا {valid_minutes} دقیقه معتبر می‌باشد. در صورتی که کد "
+"برای شما ارسال نشده، از گزینه ارسال مجدد کد استفاده کنید."
+
+#: assets/js/auth.js:1617
+msgid "The verification code is incomplete. Enter all {otp_length} digits."
+msgstr "کد تأیید ناقص است؛ همهٔ {otp_length} رقم را وارد کنید."
+
+#: assets/js/auth.js:1628 src/Application/OTP/OtpService.php:132
+msgid ""
+"Your verification session is no longer available. Please request a new code."
+msgstr "جلسه تأیید شما دیگر در دسترس نیست. لطفاً کد جدید درخواست کنید."
+
+#: assets/js/auth.js:1664 assets/js/auth.js:1745 assets/js/auth.js:1947
+msgid "You have signed in successfully."
+msgstr "با موفقیت وارد شدید."
+
+#: assets/js/auth.js:1686 src/Infrastructure/Persistence/OtpChallengeStore.php:103
+msgid "The verification code is incorrect."
+msgstr "کد تأیید صحیح نیست."
+
+#: assets/js/auth.js:1819 src/Application/Registration/RegistrationService.php:83
+#: src/Presentation/Rest/ProviderTestController.php:23
+msgid "Please enter a valid email address."
+msgstr "لطفاً ایمیل معتبر وارد کنید."
+
+#: assets/js/auth.js:1829 assets/js/auth.js:1890
+#: src/Application/Password/PasswordService.php:88
+#: src/Application/Registration/RegistrationService.php:90
+msgid "Please choose a password with at least 8 characters."
+msgstr "لطفاً رمزی با حداقل ۸ کاراکتر انتخاب کنید."
+
+#: assets/js/auth.js:1855
+msgid "Your account was created successfully."
+msgstr "ثبت‌نام شما با موفقیت انجام شد."
+
+#: src/Application/Authentication/AuthenticationSessionService.php:29
+msgid "This account is not allowed to sign in at this time."
+msgstr "در حال حاضر این حساب کاربری مجاز به ورود به سیستم نیست."
+
+#: src/Application/Authentication/AuthenticationSessionService.php:123
+msgid "The authentication session is no longer valid. Please try again."
+msgstr "جلسه احراز هویت دیگر معتبر نیست. لطفاً دوباره تلاش کنید."
+
+#: src/Application/Authentication/GoogleAuthenticationService.php:104
+msgid ""
+"No existing account matches this Google account. Please register with your "
+"mobile number first."
+msgstr ""
+"حساب کاربری موجودی برای این حساب گوگل پیدا نشد. ابتدا با شماره همراه ثبت‌نام "
+"کنید."
+
+#: src/Application/Authentication/GoogleAuthenticationService.php:107
+msgid ""
+"This Google account is not linked to this account yet. Sign in with your "
+"existing method first, then link Google from your account settings."
+msgstr ""
+"این حساب گوگل هنوز به این حساب متصل نشده است. ابتدا با روش فعلی خود وارد شوید، "
+"سپس از تنظیمات حساب خود، گوگل را متصل کنید."
+
+#: src/Application/Authentication/GoogleAuthenticationService.php:272
+msgid "Google sign-in could not be verified. Please try again."
+msgstr "تأیید ورود با گوگل انجام نشد. لطفاً دوباره تلاش کنید."
+
+#: src/Application/OTP/OtpService.php:35
+#: src/Presentation/Rest/AuthController.php:95
+msgid "This authentication request is not available."
+msgstr "این درخواست احراز هویت در دسترس نیست."
+
+#: src/Application/OTP/OtpService.php:46 src/Application/OTP/OtpService.php:67
+#: src/Application/OTP/OtpService.php:80 src/Application/OTP/OtpService.php:82
+#: src/Presentation/Rest/AuthController.php:104
+msgid "Unable to process the password reset request."
+msgstr "قادر به پردازش درخواست بازنشانی رمز عبور نیست."
+
+#: src/Application/OTP/OtpService.php:49
+#: src/Application/Registration/RegistrationService.php:266
+msgid ""
+"The information provided could not be used to continue. Please contact the site "
+"administrator."
+msgstr "اطلاعات واردشده برای ادامه قابل استفاده نیست. با مدیر سایت تماس بگیرید."
+
+#: src/Application/OTP/OtpService.php:50
+#: src/Application/Registration/RegistrationService.php:269
+msgid ""
+"The information provided could not be used to continue. Please try another sign-"
+"in method."
+msgstr ""
+"اطلاعات ارائه شده برای ادامه قابل استفاده نیست. لطفاً روش ورود دیگری را امتحان "
+"کنید."
+
+#: src/Application/OTP/OtpService.php:57
+msgid "The requested authentication method is not available."
+msgstr "روش احراز هویت درخواستی در دسترس نیست."
+
+#: src/Application/OTP/OtpService.php:58
+#: src/Application/Registration/RegistrationService.php:28
+msgid "User registration is currently disabled."
+msgstr "ثبت‌نام کاربران در حال حاضر غیرفعال است."
+
+#: src/Application/OTP/OtpService.php:67
+#: src/Application/Password/PasswordService.php:90
+#: src/Application/Registration/RegistrationService.php:37
+#: src/Application/Registration/RegistrationService.php:99
+#: src/Application/Registration/RegistrationService.php:129
+#: src/Application/Registration/RegistrationService.php:145
+msgid "This request is already being processed. Please try again shortly."
+msgstr "این درخواست در حال پردازش است. لطفاً کمی بعد دوباره امتحان کنید."
+
+#: src/Application/OTP/OtpService.php:80
+msgid "No delivery method is currently available for this request."
+msgstr "در حال حاضر روش ارسال در دسترس نیست."
+
+#: src/Application/OTP/OtpService.php:104
+msgid ""
+"Authentication delivery is temporarily unavailable. Please try again in a few "
+"minutes."
+msgstr ""
+"ارسال احراز هویت موقتاً در دسترس نیست. لطفاً چند دقیقه دیگر دوباره تلاش کنید."
+
+#: src/Application/OTP/OtpService.php:143
+msgid "The delivery session is no longer valid."
+msgstr "جلسه تحویل دیگر معتبر نیست."
+
+#: src/Application/Password/PasswordService.php:96
+#: src/Presentation/Rest/AuthController.php:203
+#: src/Presentation/Rest/AuthController.php:207
+msgid "The password reset session is no longer valid. Please start again."
+msgstr "جلسه بازیابی رمز عبور دیگر معتبر نیست. لطفاً دوباره شروع کنید."
+
+#: src/Application/Password/PasswordService.php:110
+#: src/Application/Password/PasswordService.php:115
+msgid "The password could not be saved. Please try again shortly."
+msgstr "رمز عبور ذخیره نشد. لطفاً دوباره امتحان کنید."
+
+#: src/Application/Password/PasswordService.php:141
+msgid "username or password is not valid."
+msgstr "نام کاربری یا رمز عبور معتبر نیست."
+
+#: src/Application/Registration/RegistrationService.php:31
+#: src/Application/Registration/RegistrationService.php:278
+msgid "The registration session is no longer valid. Please start again."
+msgstr "جلسه ثبت‌نام دیگر معتبر نیست. لطفاً دوباره شروع کنید."
+
+#: src/Application/Registration/RegistrationService.php:73
+#: src/Application/Registration/RegistrationService.php:76
+#: src/Application/Registration/RegistrationService.php:80
+#: src/Application/Registration/RegistrationService.php:87
+msgid "Please complete all required fields."
+msgstr "لطفاً تمام فیلدهای الزامی را کامل کنید."
+
+#: src/Application/Registration/RegistrationService.php:102
+#: src/Application/Registration/RegistrationService.php:169
+msgid "This email ID is already registered."
+msgstr "این شناسه ایمیل قبلاً ثبت شده است."
+
+#: src/Application/Registration/RegistrationService.php:139
+#: src/Application/Registration/RegistrationService.php:172
+msgid "This username is already in use. Please try again."
+msgstr "این نام کاربری قبلاً استفاده شده است. لطفاً دوباره امتحان کنید."
+
+#: src/Application/Registration/RegistrationService.php:148
+msgid "The configured phone username format is unavailable or already in use."
+msgstr "قالب نام کاربری تلفن پیکربندی‌شده در دسترس نیست یا قبلاً استفاده شده است."
+
+#: src/Application/Registration/RegistrationService.php:210
+#: src/Application/Registration/RegistrationService.php:217
+msgid "The account could not be created. Please try again shortly."
+msgstr "ایجاد حساب کاربری امکان‌پذیر نیست. لطفاً کمی بعد دوباره امتحان کنید."
+
+#: src/Application/Registration/RegistrationService.php:272
+msgid ""
+"Authentication is temporarily unavailable for this identifier. Please try again "
+"shortly."
+msgstr ""
+"احراز هویت برای این شناسه موقتاً در دسترس نیست. لطفاً کمی بعد دوباره امتحان کنید."
+
+#: src/Core/Config/Settings.php:192 src/Core/Config/Settings.php:206
+#: src/Infrastructure/Providers/Email/WordPressMail.php:21
+msgid "Your website"
+msgstr "وب‌سایت شما"
+
+#: src/Core/Config/Settings.php:206
+#, php-format
+msgid "Verification code for %s"
+msgstr "کد تأیید برای %s"
+
+#: src/Core/Config/Settings.php:210
+msgid "Your verification code"
+msgstr "کد تأیید شما"
+
+#: src/Core/Config/Settings.php:211
+msgid "Enter the one-time code below to continue."
+msgstr "برای ادامه، کد یکبارمصرف را وارد کنید."
+
+#: src/Core/Config/Settings.php:212
+msgid "This code is valid for {expiration} minutes."
+msgstr "این کد به مدت {expiration} دقیقه معتبر است."
+
+#: src/Core/Config/Settings.php:213
+msgid "If you did not request this code, you can safely ignore this message."
+msgstr "اگر این کد را درخواست نکرده‌اید، می‌توانید این پیام را نادیده بگیرید."
+
+#: src/Core/Config/Settings.php:371
+msgid "The selected user meta key is reserved by Peyvast."
+msgstr "کلید متای کاربر انتخاب شده توسط Peyvast رزرو شده است."
+
+#: src/Core/Config/Settings.php:497
+msgid ""
+"No login page selected. WooCommerce redirects will use the alternate page "
+"unless a published or private page is selected."
+msgstr ""
+"صفحه ورود به سایت انتخاب نشده است. ریدایرکت‌های ووکامرس تا زمانی که یک صفحه "
+"منتشر شده یا خصوصی انتخاب نشده باشد، از صفحه جایگزین استفاده خواهند کرد."
+
+#: src/Core/Config/Settings.php:506
+msgid ""
+"The selected logout destination page is unavailable. Please choose a published "
+"or private page."
+msgstr ""
+"صفحه مقصد خروج انتخاب‌شده در دسترس نیست. لطفاً یک صفحه منتشرشده یا خصوصی را "
+"انتخاب کنید."
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:58
+msgid "Authentication identifier unavailable"
+msgstr "شناسه احراز هویت در دسترس نیست"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:59
+msgid "No authentication method is currently enabled"
+msgstr "در حال حاضر هیچ روش احراز هویتی فعال نیست"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:66
+#: src/Domain/Authentication/AuthenticationCapabilities.php:98
+#: src/Integrations/Blocks/Integration.php:380
+#: src/Integrations/Bricks/AuthElement.php:903
+#: src/Presentation/Frontend/AuthState.php:36
+msgid "Mobile number or email"
+msgstr "شماره همراه یا ایمیل"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:67
+msgid "Enter your mobile number or email address"
+msgstr "شماره همراه یا ایمیل خود را وارد کنید"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:70
+#: src/Domain/Authentication/AuthenticationCapabilities.php:104
+#: src/Integrations/Blocks/Integration.php:382
+#: src/Integrations/Bricks/AuthElement.php:905
+#: src/Presentation/Frontend/AuthState.php:38
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:71
+#: src/Presentation/Frontend/AuthState.php:250
+msgid "Enter your email address"
+msgstr "آدرس ایمیل خود را وارد کنید"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:74
+#: src/Domain/Authentication/AuthenticationCapabilities.php:101
+#: src/Integrations/Blocks/Integration.php:381
+#: src/Integrations/Bricks/AuthElement.php:904
+#: src/Presentation/Frontend/AuthState.php:37
+msgid "Mobile number"
+msgstr "شماره همراه"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:75
+msgid "Enter your mobile number"
+msgstr "شماره همراه خود را وارد کنید"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:78
+#: src/Presentation/Admin/SettingsPage.php:901
+#: src/Presentation/Admin/SettingsPage.php:921
+msgid "Username"
+msgstr "نام کاربری"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:79
+msgid "Enter your username"
+msgstr "نام کاربری خود را وارد کنید"
+
+#: src/Domain/Authentication/AuthenticationCapabilities.php:106
+msgid "Automatically"
+msgstr "خودکار"
+
+#: src/Domain/Phone/PhoneNumber.php:134
+msgid "Iran"
+msgstr "ایران"
+
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:60
+msgid "The verification code is invalid or expired."
+msgstr "کد تأیید نامعتبر یا منقضی شده است."
+
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:64
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:100
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:117
+msgid "This verification session has already been used."
+msgstr "این جلسه تأیید قبلاً استفاده شده است."
+
+#: src/Infrastructure/Persistence/OtpChallengeStore.php:68
+msgid "The verification code has expired. Please request a new code."
+msgstr "کد تأیید منقضی شده است. لطفاً کد جدید درخواست کنید."
+
+#: src/Infrastructure/WordPress/Installer.php:42
+msgid ""
+"Peyvast Auth is running on SQLite (WordPress Studio compatibility layer). MySQL "
+"or MariaDB is required for production; authentication delivery requires the "
+"encrypted Action Scheduler queue."
+msgstr ""
+"Peyvast Auth روی SQLite (لایه سازگاری WordPress Studio) اجرا می‌شود. برای تولید "
+"نیاز به MySQL یا MariaDB است؛ تحویل احراز هویت نیازمند صف رمزگذاری‌شده Action "
+"Scheduler است."
+
+#: src/Infrastructure/WordPress/Installer.php:50
+msgid ""
+"Peyvast Auth 1.0.0 does not support WordPress Multisite. Activate it only on a "
+"single-site WordPress installation."
+msgstr ""
+"Peyvast Auth 1.0.0 از وردپرس چندسایتی پشتیبانی نمی‌کند. آن را تنها روی وردپرس "
+"تک‌سایتی فعال کنید."
+
+#: src/Infrastructure/WordPress/Installer.php:51
+msgid "Peyvast Auth activation not supported"
+msgstr "فعال‌سازی Peyvast Auth پشتیبانی نمی‌شود"
+
+#: src/Infrastructure/WordPress/Installer.php:58
+msgid ""
+"Peyvast Auth could not verify its database schema. Activation has been stopped "
+"until all required tables, columns and indexes are available."
+msgstr ""
+"ورود به سیستم Peyvast Auth نمی‌تواند طرح پایگاه داده خود را تأیید کند. فعال‌سازی "
+"تا زمانی که تمام جداول، ستون‌ها و شاخص‌های مورد نیاز در دسترس نباشند، متوقف میشود."
+
+#: src/Infrastructure/WordPress/Installer.php:59
+msgid "Peyvast Auth activation failed"
+msgstr "فعال‌سازی احراز هویت پیوست ناموفق بود"
+
+#: src/Infrastructure/WordPress/Privacy.php:15
+#: src/Infrastructure/WordPress/Privacy.php:22
+#: src/Infrastructure/WordPress/Privacy.php:99
+msgid "Peyvast Auth"
+msgstr "احراز هویت پیوست"
+
+#: src/Infrastructure/WordPress/Privacy.php:57
+msgid "OTP challenge"
+msgstr "چالش OTP"
+
+#: src/Infrastructure/WordPress/Privacy.php:80
+msgid "Peyvast Auth log"
+msgstr "لاگ احراز هویت پیوست"
+
+#: src/Integrations/Blocks/Integration.php:383
+#: src/Integrations/Bricks/AuthElement.php:906
+#: src/Presentation/Admin/SettingsPage.php:388
+#: src/Presentation/Admin/SettingsPage.php:902
+#: src/Presentation/Admin/SettingsPage.php:922
+#: src/Presentation/Frontend/AuthState.php:39
+msgid "Password"
+msgstr "رمز عبور"
+
+#: src/Integrations/Blocks/Integration.php:384
+#: src/Integrations/Bricks/AuthElement.php:907
+#: src/Presentation/Frontend/AuthState.php:40
+msgid "Verification code"
+msgstr "کد تأیید"
+
+#: src/Integrations/Blocks/Integration.php:385
+#: src/Integrations/Bricks/AuthElement.php:908
+#: src/Presentation/Admin/SettingsPage.php:385
+#: src/Presentation/Frontend/AuthState.php:41
+msgid "First name"
+msgstr "نام"
+
+#: src/Integrations/Blocks/Integration.php:386
+#: src/Integrations/Bricks/AuthElement.php:909
+#: src/Presentation/Admin/SettingsPage.php:386
+#: src/Presentation/Frontend/AuthState.php:42
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: src/Integrations/Blocks/Integration.php:387
+#: src/Integrations/Bricks/AuthElement.php:910
+#: src/Presentation/Frontend/AuthState.php:43
+msgid "Continue"
+msgstr "ادامه"
+
+#: src/Integrations/Blocks/Integration.php:388
+#: src/Integrations/Bricks/AuthElement.php:911
+#: src/Presentation/Frontend/AuthState.php:44
+msgid "Verify and continue"
+msgstr "تأیید و ادامه"
+
+#: src/Integrations/Blocks/Integration.php:389
+#: src/Integrations/Bricks/AuthElement.php:912
+#: src/Presentation/Frontend/AuthState.php:45
+msgid "Sign in"
+msgstr "ورود"
+
+#: src/Integrations/Blocks/Integration.php:390
+#: src/Integrations/Bricks/AuthElement.php:913
+#: src/Presentation/Frontend/AuthState.php:46
+msgid "Create account"
+msgstr "ایجاد حساب کاربری"
+
+#: src/Integrations/Blocks/Integration.php:391
+#: src/Integrations/Bricks/AuthElement.php:914
+#: src/Presentation/Frontend/AuthState.php:47
+msgid "Forgot your password?"
+msgstr "رمز عبور را فراموش کرده‌اید؟"
+
+#: src/Integrations/Blocks/Integration.php:392
+#: src/Integrations/Bricks/AuthElement.php:915
+#: src/Presentation/Frontend/AuthState.php:48
+msgid "New password"
+msgstr "رمز عبور جدید"
+
+#: src/Integrations/Blocks/Integration.php:393
+#: src/Integrations/Bricks/AuthElement.php:916
+#: src/Presentation/Frontend/AuthState.php:49
+msgid "Save password"
+msgstr "ذخیره رمز عبور"
+
+#: src/Integrations/Blocks/Integration.php:394
+#: src/Integrations/Bricks/AuthElement.php:917
+#: src/Presentation/Frontend/AuthState.php:50
+msgid "Resend code"
+msgstr "ارسال مجدد کد"
+
+#: src/Integrations/Blocks/Integration.php:395
+#: src/Integrations/Bricks/AuthElement.php:918
+#: src/Presentation/Frontend/AuthState.php:51
+msgid "Continue with password"
+msgstr "ادامه با رمز عبور"
+
+#: src/Integrations/Blocks/Integration.php:396
+#: src/Integrations/Bricks/AuthElement.php:919
+#: src/Presentation/Frontend/AuthState.php:52
+msgid "Continue with Google"
+msgstr "ادامه با گوگل"
+
+#: src/Integrations/Blocks/Integration.php:397
+#: src/Integrations/Bricks/AuthElement.php:920
+#: src/Integrations/Bricks/BackButtonElement.php:197
+#: src/Presentation/Frontend/AuthState.php:53
+#: src/Presentation/Frontend/AuthState.php:404
+msgid "Back"
+msgstr "بازگشت"
+
+#: src/Integrations/Bricks/AuthElement.php:19
+#: src/Integrations/Bricks/Integration.php:91
+#: src/Integrations/Bricks/Integration.php:96
+#: src/Integrations/Bricks/Integration.php:101
+#: src/Integrations/Bricks/Integration.php:106 src/Presentation/Admin/Logs.php:85
+#: src/Presentation/Admin/SettingsPage.php:29
+#: src/Presentation/Admin/SettingsPage.php:30
+#: src/Presentation/Admin/SettingsPage.php:302
+#: src/Presentation/Admin/UserProfile.php:34
+msgid "Peyvast Authentication"
+msgstr "احراز هویت پیوست"
+
+#: src/Integrations/Bricks/AuthElement.php:25
+msgid "Supported Variables"
+msgstr "متغیرهای پشتیبانی‌شده"
+
+#: src/Integrations/Bricks/AuthElement.php:26
+msgid "Preview Stages"
+msgstr "مراحل پیش‌نمایش"
+
+#: src/Integrations/Bricks/AuthElement.php:27
+msgid "Stages"
+msgstr "مراحل"
+
+#: src/Integrations/Bricks/AuthElement.php:28
+msgid "Containers"
+msgstr "کانتینرها"
+
+#: src/Integrations/Bricks/AuthElement.php:29
+msgid "Information"
+msgstr "اطلاعات"
+
+#: src/Integrations/Bricks/AuthElement.php:30
+msgid "Form Fields"
+msgstr "فیلدهای فرم"
+
+#: src/Integrations/Bricks/AuthElement.php:31
+msgid "Primary Actions"
+msgstr "عملیات اصلی"
+
+#: src/Integrations/Bricks/AuthElement.php:32
+msgid "Secondary Actions"
+msgstr "عملیات ثانویه"
+
+#: src/Integrations/Bricks/AuthElement.php:33
+msgid "Resend"
+msgstr "ارسال مجدد"
+
+#: src/Integrations/Bricks/AuthElement.php:34
+msgid "Notice Queue"
+msgstr "صف اعلان"
+
+#: src/Integrations/Bricks/BackButtonElement.php:15
+msgid "Peyvast Authentication Back Button"
+msgstr "دکمه بازگشت احراز هویت پیوست"
+
+#: src/Integrations/Bricks/BackButtonElement.php:26
+msgid "Size"
+msgstr "اندازه"
+
+#: src/Integrations/Bricks/BackButtonElement.php:30
+#: src/Integrations/Bricks/BackButtonElement.php:39
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: src/Integrations/Bricks/BackButtonElement.php:35
+msgid "Style"
+msgstr "سبک"
+
+#: src/Integrations/Bricks/BackButtonElement.php:45
+msgid "circle"
+msgstr "دایره"
+
+#: src/Integrations/Bricks/BackButtonElement.php:53
+msgid "Padding"
+msgstr "فاصله داخلی"
+
+#: src/Integrations/Bricks/BackButtonElement.php:65
+msgid "Background"
+msgstr "پس‌زمینه"
+
+#: src/Integrations/Bricks/BackButtonElement.php:77
+msgid "Border"
+msgstr "حاشیه"
+
+#: src/Integrations/Bricks/BackButtonElement.php:89
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: src/Integrations/Bricks/BackButtonElement.php:104
+msgid "Text"
+msgstr "متن"
+
+#: src/Integrations/Bricks/BackButtonElement.php:111
+msgid "Icon"
+msgstr "آیکن"
+
+#: src/Integrations/Bricks/BackButtonElement.php:117
+msgid "Icon position"
+msgstr "موقعیت آیکن"
+
+#: src/Integrations/Bricks/BackButtonElement.php:127
+msgid "Icon typography"
+msgstr "تایپوگرافی آیکن"
+
+#: src/Integrations/Bricks/BackButtonElement.php:140
+msgid "Icon gap"
+msgstr "فاصله آیکن"
+
+#: src/Integrations/Bricks/BackButtonElement.php:154
+msgid "Space between"
+msgstr "فاصله بین عناصر"
+
+#: src/Integrations/Bricks/BackButtonElement.php:168
+msgid "Hide text"
+msgstr "پنهان کردن متن"
+
+#: src/Integrations/Bricks/BackButtonElement.php:176
+msgid "Accessibility label"
+msgstr "برچسب دسترسی‌پذیری"
+
+#: src/Integrations/Bricks/BackButtonElement.php:178
+msgid "Used when visible button text is hidden."
+msgstr "وقتی متن دکمه مخفی است برای برچسب دسترسی‌پذیری استفاده می‌شود."
+
+#: src/Integrations/Bricks/BackButtonElement.php:183
+msgid "Authentication target"
+msgstr "هدف احراز هویت"
+
+#: src/Integrations/Bricks/BackButtonElement.php:185
+msgid "Optional CSS selector for a specific authentication instance."
+msgstr "در صورت نیاز، سلکتور CSS یک نمونه احراز هویت مشخص را وارد کنید."
+
+#: src/Integrations/Bricks/Integration.php:90
+msgid "User mobile number"
+msgstr "شماره همراه کاربر"
+
+#: src/Integrations/Bricks/Integration.php:95
+msgid "User email"
+msgstr "ایمیل کاربر"
+
+#: src/Integrations/Bricks/Integration.php:100
+msgid "User display name"
+msgstr "نام نمایشی کاربر"
+
+#: src/Integrations/Bricks/Integration.php:105
+msgid "User ID"
+msgstr "شناسه کاربر"
+
+#: src/Integrations/WooCommerce/Integration.php:231
+#: src/Presentation/Frontend/AuthState.php:318
+msgid "Please sign in or register before continuing to checkout."
+msgstr ""
+"برای ادامه خرید و ثبت سفارش، ابتدا وارد حساب کاربری خود شوید یا ثبت‌نام کنید."
+
+#: src/Integrations/WooCommerce/Integration.php:247
+msgid ""
+"Peyvast Auth: the configured WooCommerce login page is missing or unavailable. "
+"WooCommerce redirects are using the homepage fallback."
+msgstr ""
+"ورود به سیستم Peyvast Auth: صفحه ورود پیکربندی‌شده WooCommerce وجود ندارد یا در "
+"دسترس نیست. ریدایرکت‌های WooCommerce از صفحه اصلی سایت استفاده می‌کنند."
+
+#: src/Presentation/Admin/Logs.php:38 src/Presentation/Admin/SettingsPage.php:289
+msgid "You are not allowed to access this page."
+msgstr "اجازه دسترسی به این صفحه را ندارید."
+
+#: src/Presentation/Admin/Logs.php:86 src/Presentation/Admin/SettingsPage.php:319
+msgid "Operational Logs"
+msgstr "لاگ‌های عملیاتی"
+
+#: src/Presentation/Admin/Logs.php:87
+msgid ""
+"Diagnostic records for authentication, OTP delivery, providers and security. "
+"Authentication secrets are redacted; diagnostic request/response data remains "
+"available."
+msgstr ""
+"گزارش‌های تشخیصی احراز هویت، ارسال OTP، ارائه‌دهندگان و امنیت. اطلاعات محرمانه "
+"احراز هویت حذف می‌شوند؛ جزئیات تشخیصی درخواست و پاسخ در دسترس باقی می‌مانند."
+
+#: src/Presentation/Admin/Logs.php:90
+msgid "Delete all logs?"
+msgstr "همه لاگ‌ها حذف شوند؟"
+
+#: src/Presentation/Admin/Logs.php:93
+msgid "Clear logs"
+msgstr "پاک کردن لاگ‌ها"
+
+#: src/Presentation/Admin/Logs.php:100
+msgid "Logging is disabled"
+msgstr "ثبت لاگ غیرفعال است"
+
+#: src/Presentation/Admin/Logs.php:100
+msgid ""
+"New diagnostic records will not be stored until logging is enabled in Settings."
+msgstr ""
+"تا زمانی که ثبت لاگ در تنظیمات فعال نشود، رکورد تشخیصی جدیدی ذخیره نخواهد شد."
+
+#: src/Presentation/Admin/Logs.php:108
+msgid "Total"
+msgstr "مجموع"
+
+#: src/Presentation/Admin/Logs.php:113
+msgid "Errors"
+msgstr "خطاها"
+
+#: src/Presentation/Admin/Logs.php:118
+msgid "Provider errors"
+msgstr "خطاهای ارائه‌دهنده"
+
+#: src/Presentation/Admin/Logs.php:123
+msgid "Authentication events"
+msgstr "رویدادهای احراز هویت"
+
+#: src/Presentation/Admin/Logs.php:136
+msgid "Level"
+msgstr "سطح"
+
+#: src/Presentation/Admin/Logs.php:136
+msgid "All levels"
+msgstr "همه سطوح"
+
+#: src/Presentation/Admin/Logs.php:141 src/Presentation/Admin/Logs.php:159
+#: src/Presentation/Frontend/Assets.php:87
+msgid "Channel"
+msgstr "کانال"
+
+#: src/Presentation/Admin/Logs.php:141
+msgid "All channels"
+msgstr "همه کانال‌ها"
+
+#: src/Presentation/Admin/Logs.php:146 src/Presentation/Admin/Logs.php:159
+#: src/Presentation/Frontend/Assets.php:89
+msgid "Provider"
+msgstr "ارائه‌دهنده"
+
+#: src/Presentation/Admin/Logs.php:146
+msgid "All providers"
+msgstr "همه ارائه‌دهندگان"
+
+#: src/Presentation/Admin/Logs.php:151
+msgid "Search"
+msgstr "جستجو"
+
+#: src/Presentation/Admin/Logs.php:151
+msgid "Event, message, provider or request ID"
+msgstr "رویداد، پیام، ارائه‌دهنده یا شناسه درخواست"
+
+#: src/Presentation/Admin/Logs.php:152
+msgid "Filter logs"
+msgstr "فیلتر لاگ‌ها"
+
+#: src/Presentation/Admin/Logs.php:159 src/Presentation/Frontend/Assets.php:85
+msgid "Time"
+msgstr "زمان"
+
+#: src/Presentation/Admin/Logs.php:159 src/Presentation/Frontend/Assets.php:86
+msgid "Severity"
+msgstr "شدت"
+
+#: src/Presentation/Admin/Logs.php:159 src/Presentation/Frontend/Assets.php:88
+msgid "Event"
+msgstr "رویداد"
+
+#: src/Presentation/Admin/Logs.php:159
+msgid "Details"
+msgstr "جزئیات"
+
+#: src/Presentation/Admin/Logs.php:162
+msgid "No matching logs were found."
+msgstr "لاگ مطابق با فیلتر یافت نشد."
+
+#: src/Presentation/Admin/Logs.php:162
+msgid "Try a different filter or search term."
+msgstr "فیلتر یا عبارت جستجوی دیگری را امتحان کنید."
+
+#: src/Presentation/Admin/Logs.php:197
+#, php-format
+msgid "User #%d"
+msgstr "کاربر #%d"
+
+#: src/Presentation/Admin/Logs.php:198
+msgid "View Details"
+msgstr "مشاهده جزئیات"
+
+#: src/Presentation/Admin/Logs.php:239
+msgid "Operational log"
+msgstr "لاگ عملیاتی"
+
+#: src/Presentation/Admin/Logs.php:239
+msgid "Full log details"
+msgstr "جزئیات کامل لاگ"
+
+#: src/Presentation/Admin/Logs.php:260
+msgid "You are not allowed to perform this operation."
+msgstr "شما اجازه انجام این عملیات را ندارید."
+
+#: src/Presentation/Admin/SettingsPage.php:38
+msgid "Logs"
+msgstr "لاگ‌ها"
+
+#: src/Presentation/Admin/SettingsPage.php:113
+msgid ""
+"The configured phone source changed or is incomplete. Review the source and run "
+"Batch Migration when a backup is available."
+msgstr ""
+"منبع شماره تلفن پیکربندی‌شده تغییر کرده یا ناقص است. منبع را بررسی کنید و پس از "
+"اطمینان از وجود نسخه پشتیبان، مهاجرت دسته‌ای را اجرا کنید."
+
+#: src/Presentation/Admin/SettingsPage.php:116
+#, php-format
+msgid ""
+"Batch Migration is running: %1$d of %2$d users processed. %3$d migrated and "
+"%4$d already current."
+msgstr ""
+"مهاجرت دسته‌ای در حال اجراست: %1$d از %2$d کاربر پردازش شده‌اند. %3$d مورد منتقل "
+"و %4$d مورد از قبل به‌روز هستند."
+
+#: src/Presentation/Admin/SettingsPage.php:119
+#, php-format
+msgid ""
+"Batch Migration stopped after %1$d of %2$d users. %3$d migrated and %4$d "
+"failures were recorded."
+msgstr ""
+"مهاجرت دسته‌ای پس از پردازش %1$d از %2$d کاربر متوقف شد. %3$d مورد منتقل شد و "
+"%4$d خطا ثبت شد."
+
+#: src/Presentation/Admin/SettingsPage.php:122
+#: src/Presentation/Frontend/Assets.php:65
+#, php-format
+msgid "Batch Migration completed with %1$d conflicts and %2$d failed records."
+msgstr "مهاجرت دسته‌ای با %1$d مغایرت و %2$d رکورد ناموفق تکمیل شد."
+
+#: src/Presentation/Admin/SettingsPage.php:125
+#, php-format
+msgid ""
+"Batch Migration completed: %1$d migrated, %2$d already current, with no "
+"conflicts or failures."
+msgstr ""
+"مهاجرت دسته‌ای تکمیل شد: %1$d مهاجرت شدند، %2$d از قبل به‌روز هستند، بدون هیچ‌گونه "
+"مغایرت یا خطا."
+
+#: src/Presentation/Admin/SettingsPage.php:127
+#: src/Presentation/Frontend/Assets.php:67
+msgid "No Batch Migration has been started."
+msgstr "هنوز مهاجرت دسته‌ای شروع نشده است."
+
+#: src/Presentation/Admin/SettingsPage.php:133
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: src/Presentation/Admin/SettingsPage.php:139
+msgid "Disable / none"
+msgstr "غیرفعال / هیچ‌کدام"
+
+#: src/Presentation/Admin/SettingsPage.php:147
+#, php-format
+msgid "Page #%d"
+msgstr "صفحه شماره %d"
+
+#: src/Presentation/Admin/SettingsPage.php:155
+msgid "Overview"
+msgstr "نمای کلی"
+
+#: src/Presentation/Admin/SettingsPage.php:156
+msgid "Plugin status and lifecycle."
+msgstr "وضعیت و چرخه حیات افزونه."
+
+#: src/Presentation/Admin/SettingsPage.php:160
+msgid "Registration"
+msgstr "ثبت‌نام"
+
+#: src/Presentation/Admin/SettingsPage.php:161
+msgid "Fields shown after mobile verification."
+msgstr "فیلدهایی که پس از تأیید شماره همراه نشان داده می‌شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:165
+msgid "Authentication"
+msgstr "احراز هویت"
+
+#: src/Presentation/Admin/SettingsPage.php:166
+msgid "OTP, password and reset methods."
+msgstr "روش‌های OTP، رمز عبور و تنظیم مجدد."
+
+#: src/Presentation/Admin/SettingsPage.php:170
+msgid "OTP"
+msgstr "OTP"
+
+#: src/Presentation/Admin/SettingsPage.php:171
+msgid "Code length, expiry and cooldown."
+msgstr "طول کد، انقضا و زمان انتظار."
+
+#: src/Presentation/Admin/SettingsPage.php:175
+msgid "Mobile"
+msgstr "شماره همراه"
+
+#: src/Presentation/Admin/SettingsPage.php:176
+msgid "Phone normalization and identity sources."
+msgstr "نرمال‌سازی شماره تلفن و منابع هویت."
+
+#: src/Presentation/Admin/SettingsPage.php:180
+msgid "Migration"
+msgstr "مهاجرت"
+
+#: src/Presentation/Admin/SettingsPage.php:181
+msgid "Batch and optional lazy phone migration."
+msgstr "مهاجرت دسته‌ای و مهاجرت تنبل اختیاری شماره تلفن."
+
+#: src/Presentation/Admin/SettingsPage.php:185
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: src/Presentation/Admin/SettingsPage.php:186
+msgid "WooCommerce synchronization and access rules."
+msgstr "قواعد همگام‌سازی و دسترسی ووکامرس."
+
+#: src/Presentation/Admin/SettingsPage.php:190
+msgid "Providers"
+msgstr "ارائه‌دهندگان"
+
+#: src/Presentation/Admin/SettingsPage.php:191
+msgid "SMS and email delivery configuration."
+msgstr "پیکربندی ارسال پیامک و ایمیل."
+
+#: src/Presentation/Admin/SettingsPage.php:195
+msgid "Security"
+msgstr "امنیت"
+
+#: src/Presentation/Admin/SettingsPage.php:196
+msgid "Rate limits and abuse protection."
+msgstr "محدودیت درخواست و محافظت در برابر سوءاستفاده."
+
+#: src/Presentation/Admin/SettingsPage.php:200
+msgid "Logging"
+msgstr "ثبت لاگ"
+
+#: src/Presentation/Admin/SettingsPage.php:201
+msgid "Diagnostics and log retention."
+msgstr "تشخیص و نگهداری لاگ."
+
+#: src/Presentation/Admin/SettingsPage.php:205
+msgid "Integrations"
+msgstr "یکپارچه‌سازی‌ها"
+
+#: src/Presentation/Admin/SettingsPage.php:206
+msgid "Bricks and Block integration."
+msgstr "ادغام بریکزبیلدر و بلاکس."
+
+#: src/Presentation/Admin/SettingsPage.php:210
+msgid "Redirects"
+msgstr "انتقال‌ها"
+
+#: src/Presentation/Admin/SettingsPage.php:211
+msgid "Post-login destinations."
+msgstr "مقاصد پس از ورود."
+
+#: src/Presentation/Admin/SettingsPage.php:215
+#: src/Presentation/Admin/SettingsPage.php:869
+msgid "Sign in with Google"
+msgstr "ورود با گوگل"
+
+#: src/Presentation/Admin/SettingsPage.php:216
+msgid "Google sign-in."
+msgstr "ورود به سیستم گوگل."
+
+#: src/Presentation/Admin/SettingsPage.php:254
+msgid "Leave empty to keep the saved value."
+msgstr "برای حفظ مقدار ذخیره‌شده خالی بگذارید."
+
+#: src/Presentation/Admin/SettingsPage.php:302
+msgid "Unified authentication, OTP delivery and builder integrations."
+msgstr "احراز هویت یکپارچه، ارسال OTP و یکپارچه‌سازی با سازنده‌ها."
+
+#: src/Presentation/Admin/SettingsPage.php:304
+msgid "Enabled"
+msgstr "فعال"
+
+#: src/Presentation/Admin/SettingsPage.php:304
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: src/Presentation/Admin/SettingsPage.php:309
+msgid "Settings navigation"
+msgstr "ناوبری تنظیمات"
+
+#: src/Presentation/Admin/SettingsPage.php:310
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#: src/Presentation/Admin/SettingsPage.php:324
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/Presentation/Admin/SettingsPage.php:325
+#: src/Presentation/Frontend/Assets.php:57
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: src/Presentation/Admin/SettingsPage.php:333
+msgid "Changes across all sections are kept in one form and saved together."
+msgstr "تغییرات تمام بخش‌ها در یک فرم نگهداری و با هم ذخیره می‌شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:344
+msgid "Plugin status"
+msgstr "وضعیت افزونه"
+
+#: src/Presentation/Admin/SettingsPage.php:344
+msgid "Enable or disable the authentication service."
+msgstr "سرویس احراز هویت را فعال یا غیرفعال کنید."
+
+#: src/Presentation/Admin/SettingsPage.php:345
+msgid "Enable authentication"
+msgstr "فعال‌سازی احراز هویت"
+
+#: src/Presentation/Admin/SettingsPage.php:346
+msgid "Delete plugin data on uninstall"
+msgstr "حذف داده‌های افزونه هنگام حذف"
+
+#: src/Presentation/Admin/SettingsPage.php:346
+msgid "Permanently removes plugin tables and settings on uninstall."
+msgstr "جداول و تنظیمات افزونه را هنگام حذف، به‌طور دائم حذف می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:350
+msgid "Registration fields"
+msgstr "فیلدهای ثبت‌نام"
+
+#: src/Presentation/Admin/SettingsPage.php:350
+msgid "Shown only after OTP verification."
+msgstr "فقط پس از تأیید OTP نشان داده می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:351
+msgid "Allow new user registration"
+msgstr "اجازه ثبت‌نام کاربران جدید"
+
+#: src/Presentation/Admin/SettingsPage.php:354
+msgid "Username generation"
+msgstr "ساختار نام کاربری"
+
+#: src/Presentation/Admin/SettingsPage.php:358
+msgid ""
+"Random creates an independent username. Phone uses the normalized phone "
+"representation for new users only."
+msgstr ""
+"برای کاربران جدید از این ساختار استفاده میکند و به صورت رندوم یا با استفاده از "
+"شماره تلفن (با فرمت انتخاب شده) نام کاربری میسازد."
+
+#: src/Presentation/Admin/SettingsPage.php:361
+msgid "Random"
+msgstr "تصادفی"
+
+#: src/Presentation/Admin/SettingsPage.php:362
+msgid "Phone"
+msgstr "تلفن"
+
+#: src/Presentation/Admin/SettingsPage.php:367
+msgid "Phone username format"
+msgstr "قالب نام کاربری تلفن"
+
+#: src/Presentation/Admin/SettingsPage.php:371
+msgid "Used only when Phone username generation is selected."
+msgstr "فقط زمانی استفاده می‌شود که تولید نام کاربری تلفن انتخاب شده باشد."
+
+#: src/Presentation/Admin/SettingsPage.php:374
+msgid "With 0"
+msgstr "با 0"
+
+#: src/Presentation/Admin/SettingsPage.php:375
+msgid "With country code"
+msgstr "با کد کشور"
+
+#: src/Presentation/Admin/SettingsPage.php:376
+#: src/Presentation/Admin/SettingsPage.php:527
+msgid "Raw"
+msgstr "خام"
+
+#: src/Presentation/Admin/SettingsPage.php:383
+msgid "Field"
+msgstr "فیلد"
+
+#: src/Presentation/Admin/SettingsPage.php:383
+msgid "Visible"
+msgstr "نمایش داده شود"
+
+#: src/Presentation/Admin/SettingsPage.php:383
+msgid "Required"
+msgstr "اجباری"
+
+#: src/Presentation/Admin/SettingsPage.php:387
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/Presentation/Admin/SettingsPage.php:391
+msgid "Built-in registration field."
+msgstr "فیلد داخلی ثبت‌نام."
+
+#: src/Presentation/Admin/SettingsPage.php:400
+msgid "OTP sign-in"
+msgstr "ورود با OTP"
+
+#: src/Presentation/Admin/SettingsPage.php:400
+msgid "Email OTP only signs in existing accounts."
+msgstr "ایمیل OTP فقط حساب‌های موجود را وارد می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:401
+msgid "Allow OTP login with email"
+msgstr "اجازه ورود OTP با ایمیل"
+
+#: src/Presentation/Admin/SettingsPage.php:402
+msgid "Send a second OTP to the user email when phone login is used"
+msgstr "ارسال OTP دوم به ایمیل کاربر هنگام ورود با شماره همراه"
+
+#: src/Presentation/Admin/SettingsPage.php:402
+msgid ""
+"Phone OTP is always sent by SMS. When enabled, a second OTP is also sent to the "
+"user's email."
+msgstr ""
+"OTP شماره همراه همیشه از طریق پیامک ارسال می‌شود. در صورت فعال بودن، کد دوم نیز "
+"به ایمیل کاربر ارسال می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:404
+msgid "Password sign-in"
+msgstr "ورود با رمز عبور"
+
+#: src/Presentation/Admin/SettingsPage.php:404
+msgid "Accepts configured identifiers independently."
+msgstr "شناسه‌های پیکربندی‌شده را به‌طور مستقل می‌پذیرد."
+
+#: src/Presentation/Admin/SettingsPage.php:405
+msgid "Enable password sign-in"
+msgstr "فعال‌سازی ورود با رمز عبور"
+
+#: src/Presentation/Admin/SettingsPage.php:406
+msgid "Allow phone as password identifier"
+msgstr "اجازه استفاده از شماره همراه به‌عنوان شناسه رمز عبور"
+
+#: src/Presentation/Admin/SettingsPage.php:407
+msgid "Allow email as password identifier"
+msgstr "اجازه استفاده از ایمیل به‌عنوان شناسه رمز عبور"
+
+#: src/Presentation/Admin/SettingsPage.php:408
+msgid "Allow user login as password identifier"
+msgstr "اجازه ورود با نام کاربری"
+
+#: src/Presentation/Admin/SettingsPage.php:410
+msgid "Password reset"
+msgstr "بازیابی رمز عبور"
+
+#: src/Presentation/Admin/SettingsPage.php:410
+msgid ""
+"Password reset identifiers are configured independently from password sign-in."
+msgstr "شناسه‌های بازنشانی رمز عبور مستقل از ورود با رمز عبور پیکربندی می‌شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:411
+msgid "Enable password reset"
+msgstr "فعال‌سازی بازیابی رمز عبور"
+
+#: src/Presentation/Admin/SettingsPage.php:412
+msgid "Allow reset with phone"
+msgstr "اجازه بازیابی با شماره همراه"
+
+#: src/Presentation/Admin/SettingsPage.php:413
+msgid "Allow reset with email"
+msgstr "اجازه بازیابی با ایمیل"
+
+#: src/Presentation/Admin/SettingsPage.php:414
+msgid "Also send reset OTP to email when phone reset is used"
+msgstr "همچنین ارسال OTP بازیابی به ایمیل هنگام بازیابی با شماره همراه"
+
+#: src/Presentation/Admin/SettingsPage.php:418
+msgid "OTP behavior"
+msgstr "رفتار OTP"
+
+#: src/Presentation/Admin/SettingsPage.php:418
+msgid "Cooldown applies per session; the first stage shows no timer."
+msgstr "فاصله زمانی برای هر نشست اعمال می‌شود؛ مرحله اول تایمر نشان نمی‌دهد."
+
+#: src/Presentation/Admin/SettingsPage.php:421
+msgid "OTP length"
+msgstr "تعداد ارقام OTP"
+
+#: src/Presentation/Admin/SettingsPage.php:433
+msgid "Resend cooldown (seconds)"
+msgstr "فاصله زمانی ارسال مجدد (ثانیه)"
+
+#: src/Presentation/Admin/SettingsPage.php:437
+msgid "Returning with the same identifier restores the active session."
+msgstr "بازگشت با همان شناسه، نشست فعال را بازیابی می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:445
+msgid "OTP validity (seconds)"
+msgstr "اعتبار کد OTP (ثانیه)"
+
+#: src/Presentation/Admin/SettingsPage.php:449
+msgid "Stored in seconds; the frontend shows minutes."
+msgstr "بر حسب ثانیه ذخیره می‌شود و در ظاهر سایت به دقیقه نمایش داده می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:457
+msgid "Enable browser OTP autofill"
+msgstr "فعال‌سازی تکمیل خودکار OTP در مرورگر"
+
+#: src/Presentation/Admin/SettingsPage.php:457
+msgid ""
+"Uses the standard one-time-code autocomplete; autofill depends on browser "
+"support."
+msgstr ""
+"از تکمیل خودکار کد یکبار مصرف استاندارد استفاده می‌کند؛ تکمیل خودکار به پشتیبانی "
+"مرورگر بستگی دارد."
+
+#: src/Presentation/Admin/SettingsPage.php:458
+#: src/Presentation/Admin/SettingsPage.php:888
+msgid ""
+"For automatic one-time code filling, your message must include the code after "
+"the domain; for example: @website.com #Code."
+msgstr ""
+"برای تکمیل خودکار کد یکبار مصرف، پیام شما باید کد را پس از دامنه شامل شود؛ "
+"مثال: @website.com #Code."
+
+#: src/Presentation/Admin/SettingsPage.php:462
+msgid "Mobile number normalization"
+msgstr "نرمال‌سازی شماره همراه"
+
+#: src/Presentation/Admin/SettingsPage.php:462
+msgid ""
+"Peyvast stores its own phone value in E.164 semantics. WooCommerce may keep its "
+"own configurable display format."
+msgstr ""
+"پیوست مقدار تلفن خود را در معانی E.164 ذخیره می‌کند. ووکامرس میتواند از فرمت "
+"نمایش قابل تنظیم خود را حفظ کند."
+
+#: src/Presentation/Admin/SettingsPage.php:464
+msgid "Country"
+msgstr "کشور"
+
+#: src/Presentation/Admin/SettingsPage.php:466
+msgid ""
+"Persian and Arabic digits are always normalized to ASCII digits before "
+"validation and identity lookup. This is a fixed security invariant and is not "
+"configurable."
+msgstr ""
+"ارقام فارسی و عربی همیشه قبل از اعتبارسنجی و جستجوی هویت به ارقام ASCII "
+"نرمال‌سازی می‌شوند. این یک متغیر امنیتی ثابت است و قابل پیکربندی نیست."
+
+#: src/Presentation/Admin/SettingsPage.php:470
+#: src/Presentation/Admin/SettingsPage.php:474
+msgid "Legacy Phone Identity Source"
+msgstr "منبع تلفن قدیمی"
+
+#: src/Presentation/Admin/SettingsPage.php:470
+msgid ""
+"Recognize users created by a previous authentication system. Peyvast phone data "
+"remains the primary identity source."
+msgstr ""
+"کاربرانی را که توسط سیستم احراز هویت قبلی ایجاد شده‌اند، شناسایی کنید. داده‌های "
+"تلفن همراه Pevast همچنان منبع اصلی احراز هویت هستند."
+
+#: src/Presentation/Admin/SettingsPage.php:474
+msgid "Off"
+msgstr "خاموش"
+
+#: src/Presentation/Admin/SettingsPage.php:474
+#: src/Presentation/Admin/SettingsPage.php:475
+msgid "Existing user meta"
+msgstr "متای کاربر موجود"
+
+#: src/Presentation/Admin/SettingsPage.php:474
+#: src/Presentation/Admin/SettingsPage.php:480
+msgid "Manual user meta key"
+msgstr "کلید متای کاربر به‌صورت دستی"
+
+#: src/Presentation/Admin/SettingsPage.php:474
+msgid ""
+"Allows recognition of users created by a previous authentication system that "
+"stored mobile numbers in a custom user meta field."
+msgstr ""
+"امکان شناسایی کاربران ایجاد شده توسط سیستم احراز هویت قبلی که شماره موبایل را "
+"در یک فیلد متای کاربر سفارشی ذخیره می‌کرد، فراهم می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:475
+msgid "Select a user meta key"
+msgstr "یک کلید متای کاربر را انتخاب کنید"
+
+#: src/Presentation/Admin/SettingsPage.php:479
+msgid "Only populated user meta keys are listed here."
+msgstr "فقط کلیدهای متای کاربر که پر شده‌اند در اینجا فهرست شده‌اند."
+
+#: src/Presentation/Admin/SettingsPage.php:490
+msgid "Enter the exact meta key used by the previous authentication system."
+msgstr ""
+"کلید متای دقیق که توسط افزونه شما به عنوان فیلد شماره همراه استفاده شده است را "
+"وارد کنید."
+
+#: src/Presentation/Admin/SettingsPage.php:491
+msgid "Validate User Meta"
+msgstr "اعتبارسنجی متای کاربر"
+
+#: src/Presentation/Admin/SettingsPage.php:495
+msgid "Current phone source"
+msgstr "منبع فعلی شماره همراه"
+
+#: src/Presentation/Admin/SettingsPage.php:495
+#, php-format
+msgid ""
+"Legacy source %s; user_login is the tertiary fallback source for users without "
+"a valid Peyvast Mobile Number."
+msgstr ""
+"منبع ارثی %s؛ user_login منبع پشتیبان سوم برای کاربرانی است که شماره موبایل "
+"معتبر Peyvast ندارند."
+
+#: src/Presentation/Admin/SettingsPage.php:495
+msgid ""
+"Legacy source is configured; user_login is the tertiary fallback source for "
+"users without a valid Peyvast Mobile Number."
+msgstr ""
+"منبع ارثی پیکربندی شده است؛ user_login منبع پشتیبان سوم برای کاربرانی است که "
+"شماره موبایل معتبر Peyvast ندارند."
+
+#: src/Presentation/Admin/SettingsPage.php:495
+msgid ""
+"Legacy source disabled; user_login is the fallback source for users without a "
+"valid Peyvast Mobile Number."
+msgstr ""
+"منبع ارثی غیرفعال است؛ user_login منبع پشتیبان برای کاربرانی است که شماره "
+"موبایل معتبر Peyvast ندارند."
+
+#: src/Presentation/Admin/SettingsPage.php:495
+msgid ""
+"Migration will skip users who already have a valid phone number in "
+"<strong>Peyvast Mobile Number</strong>."
+msgstr ""
+"مهاجرت کاربرانی را که شماره تلفن معتبری در <strong>Peyvast Mobile Number</"
+"strong> دارند، نادیده می‌گیرد."
+
+#: src/Presentation/Admin/SettingsPage.php:496
+msgid "Batch Migration"
+msgstr "مهاجرت دسته‌ای"
+
+#: src/Presentation/Admin/SettingsPage.php:496
+msgid ""
+"Use the configured phone source to populate Peyvast phone data for existing "
+"users. Batch work runs in the background and can be resumed."
+msgstr ""
+"از منبع تلفن پیکربندی‌شده برای پر کردن داده‌های تلفن Peyvast برای کاربران قدیمی "
+"استفاده کنید. کار دسته‌ای در پس‌زمینه اجرا می‌شود و می‌توان آن را از سر گرفت."
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Phone migration"
+msgstr "مهاجرت شماره همراه"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid ""
+"Migrates the current phone source into the Peyvast phone field. WooCommerce "
+"migration is intentionally not part of this process. Create a database backup "
+"before starting."
+msgstr ""
+"منبع فعلی شماره تلفن را به فیلد تلفن Peyvast منتقل می‌کند. مهاجرت WooCommerce "
+"عمداً بخشی از این فرایند نیست. پیش از شروع، از پایگاه داده نسخه پشتیبان تهیه "
+"کنید."
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Run Batch Migration"
+msgstr "اجرای مهاجرت دسته‌ای"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Migration status"
+msgstr "وضعیت مهاجرت"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Dismiss migration notice"
+msgstr "بستن اعلان مهاجرت"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Migration progress"
+msgstr "پیشرفت مهاجرت"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Processed"
+msgstr "پردازش شده"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Migrated"
+msgstr "انتقال انجام شد"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Already current"
+msgstr "پیش از این درست داشت"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Missing"
+msgstr "مفقود"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Invalid"
+msgstr "نامعتبر"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Conflicts"
+msgstr "مغایرت‌ها"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Failed"
+msgstr "شکست خورد"
+
+#: src/Presentation/Admin/SettingsPage.php:497
+msgid "Skipped"
+msgstr "رد شد"
+
+#: src/Presentation/Admin/SettingsPage.php:499
+msgid "Lazy Migration"
+msgstr "مهاجرت آهسته"
+
+#: src/Presentation/Admin/SettingsPage.php:499
+msgid ""
+"Optional. When enabled, a successful authentication migrates only the current "
+"user using the same PhoneMigrationEngine."
+msgstr ""
+"اختیاری. در صورت فعال بودن، احراز هویت موفق فقط کاربر فعلی را که از همان "
+"PhoneMigrationEngine استفاده می‌کند، منتقل می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:500
+msgid "Enable Lazy Migration"
+msgstr "فعال سازی مهاجرت آهسته"
+
+#: src/Presentation/Admin/SettingsPage.php:500
+msgid ""
+"Queued after successful OTP, password or Google authentication and runs in the "
+"background without delaying the login response."
+msgstr ""
+"پس از تأیید موفقیت‌آمیز رمز یک‌بار مصرف، رمز عبور یا احراز هویت گوگل، در صف قرار "
+"می‌گیرد و در پس‌زمینه بدون تأخیر در پاسخ ورود اجرا می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:504
+msgid "WooCommerce integration"
+msgstr "یکپارچه‌سازی ووکامرس"
+
+#: src/Presentation/Admin/SettingsPage.php:504
+msgid ""
+"Each WooCommerce behavior is controlled independently. The existing Login page "
+"setting is used as the destination."
+msgstr ""
+"هر قابلیت ووکامرس به‌صورت مستقل کنترل می‌شود. تنظیم صفحه ورود انتخاب‌شده به‌عنوان "
+"مقصد استفاده می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:506
+msgid "WooCommerce detected"
+msgstr "ووکامرس شناسایی شد"
+
+#: src/Presentation/Admin/SettingsPage.php:506
+msgid "WooCommerce is not active"
+msgstr "ووکامرس فعال نیست"
+
+#: src/Presentation/Admin/SettingsPage.php:506
+msgid "WooCommerce customer and checkout integration is available."
+msgstr "یکپارچه‌سازی مشتری و تسویه‌حساب ووکامرس در دسترس است."
+
+#: src/Presentation/Admin/SettingsPage.php:506
+msgid "The settings will activate automatically when WooCommerce is installed."
+msgstr "این تنظیمات پس از نصب ووکامرس به‌صورت خودکار فعال می‌شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:507
+msgid "Redirect logged-out visitors from My Account"
+msgstr "کاربران خارج‌شده از حساب کاربری من به صفحه ورود هدایت شوند"
+
+#: src/Presentation/Admin/SettingsPage.php:508
+msgid "Redirect logged-out visitors when guest checkout is disabled"
+msgstr "هنگام غیرفعال بودن خرید مهمان، کاربران خارج‌شده به صفحه ورود هدایت شوند"
+
+#: src/Presentation/Admin/SettingsPage.php:509
+msgid "Show the guest-checkout login notice on the authentication page"
+msgstr "اعلان ورود برای خرید مهمان در صفحه احراز هویت نمایش داده شود"
+
+#: src/Presentation/Admin/SettingsPage.php:509
+msgid "The notice is shown after redirecting to the selected Login page."
+msgstr "اعلان پس از هدایت به صفحه ورود انتخاب‌شده نمایش داده می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:510
+msgid "Redirect logged-out visitors from protected order receipts"
+msgstr "کاربران خارج‌شده از رسیدهای محافظت‌شده سفارش به صفحه ورود هدایت شوند"
+
+#: src/Presentation/Admin/SettingsPage.php:511
+msgid "Show the order-receipt login notice on the authentication page"
+msgstr "اعلان ورود برای رسید سفارش در صفحه احراز هویت نمایش داده شود"
+
+#: src/Presentation/Admin/SettingsPage.php:511
+msgid "Only receipts belonging to a registered user are protected."
+msgstr "فقط رسیدهای متعلق به کاربر ثبت‌نام‌شده محافظت می‌شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:513
+msgid "WooCommerce customer data"
+msgstr "داده‌های مشتری ووکامرس"
+
+#: src/Presentation/Admin/SettingsPage.php:513
+msgid "Save selected WordPress customer data to both billing and shipping fields."
+msgstr "داده‌های انتخاب‌شده مشتری وردپرس در هر دو بخش صورتحساب و ارسال ذخیره شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:514
+msgid "Save first and last name to billing and shipping"
+msgstr "نام و نام خانوادگی در بخش‌های صورتحساب و ارسال ذخیره شود"
+
+#: src/Presentation/Admin/SettingsPage.php:515
+msgid "Save email to billing and shipping"
+msgstr "ایمیل در بخش‌های صورتحساب و ارسال ذخیره شود"
+
+#: src/Presentation/Admin/SettingsPage.php:516
+msgid "Save phone to billing and shipping"
+msgstr "تلفن در بخش‌های صورتحساب و ارسال ذخیره شود"
+
+#: src/Presentation/Admin/SettingsPage.php:518
+msgid "WooCommerce phone storage format"
+msgstr "فرمت ذخیره شماره ووکامرس"
+
+#: src/Presentation/Admin/SettingsPage.php:522
+msgid ""
+"The canonical phone option controls both billing and shipping phone fields."
+msgstr "گزینه اصلی تلفن هر دو فیلد تلفن صورتحساب و ارسال را کنترل می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:525
+msgid "Leading 0"
+msgstr "صفر ابتدایی"
+
+#: src/Presentation/Admin/SettingsPage.php:526
+msgid "Country code"
+msgstr "کد کشور"
+
+#: src/Presentation/Admin/SettingsPage.php:537
+msgid "General protection"
+msgstr "محافظت عمومی"
+
+#: src/Presentation/Admin/SettingsPage.php:537
+msgid "One server-side policy for every authentication endpoint."
+msgstr "یک سیاست واحد سمت سرور برای همهـ نقاط احراز هویت."
+
+#: src/Presentation/Admin/SettingsPage.php:538
+msgid "Enable security protection"
+msgstr "فعال‌سازی محافظت امنیتی"
+
+#: src/Presentation/Admin/SettingsPage.php:538
+msgid ""
+"When disabled, the Guard does not enforce limits or create security state; "
+"authentication continues normally."
+msgstr ""
+"هنگامی که غیرفعال باشد، نگهبان محدودیت‌ها را اعمال نمی‌کند و وضعیت امنیتی جدیدی "
+"ایجاد نمی‌کند؛ احراز هویت به‌طور عادی ادامه می‌یابد."
+
+#: src/Presentation/Admin/SettingsPage.php:539
+msgid ""
+"In WordPress Multi-Site, security settings and blocks are independent per site."
+msgstr ""
+"در وردپرس چندسایتی، هر سایت سیاست و مسدودسازیهای امنیتی مستقل خودش را دارد."
+
+#: src/Presentation/Admin/SettingsPage.php:542
+msgid "General request limit"
+msgstr "محدودیت درخواست عمومی"
+
+#: src/Presentation/Admin/SettingsPage.php:546
+msgid "Applies to OTP sending, password sign-in, reset and identifier lookups."
+msgstr ""
+"برای ارسال کد یکبارمصرف، ورود با رمز عبور، بازیابی رمز و جستجوی شناسه اعمال "
+"می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:554
+msgid "General request window (seconds)"
+msgstr "بازه زمانی درخواست عمومی (ثانیه)"
+
+#: src/Presentation/Admin/SettingsPage.php:566
+msgid "General verification limit"
+msgstr "محدودیت تأیید عمومی"
+
+#: src/Presentation/Admin/SettingsPage.php:570
+msgid ""
+"Applies to every OTP code verification attempt, including the maximum attempts "
+"allowed for each code."
+msgstr ""
+"برای تمام تلاش‌های تأیید کد یکبارمصرف، از جمله حداکثر تلاش مجاز برای هر کد، "
+"اعمال می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:578
+msgid "General verification window (seconds)"
+msgstr "بازه زمانی تأیید عمومی (ثانیه)"
+
+#: src/Presentation/Admin/SettingsPage.php:592
+msgid "Network protection"
+msgstr "محافظت شبکه"
+
+#: src/Presentation/Admin/SettingsPage.php:592
+msgid "Applies limits per request IP and per network range (IPv4 /24, IPv6 /64)."
+msgstr ""
+"محدودیت را برای هر IP درخواست و بازه شبکه (IPv4 /24 و IPv6 /64) اعمال می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:594
+msgid "IP multiplier"
+msgstr "ضریب IP"
+
+#: src/Presentation/Admin/SettingsPage.php:598
+msgid "Raises or lowers the per-IP limits (3 = baseline)."
+msgstr "محدودیت‌های هر IP را افزایش یا کاهش می‌دهد (۳ = حالت پایه)."
+
+#: src/Presentation/Admin/SettingsPage.php:607
+msgid "Progressive protection"
+msgstr "محافظت تدریجی"
+
+#: src/Presentation/Admin/SettingsPage.php:607
+msgid "Blocks escalate for repeat violations."
+msgstr "مدت مسدودسازی برای تخلف‌های مکرر افزایش می‌یابد."
+
+#: src/Presentation/Admin/SettingsPage.php:608
+msgid "Enable progressive protection"
+msgstr "فعال‌سازی محافظت تدریجی"
+
+#: src/Presentation/Admin/SettingsPage.php:611
+msgid "Initial block duration (seconds)"
+msgstr "مدت مسدودسازی اولیه (ثانیه)"
+
+#: src/Presentation/Admin/SettingsPage.php:623
+msgid "Duration multiplier"
+msgstr "ضریب مدت مسدودسازی"
+
+#: src/Presentation/Admin/SettingsPage.php:635
+msgid "Maximum block duration (seconds)"
+msgstr "حداکثر مدت مسدودسازی (ثانیه)"
+
+#: src/Presentation/Admin/SettingsPage.php:647
+msgid "Recovery duration (seconds)"
+msgstr "زمان بازگشت مرحله (ثانیه)"
+
+#: src/Presentation/Admin/SettingsPage.php:651
+msgid ""
+"After this clean period, the next block starts again from the initial duration."
+msgstr "پس از این دورهـ بدون تخلف، مسدودسازی بعدی از مدت ابتدایی آغاز می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:661
+msgid "Active security blocks"
+msgstr "مسدودسازی‌های امنیتی فعال"
+
+#: src/Presentation/Admin/SettingsPage.php:661
+msgid "Clears blocks, progressive state and rate-limit counters."
+msgstr "فقط حالت مسدودسازی پاک می‌شود؛ شمارنده‌ها حفظ می‌شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:662
+msgid "Clear all security blocks"
+msgstr "پاک کردن همه مسدودسازی‌های امنیتی"
+
+#: src/Presentation/Admin/SettingsPage.php:662
+msgid ""
+"Removes active blocks, progressive state and rate-limit counters. Security "
+"settings are preserved."
+msgstr ""
+"مسدودسازی‌های فعال را حذف و مرحله محافظت تدریجی را بازنشانی می‌کند. شمارنده‌های "
+"محدودیت درخواست و تنظیمات حفظ می‌شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:666
+msgid "Operational logging"
+msgstr "ثبت لاگ عملیاتی"
+
+#: src/Presentation/Admin/SettingsPage.php:666
+msgid ""
+"Troubleshooting diagnostics are disabled by default. Enable them only when "
+"needed; logging increases database usage."
+msgstr ""
+"تشخیص عیب‌یابی به طور پیش‌فرض غیرفعال است. آن‌ها را فقط در صورت نیاز فعال کنید؛ "
+"ثبت وقایع باعث افزایش استفاده از پایگاه داده و منابع سرور می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:667
+msgid "Enable logging"
+msgstr "فعال‌سازی ثبت رویداد"
+
+#: src/Presentation/Admin/SettingsPage.php:669
+msgid "Minimum log level"
+msgstr "حداقل سطح ثبت لاگ"
+
+#: src/Presentation/Admin/SettingsPage.php:673
+msgid "Only events at or above this level are stored."
+msgstr "فقط رویدادهای هم‌سطح یا بالاتر از این سطح ذخیره می‌شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:676
+msgid "Debug"
+msgstr "دیباگ"
+
+#: src/Presentation/Admin/SettingsPage.php:677
+msgid "Info"
+msgstr "اطلاعات"
+
+#: src/Presentation/Admin/SettingsPage.php:678
+msgid "Notice"
+msgstr "توجه"
+
+#: src/Presentation/Admin/SettingsPage.php:679
+msgid "Warning"
+msgstr "هشدار"
+
+#: src/Presentation/Admin/SettingsPage.php:680
+msgid "Error"
+msgstr "خطا"
+
+#: src/Presentation/Admin/SettingsPage.php:681
+msgid "Critical"
+msgstr "بحرانی"
+
+#: src/Presentation/Admin/SettingsPage.php:686
+msgid "Retention (days)"
+msgstr "مدت نگهداری (روز)"
+
+#: src/Presentation/Admin/SettingsPage.php:700
+msgid "Builder integrations"
+msgstr "یکپارچه‌سازی سازنده‌ها"
+
+#: src/Presentation/Admin/SettingsPage.php:700
+msgid "Bricks and Blocks only add presentation and editor controls."
+msgstr "نسخه‌های Bricks و Blocks فقط کنترل‌های ارائه و ویرایشگر را اضافه می‌کنند."
+
+#: src/Presentation/Admin/SettingsPage.php:701
+msgid "Enable Bricks integration"
+msgstr "فعال‌سازی یکپارچگی بریکس"
+
+#: src/Presentation/Admin/SettingsPage.php:702
+msgid "Enable WordPress Blocks integration"
+msgstr "فعال‌سازی یکپارچگی بلوک‌های وردپرس"
+
+#: src/Presentation/Admin/SettingsPage.php:706
+msgid "Redirect after login or registration"
+msgstr "انتقال پس از ورود یا ثبت‌نام"
+
+#: src/Presentation/Admin/SettingsPage.php:706
+msgid "Choose where signed-in users go after login or registration."
+msgstr "انتخاب کنید که کاربران وارد شده پس از ورود یا ثبت نام به کجا بروند."
+
+#: src/Presentation/Admin/SettingsPage.php:708
+#: src/Presentation/Admin/SettingsPage.php:829
+msgid "Options"
+msgstr "تنظیمات"
+
+#: src/Presentation/Admin/SettingsPage.php:712
+msgid "Choose how successful authentication should redirect the user."
+msgstr "نحوه تغییر مسیر کاربر پس از احراز هویت موفق را انتخاب کنید."
+
+#: src/Presentation/Admin/SettingsPage.php:715
+msgid "Return to origin"
+msgstr "بازگشت به مبدأ"
+
+#: src/Presentation/Admin/SettingsPage.php:716
+#: src/Presentation/Admin/SettingsPage.php:757
+#: src/Presentation/Admin/SettingsPage.php:796
+#: src/Presentation/Admin/SettingsPage.php:808
+#: src/Presentation/Admin/SettingsPage.php:837
+msgid "Specific page"
+msgstr "صفحه خاص"
+
+#: src/Presentation/Admin/SettingsPage.php:717
+#: src/Presentation/Admin/SettingsPage.php:735
+#: src/Presentation/Admin/SettingsPage.php:758
+#: src/Presentation/Admin/SettingsPage.php:796
+#: src/Presentation/Admin/SettingsPage.php:808
+#: src/Presentation/Admin/SettingsPage.php:838
+#: src/Presentation/Admin/SettingsPage.php:856
+msgid "Custom URL"
+msgstr "نشانی اینترنتی سفارشی"
+
+#: src/Presentation/Admin/SettingsPage.php:718
+#: src/Presentation/Admin/SettingsPage.php:759
+#: src/Presentation/Admin/SettingsPage.php:796
+#: src/Presentation/Admin/SettingsPage.php:808
+#: src/Presentation/Admin/SettingsPage.php:822
+msgid "Disable"
+msgstr "غیرفعال"
+
+#: src/Presentation/Admin/SettingsPage.php:723
+#: src/Presentation/Admin/SettingsPage.php:844
+msgid "Destination page"
+msgstr "صفحه مقصد"
+
+#: src/Presentation/Admin/SettingsPage.php:728
+#: src/Presentation/Admin/SettingsPage.php:769
+#: src/Presentation/Admin/SettingsPage.php:799
+#: src/Presentation/Admin/SettingsPage.php:811
+#: src/Presentation/Admin/SettingsPage.php:849
+msgid "Select a page"
+msgstr "انتخاب صفحه"
+
+#: src/Presentation/Admin/SettingsPage.php:739
+#: src/Presentation/Admin/SettingsPage.php:780
+#: src/Presentation/Admin/SettingsPage.php:801
+#: src/Presentation/Admin/SettingsPage.php:813
+#: src/Presentation/Admin/SettingsPage.php:860
+msgid "Only internal site URLs are accepted."
+msgstr "فقط URLهای داخلی سایت پذیرفته می‌شوند."
+
+#: src/Presentation/Admin/SettingsPage.php:747
+msgid "Origin fallback"
+msgstr "راه حل پشتیبان مقصد"
+
+#: src/Presentation/Admin/SettingsPage.php:747
+msgid "Used only when the original destination cannot be restored."
+msgstr "فقط زمانی استفاده می‌شود که مقصد اصلی قابل بازیابی نباشد."
+
+#: src/Presentation/Admin/SettingsPage.php:749
+msgid "Fallback mode"
+msgstr "حالت مسیر جایگزین"
+
+#: src/Presentation/Admin/SettingsPage.php:753
+msgid "Choose a fallback destination."
+msgstr "یک مقصد جایگزین انتخاب کنید."
+
+#: src/Presentation/Admin/SettingsPage.php:756
+#: src/Presentation/Admin/SettingsPage.php:796
+#: src/Presentation/Admin/SettingsPage.php:808
+#: src/Presentation/Admin/SettingsPage.php:836
+msgid "Homepage"
+msgstr "صفحه نخست"
+
+#: src/Presentation/Admin/SettingsPage.php:764
+msgid "Fallback page"
+msgstr "صفحه جایگزین"
+
+#: src/Presentation/Admin/SettingsPage.php:776
+msgid "Fallback custom URL"
+msgstr "نشانی اینترنتی سفارشی جایگزین"
+
+#: src/Presentation/Admin/SettingsPage.php:789
+msgid "Redirect after logout"
+msgstr "پس از خروج، هدایت کنید"
+
+#: src/Presentation/Admin/SettingsPage.php:789
+msgid "Configure WooCommerce and WordPress logout destinations independently."
+msgstr "مقاصد خروج ووکامرس و وردپرس را به‌طور مستقل پیکربندی کنید."
+
+#: src/Presentation/Admin/SettingsPage.php:791
+msgid "WooCommerce logout"
+msgstr "خروج ووکامرس"
+
+#: src/Presentation/Admin/SettingsPage.php:795
+msgid ""
+"Destination used after the WooCommerce customer logout flow. Disable preserves "
+"WooCommerce default behavior."
+msgstr ""
+"مقصد پس از جریان خروج مشتری ووکامرس استفاده می‌شود. غیرفعال کردن، رفتار پیش‌فرض "
+"ووکامرس را حفظ می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:798
+msgid "WooCommerce logout page"
+msgstr "صفحه خروج ووکامرس"
+
+#: src/Presentation/Admin/SettingsPage.php:801
+msgid "WooCommerce logout custom URL"
+msgstr "آدرس سفارشی خروج ووکامرس"
+
+#: src/Presentation/Admin/SettingsPage.php:803
+msgid "WordPress native logout"
+msgstr "خروج بومی وردپرس"
+
+#: src/Presentation/Admin/SettingsPage.php:807
+msgid ""
+"Destination used by the native WordPress logout flow. Disable preserves "
+"WordPress default behavior."
+msgstr ""
+"مقصد مورد استفاده در جریان خروج پیش‌فرض وردپرس. غیرفعال کردن رفتار پیش‌فرض وردپرس "
+"را حفظ می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:810
+msgid "WordPress logout page"
+msgstr "صفحه خروج وردپرس"
+
+#: src/Presentation/Admin/SettingsPage.php:813
+msgid "WordPress logout custom URL"
+msgstr "آدرس سفارشی خروج وردپرس"
+
+#: src/Presentation/Admin/SettingsPage.php:816
+msgid "Redirect logged-in visitors from the login page"
+msgstr "انتقال کاربران واردشده از صفحه ورود"
+
+#: src/Presentation/Admin/SettingsPage.php:816
+msgid "Redirects only affect the frontend."
+msgstr "ریدایرکت ها فقط در فرانت اند عمل میکند."
+
+#: src/Presentation/Admin/SettingsPage.php:817
+msgid "Authentication page"
+msgstr "صفحه احراز هویت"
+
+#: src/Presentation/Admin/SettingsPage.php:827
+msgid "Select the page that contains the login or registration element."
+msgstr "صفحه دارای المنت ورود یا ثبت‌نام را انتخاب کنید."
+
+#: src/Presentation/Admin/SettingsPage.php:833
+msgid "Choose where an already signed-in visitor should go."
+msgstr "انتخاب کنید که بازدیدکننده از قبل واردشده به کجا برود."
+
+#: src/Presentation/Admin/SettingsPage.php:839
+msgid "Do nothing"
+msgstr "کاری انجام ندهد"
+
+#: src/Presentation/Admin/SettingsPage.php:869
+msgid "Independent identity provider; registration stays phone-only."
+msgstr "ارائه دهنده هویت مستقل؛ ثبت نام فقط از طریق شماره همراه انجام می‌شود."
+
+#: src/Presentation/Admin/SettingsPage.php:870
+msgid "Enable Google sign-in"
+msgstr "فعال‌سازی ورود با گوگل"
+
+#: src/Presentation/Admin/SettingsPage.php:871
+msgid "Google Client ID"
+msgstr "شناسه Client گوگل"
+
+#: src/Presentation/Admin/SettingsPage.php:879
+msgid "No provider"
+msgstr "بدون ارائه‌دهنده"
+
+#: src/Presentation/Admin/SettingsPage.php:879
+#: src/Presentation/Rest/ProviderTestController.php:45
+msgid "No SMS provider is selected."
+msgstr "هیچ ارائه‌دهنده SMS انتخاب نشده است."
+
+#: src/Presentation/Admin/SettingsPage.php:880
+msgid "Kavenegar"
+msgstr "کاوه‌نگار"
+
+#: src/Presentation/Admin/SettingsPage.php:880
+msgid "Pattern-based verification lookup."
+msgstr "جستجوی تأیید مبتنی بر الگو."
+
+#: src/Presentation/Admin/SettingsPage.php:881
+msgid "Melipayamak"
+msgstr "ملی‌پیامک"
+
+#: src/Presentation/Admin/SettingsPage.php:881
+#: src/Presentation/Admin/SettingsPage.php:882
+#: src/Presentation/Admin/SettingsPage.php:883
+msgid "Pattern-based verification delivery."
+msgstr "ارسال تأیید مبتنی بر الگو."
+
+#: src/Presentation/Admin/SettingsPage.php:882
+msgid "Msgway"
+msgstr "مسجوی"
+
+#: src/Presentation/Admin/SettingsPage.php:883
+msgid "SMS.ir"
+msgstr "اس‌ام‌اس.آی‌آر"
+
+#: src/Presentation/Admin/SettingsPage.php:884
+msgid "IPPanel"
+msgstr "آی‌پی‌پنل"
+
+#: src/Presentation/Admin/SettingsPage.php:884
+msgid "API key pattern delivery."
+msgstr "ارسال الگو با کلید API."
+
+#: src/Presentation/Admin/SettingsPage.php:885
+msgid "IPPanel username/password"
+msgstr "آی‌پی‌پنل نام کاربری/رمز عبور"
+
+#: src/Presentation/Admin/SettingsPage.php:885
+msgid "Username/password delivery."
+msgstr "ارسال با نام کاربری/رمز عبور."
+
+#: src/Presentation/Admin/SettingsPage.php:887
+msgid "SMS providers"
+msgstr "ارائه‌دهندگان پیامک"
+
+#: src/Presentation/Admin/SettingsPage.php:887
+msgid "One active provider with its own credentials."
+msgstr "یک ارائه دهنده فعال با اعتبارنامه های خاص خود."
+
+#: src/Presentation/Admin/SettingsPage.php:897
+#: src/Presentation/Admin/SettingsPage.php:906
+#: src/Presentation/Admin/SettingsPage.php:910
+#: src/Presentation/Admin/SettingsPage.php:915
+msgid "API Key"
+msgstr "کلید API"
+
+#: src/Presentation/Admin/SettingsPage.php:898
+msgid "Template name"
+msgstr "نام قالب"
+
+#: src/Presentation/Admin/SettingsPage.php:903
+msgid "Template ID / body ID"
+msgstr "شناسه قالب / شناسه بدنه"
+
+#: src/Presentation/Admin/SettingsPage.php:907
+#: src/Presentation/Admin/SettingsPage.php:911
+msgid "Template ID"
+msgstr "شناسه قالب"
+
+#: src/Presentation/Admin/SettingsPage.php:912
+#: src/Presentation/Admin/SettingsPage.php:918
+msgid "Pattern parameter name"
+msgstr "نام پارامتر الگو"
+
+#: src/Presentation/Admin/SettingsPage.php:916
+#: src/Presentation/Admin/SettingsPage.php:924
+msgid "Pattern code"
+msgstr "کد الگو"
+
+#: src/Presentation/Admin/SettingsPage.php:917
+msgid "Originator"
+msgstr "فرستنده"
+
+#: src/Presentation/Admin/SettingsPage.php:923
+msgid "From"
+msgstr "از"
+
+#: src/Presentation/Admin/SettingsPage.php:925
+msgid "Pattern variable name"
+msgstr "نام متغیر الگو"
+
+#: src/Presentation/Admin/SettingsPage.php:931
+msgid "SMS delivery is not configured."
+msgstr "ارسال پیامک پیکربندی نشده است."
+
+#: src/Presentation/Admin/SettingsPage.php:931
+msgid "Select a provider to enable SMS OTP delivery."
+msgstr "برای فعال کردن ارسال پیامک OTP، یک ارائه دهنده را انتخاب کنید."
+
+#: src/Presentation/Admin/SettingsPage.php:948
+msgid "Leave blank to keep the saved secret."
+msgstr "برای حفظ مقدار ذخیره‌شده خالی بگذارید."
+
+#: src/Presentation/Admin/SettingsPage.php:955
+msgid "Provider test"
+msgstr "آزمایش ارائه‌دهنده"
+
+#: src/Presentation/Admin/SettingsPage.php:955
+msgid "Sends a real OTP through the selected provider."
+msgstr "یک OTP واقعی را از طریق ارائه دهنده انتخاب شده ارسال می کند."
+
+#: src/Presentation/Admin/SettingsPage.php:955
+msgid "Test mobile number"
+msgstr "شماره همراه آزمایشی"
+
+#: src/Presentation/Admin/SettingsPage.php:955
+#: src/Presentation/Admin/SettingsPage.php:978
+msgid "Send test OTP"
+msgstr "ارسال OTP آزمایشی"
+
+#: src/Presentation/Admin/SettingsPage.php:958
+msgid "HTTP request timeout (seconds)"
+msgstr "مهلت درخواست HTTP (ثانیه)"
+
+#: src/Presentation/Admin/SettingsPage.php:962
+msgid "Timeout for provider HTTP requests."
+msgstr "مهلت درخواست‌های HTTP ارائه‌دهنده به پایان رسیده است."
+
+#: src/Presentation/Admin/SettingsPage.php:971
+msgid "Email provider"
+msgstr "ارائه‌دهنده ایمیل"
+
+#: src/Presentation/Admin/SettingsPage.php:971
+msgid "Built-in WordPress mail delivery and the OTP email template."
+msgstr "سیستم ارسال ایمیل داخلی وردپرس و قالب ایمیل OTP."
+
+#: src/Presentation/Admin/SettingsPage.php:973
+msgid "Sender name"
+msgstr "نام فرستنده"
+
+#: src/Presentation/Admin/SettingsPage.php:973
+msgid "Defaults to the site name."
+msgstr "به طور پیشفرض از نام سایت استفاده میکند."
+
+#: src/Presentation/Admin/SettingsPage.php:974
+msgid "Sender address"
+msgstr "آدرس فرستنده"
+
+#: src/Presentation/Admin/SettingsPage.php:974
+msgid "Defaults to noreply@{site_domain}."
+msgstr "به طور پیش‌فرض روی noreply@{site_domain} تنظیم شده است."
+
+#: src/Presentation/Admin/SettingsPage.php:976
+msgid "Subject"
+msgstr "موضوع"
+
+#: src/Presentation/Admin/SettingsPage.php:976
+msgid ""
+"Placeholders: {otp}, {expiration}, {site_name}, {email}. Empty uses the default."
+msgstr ""
+"متغیرها: {otp}، {expiration}، {site_name}، {email}. مقدار خالی یعنی استفاده از "
+"پیش‌فرض."
+
+#: src/Presentation/Admin/SettingsPage.php:977
+msgid "Body"
+msgstr "بدنه"
+
+#: src/Presentation/Admin/SettingsPage.php:977
+msgid ""
+"Placeholders: {otp}, {expiration}, {site_name}, {email}. Empty body uses the "
+"generated default template."
+msgstr ""
+"جای‌گزین‌ها: {otp}, {expiration}, {site_name}, {email}. متن خالی از قالب پیش‌فرض "
+"تولیدشده استفاده می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:978
+msgid "Email provider test"
+msgstr "آزمایش ارائه‌دهنده ایمیل"
+
+#: src/Presentation/Admin/SettingsPage.php:978
+msgid "Sends a real OTP through WordPress mail to the address you enter."
+msgstr ""
+"یک رمز یک‌بار مصرف واقعی را از طریق ایمیل وردپرس به آدرسی که وارد می‌کنید ارسال "
+"می‌کند."
+
+#: src/Presentation/Admin/SettingsPage.php:978
+msgid "Test email address"
+msgstr "آدرس ایمیل را آزمایش کنید"
+
+#: src/Presentation/Admin/UserProfile.php:36
+msgid "Peyvast Mobile Number"
+msgstr "شماره همراه پیوست"
+
+#: src/Presentation/Admin/UserProfile.php:38
+msgid ""
+"Enter a supported mobile format. It is normalized and stored as country-code "
+"digits without a plus sign."
+msgstr ""
+"یک قالب پشتیبانی‌شده برای موبایل وارد کنید. این قالب نرمال‌سازی شده و به صورت "
+"ارقام کد کشور و بدون علامت جمع ذخیره می‌شود."
+
+#: src/Presentation/Admin/UserProfile.php:53
+#: src/Presentation/Admin/UserProfile.php:100
+msgid ""
+"The Peyvast mobile number could not be verified. Please reload the profile and "
+"try again."
+msgstr ""
+"شماره تلفن همراه پیوست تأیید نشد. لطفاً پروفایل را دوباره بارگذاری کرده و دوباره "
+"تلاش کنید."
+
+#: src/Presentation/Admin/UserProfile.php:65
+msgid ""
+"The Peyvast mobile number format is invalid. Use a supported national or "
+"international mobile format."
+msgstr ""
+"فرمت شماره موبایل Pevast نامعتبر است. از یک فرمت موبایل ملی یا بین‌المللی "
+"پشتیبانی‌شده استفاده کنید."
+
+#: src/Presentation/Admin/UserProfile.php:72
+#: src/Presentation/Admin/UserProfile.php:114
+msgid "The Peyvast mobile number is currently being updated. Please try again."
+msgstr "شماره تلفن همراه پویست در حال به‌روزرسانی است. لطفاً دوباره تلاش کنید."
+
+#: src/Presentation/Admin/UserProfile.php:79
+msgid ""
+"This mobile number is already stored as another user’s Peyvast mobile number."
+msgstr ""
+"این شماره موبایل از قبل به عنوان شماره موبایل کاربر دیگری در Peyvast ذخیره شده "
+"است."
+
+#: src/Presentation/Admin/UserProfile.php:81
+msgid "This mobile number is already used as another user’s WordPress username."
+msgstr ""
+"این شماره موبایل قبلاً به عنوان نام کاربری وردپرس کاربر دیگری استفاده شده است."
+
+#: src/Presentation/Admin/UserProfile.php:106
+msgid "The Peyvast mobile number format is invalid."
+msgstr "فرمت شماره تلفن همراه پِیوست نامعتبر است."
+
+#: src/Presentation/Admin/UserProfile.php:122
+msgid ""
+"The Peyvast mobile number is already assigned or conflicts with a WordPress "
+"username."
+msgstr ""
+"شماره تلفن همراه پیوست قبلاً اختصاص یافته است یا با نام کاربری وردپرس تداخل دارد."
+
+#: src/Presentation/Admin/UserProfile.php:135
+msgid ""
+"The Peyvast mobile number could not be removed safely. No phone change was "
+"saved."
+msgstr "شماره تلفن همراه پِیوست به‌طور ایمن حذف نشد. هیچ تغییر تلفنی ذخیره نشد."
+
+#: src/Presentation/Admin/UserProfile.php:156
+msgid ""
+"The Peyvast mobile number could not be saved safely. No phone change was "
+"committed."
+msgstr ""
+"شماره تلفن همراه پیوست نتوانست به‌طور ایمن ذخیره شود. هیچ تغییری در تلفن اعمال "
+"نشد."
+
+#: src/Presentation/Admin/UserProfile.php:175
+msgid ""
+"The Peyvast phone identity index is still being prepared. The phone was not "
+"changed. Please try again shortly."
+msgstr ""
+"شاخص هویت تلفن پویست هنوز در حال آماده‌سازی است. تلفن تغییر نکرده است. لطفاً کمی "
+"بعد دوباره تلاش کنید."
+
+#: src/Presentation/Admin/UserProfile.php:178
+msgid ""
+"The Peyvast phone identity background service is unavailable. The phone was not "
+"changed. Please try again shortly."
+msgstr ""
+"سرویس پس‌زمینه هویت تلفن پیوست در دسترس نیست. تلفن تغییر نکرده است. لطفاً کمی بعد "
+"دوباره تلاش کنید."
+
+#: src/Presentation/Admin/UserProfile.php:180
+msgid ""
+"The Peyvast phone identity index is unavailable because its database schema is "
+"missing or invalid. The phone was not changed."
+msgstr ""
+"شاخص هویت تلفن پیوست در دسترس نیست زیرا طرحواره پایگاه داده آن گم شده یا "
+"نامعتبر است. تلفن تغییر نکرده است."
+
+#: src/Presentation/Frontend/Assets.php:56
+msgid "Saving changes…"
+msgstr "در حال ذخیره تغییرات…"
+
+#: src/Presentation/Frontend/Assets.php:58
+msgid "Unsaved changes"
+msgstr "تغییرات ذخیره‌نشده"
+
+#: src/Presentation/Frontend/Assets.php:59
+msgid "Changes saved."
+msgstr "تغییرات ذخیره شد."
+
+#: src/Presentation/Frontend/Assets.php:60
+msgid "The settings could not be saved. Please try again."
+msgstr "تنظیمات ذخیره نشد. لطفاً دوباره تلاش کنید."
+
+#: src/Presentation/Frontend/Assets.php:61
+#: src/Presentation/Rest/AuthController.php:111
+#: src/Presentation/Rest/ProviderTestController.php:37
+msgid "Please enter a valid Iranian mobile number."
+msgstr "لطفاً شماره همراه معتبر ایران وارد کنید."
+
+#: src/Presentation/Frontend/Assets.php:62
+msgid "Starting migration…"
+msgstr "آغاز مهاجرت…"
+
+#: src/Presentation/Frontend/Assets.php:63
+msgid "Mobile number migration failed. Please review the logs."
+msgstr "مهاجرت شماره تلفن همراه ناموفق بود. لطفاً لاگ‌ها را بررسی کنید."
+
+#: src/Presentation/Frontend/Assets.php:64
+msgid "Another Batch Migration is already running. Please wait for it to finish."
+msgstr "یک مهاجرت دسته‌ای دیگر در حال اجراست. لطفاً منتظر بمانید تا به پایان برسد."
+
+#: src/Presentation/Frontend/Assets.php:66
+msgid ""
+"The configured phone source changed or is incomplete. Review the source before "
+"starting Batch Migration."
+msgstr ""
+"منبع شماره تلفن پیکربندی‌شده تغییر کرده یا ناقص است. پیش از شروع مهاجرت دسته‌ای "
+"منبع را بررسی کنید."
+
+#: src/Presentation/Frontend/Assets.php:68
+msgid "Batch Migration completed."
+msgstr "مهاجرت دسته‌ای تکمیل شد."
+
+#: src/Presentation/Frontend/Assets.php:69
+msgid "The migration notice could not be closed. Please try again."
+msgstr "اعلان مهاجرت نتوانست بسته شود، لطفا دوباره تلاش کنید."
+
+#: src/Presentation/Frontend/Assets.php:70
+msgid ""
+"Confirm that you have a current database backup before starting this background "
+"migration. Usernames are read as source data only and are never changed."
+msgstr ""
+"پیش از شروع این مهاجرت پس‌زمینه، از وجود نسخه پشتیبان به‌روز از پایگاه داده مطمئن "
+"شوید. نام‌های کاربری فقط به‌عنوان منبع خوانده می‌شوند و هرگز تغییر نمی‌کنند."
+
+#: src/Presentation/Frontend/Assets.php:71
+msgid "Select an existing user meta key or enter a manual key first."
+msgstr ""
+"ابتدا یک کلید متای موجود را انتخاب کنید یا کلید متا را به‌صورت دستی وارد کنید."
+
+#: src/Presentation/Frontend/Assets.php:72
+msgid "Checking sample values…"
+msgstr "در حال بررسی مقادیر نمونه…"
+
+#: src/Presentation/Frontend/Assets.php:73
+msgid "User meta validation failed."
+msgstr "اعتبارسنجی متای کاربر ناموفق بود."
+
+#: src/Presentation/Frontend/Assets.php:74
+#, php-format
+msgid "Valid — %1$d/%2$d values recognized as valid phone numbers."
+msgstr "معتبر — %1$d از %2$d مقدار به‌عنوان شماره تلفن معتبر شناسایی شد."
+
+#: src/Presentation/Frontend/Assets.php:75
+#, php-format
+msgid "Partial — %1$d/%2$d values were recognized as valid phone numbers."
+msgstr "نسبی — %1$d از %2$d مقدار به‌عنوان شماره تلفن معتبر شناسایی شد."
+
+#: src/Presentation/Frontend/Assets.php:76
+#, php-format
+msgid "Invalid — %3$d/%2$d values could not be recognized as valid phone numbers."
+msgstr "نامعتبر — %3$d از %2$d مقدار به‌عنوان شماره تلفن معتبر شناسایی نشد."
+
+#: src/Presentation/Frontend/Assets.php:77
+msgid ""
+"Clear all active security blocks? Blocks and rate-limit counters will be reset. "
+"This cannot be undone."
+msgstr ""
+"همه مسدودسازی‌های امنیتی فعال پاک شوند؟ شمارنده‌های محدودیت درخواست حفظ می‌شوند و "
+"مرحله محافظت تدریجی بازنشانی می‌شود. این عمل قابل بازگشت نیست."
+
+#: src/Presentation/Frontend/Assets.php:78
+msgid "Clearing security blocks…"
+msgstr "در حال پاک کردن مسدودسازی‌های امنیتی…"
+
+#: src/Presentation/Frontend/Assets.php:79
+#: src/Presentation/Rest/AdminSettingsController.php:34
+msgid "All security blocks and rate-limit counters were cleared."
+msgstr "همه مسدودسازی‌های امنیتی و شمارنده‌های محدودیت درخواست پاک شدند."
+
+#: src/Presentation/Frontend/Assets.php:80
+msgid "Security blocks could not be cleared. Please try again."
+msgstr "مسدودسازی‌های امنیتی پاک نشدند. لطفاً دوباره تلاش کنید."
+
+#: src/Presentation/Frontend/Assets.php:81
+msgid "Request timeline"
+msgstr "خط زمانی درخواست"
+
+#: src/Presentation/Frontend/Assets.php:82
+msgid "Full request context"
+msgstr "زمینه کامل درخواست"
+
+#: src/Presentation/Frontend/Assets.php:84
+msgid "ID"
+msgstr "شناسه"
+
+#: src/Presentation/Frontend/Assets.php:90
+msgid "User"
+msgstr "کاربر"
+
+#: src/Presentation/Frontend/Assets.php:91
+msgid "Request ID"
+msgstr "شناسه درخواست"
+
+#: src/Presentation/Frontend/AuthState.php:204
+msgid "Sign in or create an account"
+msgstr "ورود یا ایجاد حساب کاربری"
+
+#: src/Presentation/Frontend/AuthState.php:205
+msgid "Sign in with password"
+msgstr "ورود با رمز عبور"
+
+#: src/Presentation/Frontend/AuthState.php:206
+msgid "Enter the verification code"
+msgstr "کد تأیید را وارد کنید"
+
+#: src/Presentation/Frontend/AuthState.php:207
+msgid "Complete your account"
+msgstr "تکمیل حساب کاربری"
+
+#: src/Presentation/Frontend/AuthState.php:208
+msgid "Reset your password"
+msgstr "بازیابی رمز عبور"
+
+#: src/Presentation/Frontend/AuthState.php:209
+msgid "Set a new password"
+msgstr "تنظیم رمز عبور جدید"
+
+#: src/Presentation/Frontend/AuthState.php:248
+msgid "Enter your first name"
+msgstr "نام خود را وارد کنید"
+
+#: src/Presentation/Frontend/AuthState.php:249
+msgid "Enter your last name"
+msgstr "نام خانوادگی خود را وارد کنید"
+
+#: src/Presentation/Frontend/AuthState.php:251
+msgid "Enter your password"
+msgstr "رمز عبور خود را وارد کنید"
+
+#: src/Presentation/Frontend/AuthState.php:254
+msgid "Enter a new password"
+msgstr "رمز عبور جدید را وارد کنید"
+
+#: src/Presentation/Frontend/AuthState.php:293
+msgid "A verification code was sent to {identifier}"
+msgstr "کد تایید به {identifier} ارسال شد."
+
+#: src/Presentation/Frontend/AuthState.php:294
+msgid "Your verification code has been verified"
+msgstr "کد تأیید با موفقیت ثبت شد"
+
+#: src/Presentation/Frontend/AuthState.php:295
+msgid "Complete the required account information to finish registration"
+msgstr "برای تکمیل ثبت نام، اطلاعات حساب مورد نیاز را تکمیل کنید"
+
+#: src/Presentation/Frontend/AuthState.php:296
+msgid "Please do not leave this field empty"
+msgstr "لطفاً این قسمت را خالی نگذارید"
+
+#: src/Presentation/Frontend/AuthState.php:297
+msgid "Please enter a valid mobile number"
+msgstr "لطفاً شماره همراه معتبر وارد کنید"
+
+#: src/Presentation/Frontend/AuthState.php:298
+msgid "Please enter a valid mobile number or email"
+msgstr "لطفاً شماره همراه یا ایمیل معتبر وارد کنید"
+
+#: src/Presentation/Frontend/AuthState.php:299
+msgid "Please enter a valid mobile number, email, or username"
+msgstr "یک شماره همراه، نشانی ایمیل یا نام کاربری معتبر وارد کنید"
+
+#: src/Presentation/Frontend/AuthState.php:300
+msgid "The mobile number or email is incorrect"
+msgstr "شماره همراه یا ایمیل نادرست است"
+
+#: src/Presentation/Frontend/AuthState.php:301
+msgid "Please enter a valid email"
+msgstr "لطفاً ایمیل معتبر وارد کنید"
+
+#: src/Presentation/Frontend/AuthState.php:302
+msgid "Please choose a password with at least 8 characters"
+msgstr "لطفاً رمزی با حداقل ۸ کاراکتر انتخاب کنید"
+
+#: src/Presentation/Frontend/AuthState.php:303
+msgid "A server error occurred. Please try again in a few minutes"
+msgstr "خطایی در سمت سرور رخ داد. لطفاً چند دقیقه دیگر دوباره تلاش کنید"
+
+#: src/Presentation/Frontend/AuthState.php:304
+msgid "The verification code could not be sent. Please try again in a few minutes"
+msgstr "کد تایید ارسال نشد. لطفا چند دقیقه دیگر دوباره امتحان کنید"
+
+#: src/Presentation/Frontend/AuthState.php:305
+msgid "The number of requests exceeds the allowed limit"
+msgstr "تعداد درخواست‌ها از حد مجاز بیشتر است"
+
+#: src/Presentation/Frontend/AuthState.php:306
+msgid "The verification code is incorrect"
+msgstr "کد تایید اشتباه است"
+
+#: src/Presentation/Frontend/AuthState.php:307
+msgid "Verification code must be {otp_length} digits"
+msgstr "کد تایید باید شامل {otp_length} رقم باشد"
+
+#: src/Presentation/Frontend/AuthState.php:308
+msgid ""
+"Your verification session is no longer available. Please request a new code"
+msgstr "جلسه تأیید شما دیگر در دسترس نیست. لطفاً کد جدید درخواست کنید"
+
+#: src/Presentation/Frontend/AuthState.php:309
+msgid "You have signed in successfully"
+msgstr "با موفقیت وارد شدید"
+
+#: src/Presentation/Frontend/AuthState.php:310
+msgid "Your account was created successfully"
+msgstr "ثبت‌نام شما با موفقیت انجام شد"
+
+#: src/Presentation/Frontend/AuthState.php:311
+msgid "Your password was reset successfully"
+msgstr "رمز عبور شما با موفقیت تغییر کرد"
+
+#: src/Presentation/Frontend/AuthState.php:320
+msgid "Please sign in before viewing your order receipt."
+msgstr "برای مشاهده رسید سفارش، ابتدا وارد حساب کاربری خود شوید."
+
+#: src/Presentation/Frontend/AuthState.php:399
+#: src/Presentation/Privacy/InformationPresentation.php:49
+msgid "and"
+msgstr "و"
+
+#: src/Presentation/Frontend/AuthState.php:401
+msgid "Sending"
+msgstr "در حال ارسال"
+
+#: src/Presentation/Frontend/AuthState.php:402
+#: src/Presentation/Privacy/InformationPresentation.php:37
+msgid "email"
+msgstr "ایمیل"
+
+#: src/Presentation/Frontend/AuthState.php:403
+msgid "mobile"
+msgstr "شماره همراه"
+
+#: src/Presentation/Privacy/InformationPresentation.php:37
+msgid "phone"
+msgstr "شماره همراه"
+
+#: src/Presentation/Rest/AdminSettingsController.php:18
+msgid "No settings were submitted."
+msgstr "هیچ تنظیماتی ارسال نشده است."
+
+#: src/Presentation/Rest/AdminSettingsController.php:24
+msgid "Settings saved successfully."
+msgstr "تنظیمات با موفقیت ذخیره شد."
+
+#: src/Presentation/Rest/AuthController.php:45
+msgid "Authentication is currently unavailable. Please try again later."
+msgstr "احراز هویت در حال حاضر در دسترس نیست. لطفاً بعداً دوباره تلاش کنید."
+
+#: src/Presentation/Rest/AuthController.php:141
+msgid "Please enter the complete verification code."
+msgstr "لطفاً کد تأیید کامل را وارد کنید."
+
+#: src/Presentation/Rest/ProviderTestController.php:31
+msgid "Email provider test failed. Check Operational Logs for diagnostic details."
+msgstr "تست ایمیل ناموفق بود. جزئیات تشخیصی را در لاگ‌های عملیاتی بررسی کنید."
+
+#: src/Presentation/Rest/ProviderTestController.php:33
+msgid "Test email sent successfully."
+msgstr "تست ایمیل با موفقیت ارسال شد."
+
+#: src/Presentation/Rest/ProviderTestController.php:62
+msgid "Provider test failed. Check Operational Logs for diagnostic details."
+msgstr ""
+"آزمایش ارائه‌دهنده ناموفق بود. جزئیات تشخیصی را در لاگ‌های عملیاتی بررسی کنید."
+
+#: src/Presentation/Rest/ProviderTestController.php:64
+msgid "Test message sent successfully."
+msgstr "پیام آزمایشی با موفقیت ارسال شد."
+
+#: src/Presentation/Rest/RestResponse.php:122
+#: src/Presentation/Rest/RestResponse.php:127
+#: src/Presentation/Rest/RestRouter.php:28 src/Presentation/Rest/RestRouter.php:34
+msgid "Invalid request."
+msgstr "درخواست نامعتبر."
+
+#: src/Presentation/Rest/RestRouter.php:21
+msgid "Sorry, you are not allowed to do that."
+msgstr "متاسفم، شما اجازه انجام این کار را ندارید."
+
+#~ msgid "Fallback options"
+#~ msgstr "تنظیمات مسیر جایگزین"
+
+#~ msgid "The account could not be finalized. Please try again shortly."
+#~ msgstr "ایجاد حساب کاربری امکان‌پذیر نیست. لطفاً کمی بعد دوباره امتحان کنید."
+
+#, php-format
+#~ msgid "Peyvast Auth requires PHP %1$s or newer and WordPress %2$s or newer."
+#~ msgstr ""
+#~ "ورود به سیستم Peyvast Auth به PHP %1$s یا جدیدتر و WordPress %2$s یا جدیدتر "
+#~ "نیاز دارد."
+
+#, php-format
+#~ msgid "%1$s: %2$s"
+#~ msgstr "%1$s: %2$s"
+
+#~ msgid "User meta"
+#~ msgstr "متای کاربر"
+
+#~ msgid "User login"
+#~ msgstr "نام کاربری"
+
+#~ msgid "Email delivery"
+#~ msgstr "ارسال ایمیل"
+
+#~ msgid "Empty fields use the generated defaults."
+#~ msgstr "فیلدهای خالی از مقادیر پیش‌فرض تولید شده استفاده می‌کنند."
+
+#~ msgid "Empty body uses the generated RTL template."
+#~ msgstr "متن خالی یعنی استفاده از قالب راست‌به‌چپ پیش‌فرض."
+
+#~ msgid "Delivery method"
+#~ msgstr "روش ارسال"
+
+#~ msgid "Pattern 1"
+#~ msgstr "الگوی ۱"
+
+#~ msgid "Pattern 2"
+#~ msgstr "الگوی ۲"
+
+#~ msgid "Pattern 3"
+#~ msgstr "الگوی ۳"
+
+#~ msgid "Pattern 4"
+#~ msgstr "الگوی ۴"
+
+#~ msgid ""
+#~ "No account uses this email address. Please sign in with an existing account "
+#~ "or register with your mobile number."
+#~ msgstr ""
+#~ "هیچ حسابی از این آدرس ایمیل استفاده نمی‌کند. لطفاً با یک حساب کاربری موجود "
+#~ "وارد شوید یا با شماره موبایل خود ثبت‌نام کنید."
+
+#~ msgid "Allow OTP login with phone"
+#~ msgstr "اجازه ورود OTP با شماره همراه"
+
+#~ msgid "A verification code was sent to {identifier} and {email}"
+#~ msgstr "کد تایید به {identifier} و {email} ارسال شد."
+
+#~ msgid "OTP sent"
+#~ msgstr "ارسال OTP"
+
+#~ msgid ""
+#~ "Supported placeholders: {identifier}, {channel}, {site_name}, {otp_length}, "
+#~ "{valid_minutes}. HTML is allowed and is sanitized before output."
+#~ msgstr ""
+#~ "Placeholderهای پشتیبانی‌شده: {identifier}، {channel}، {site_name}، "
+#~ "{otp_length} و {valid_minutes}. انجام HTML مجاز بوده و پیش از نمایش پالایش "
+#~ "می‌شود."
+
+#~ msgid "Error focused label typography"
+#~ msgstr "تایپوگرافی برچسب متمرکز خطا"
+
+#~ msgid "Supported variable: {method}."
+#~ msgstr "متغیر پشتیبانی‌شده: {method}."
+
+#~ msgid ""
+#~ "Supported variable: {method}. HTML is allowed and is sanitized before "
+#~ "output. Shown only when the description toggle is enabled."
+#~ msgstr ""
+#~ "متغیر پشتیبانی‌شده: {method}. انجام HTML مجاز بوده و پیش از نمایش پالایش "
+#~ "می‌شود. فقط زمانی که نمایش توضیحات فعال باشد نمایش داده می‌شود."
+
+#~ msgid ""
+#~ "Placeholders: {identifier} (the destination the code was sent to, from the "
+#~ "server response), {channel} (accepted delivery channels from the server "
+#~ "response), {site_name}, {otp_length} and {valid_minutes} (data from the "
+#~ "server), {seconds} (resend countdown), {method} (the stage sign-in method). "
+#~ "Static variables are resolved by the server; {identifier} and {channel} are "
+#~ "resolved from the server response."
+#~ msgstr ""
+#~ "جای‌نگهدارها: {identifier} (مقصدی که کد به آن ارسال شده، از پاسخ سرور)، "
+#~ "{channel} (کانال‌های پذیرفته‌شده ارسال از پاسخ سرور)، {site_name}، "
+#~ "{otp_length} و {valid_minutes} (داده‌های سرور)، {seconds} (شمارش معکوس ارسال "
+#~ "مجدد)، {method} (روش ورود مرحله). متغیرهای ایستا توسط سرور جایگزین می‌شوند؛ "
+#~ "{identifier} و {channel} از پاسخ سرور دریافت می‌شوند."
+
+#~ msgid "Frontend only; builder, editor and REST are never redirected."
+#~ msgstr "فقط بخش فرانت‌اند؛ سازنده، ویرایشگر و REST هرگز ریدایرکت نمی‌شوند."
+
+#~ msgid "The sign-in details are not valid."
+#~ msgstr "اطلاعات ورود صحیح نیست."
+
+#~ msgid "Allow reset with user login"
+#~ msgstr "اجازه بازیابی رمز با نام کاربری"
+
+#~ msgid "Normalize Persian, Arabic and Devanagari digits"
+#~ msgstr "نرمال‌سازی ارقام فارسی، عربی و دیواناگری"
+
+#~ msgid ""
+#~ "This identity invariant is always enabled so equivalent mobile "
+#~ "representations resolve to the same account."
+#~ msgstr ""
+#~ "این ثابت هویت همیشه فعال است، بنابراین نمایش‌های معادل موبایل به یک حساب "
+#~ "کاربری یکسان ختم می‌شوند."
+
+#~ msgid "A verification code was sent to mobile number {identifier}."
+#~ msgstr "کد تایید به شماره {identifier} ارسال شد."
+
+#, fuzzy
+#~| msgid "OTP stage"
+#~ msgid "Phone stage"
+#~ msgstr "مرحله OTP"
+
+#~ msgid "Password stage"
+#~ msgstr "مرحله ورود با رمز عبور"
+
+#~ msgid "OTP stage"
+#~ msgstr "مرحله OTP"
+
+#~ msgid "Registration stage"
+#~ msgstr "مرحله ثبت‌نام"
+
+#~ msgid "Password reset request stage"
+#~ msgstr "مرحله درخواست بازیابی رمز عبور"
+
+#~ msgid "New password stage"
+#~ msgstr "مرحله رمز عبور جدید"
+
+#~ msgid "Identifier"
+#~ msgstr "شناسه ورود"
+
+#~ msgid "Password sign-in identifier"
+#~ msgstr "شناسه ورود با رمز عبور"
+
+#~ msgid "Password reset identifier"
+#~ msgstr "شناسه بازیابی رمز عبور"
+
+#~ msgid "Verify"
+#~ msgstr "تأیید و ادامه"
+
+#~ msgid "Register"
+#~ msgstr "ثبت‌نام"
+
+#~ msgid "OTP sent to mobile"
+#~ msgstr "OTP ارسال‌شده به شماره همراه"
+
+#~ msgid "OTP sent to mobile and email"
+#~ msgstr "OTP ارسال‌شده به شماره همراه و ایمیل"
+
+#~ msgid "OTP sent to email"
+#~ msgstr "OTP ارسال‌شده به ایمیل"
+
+#, fuzzy
+#~| msgid "Registration fields"
+#~ msgid "Registration information"
+#~ msgstr "فیلدهای ثبت‌نام"
+
+#~ msgid "Success"
+#~ msgstr "موفقیت"
+
+#~ msgid "Change SVG icon"
+#~ msgstr "تغییر آیکن SVG"
+
+#~ msgid "Select SVG icon"
+#~ msgstr "انتخاب آیکن SVG"
+
+#~ msgid "SVG selected"
+#~ msgstr "آیکن SVG انتخاب‌شده"
+
+#~ msgid "Show description"
+#~ msgstr "نمایش توضیحات"
+
+#~ msgid ""
+#~ "Supported placeholders: {identifier}, {identifiers}, {email}, {site_name}, "
+#~ "{otp_length}, {channel}, {channels}, {valid_minutes}."
+#~ msgstr ""
+#~ "Placeholderهای پشتیبانی‌شده: {identifier}، {identifiers}، {email}، "
+#~ "{site_name}، {otp_length}، {channel}، {channels}، {valid_minutes}."
+
+#~ msgid "Margin"
+#~ msgstr "حاشیه"
+
+#~ msgid "Label margin"
+#~ msgstr "حاشیه برچسب"
+
+#~ msgid "Input text color"
+#~ msgstr "رنگ متن ورودی"
+
+#~ msgid "Input height"
+#~ msgstr "ارتفاع فیلد"
+
+#~ msgid "Input padding"
+#~ msgstr "فاصله داخلی فیلد"
+
+#~ msgid "Input background"
+#~ msgstr "پس‌زمینه ورودی"
+
+#~ msgid "Input border"
+#~ msgstr "حاشیه ورودی"
+
+#~ msgid "Inline error margin"
+#~ msgstr "حاشیه خطای درون‌خطی"
+
+#~ msgid "Inline error padding"
+#~ msgstr "فاصله داخلی خطای درون‌خطی"
+
+#~ msgid "Inline error border"
+#~ msgstr "حاشیه خطای درون‌خطی"
+
+#~ msgid "Error input background"
+#~ msgstr "پس‌زمینه فیلد در حالت خطا"
+
+#~ msgid "Error input outline"
+#~ msgstr "خط دور فیلد در حالت خطا"
+
+#~ msgid "Font weight"
+#~ msgstr "ضخامت فونت"
+
+#~ msgid "Secondary actions"
+#~ msgstr "اقدامات ثانویه"
+
+#~ msgid "Password sign-in link text"
+#~ msgstr "متن لینک ورود با رمز عبور"
+
+#~ msgid "Password reset link text"
+#~ msgstr "متن لینک بازیابی رمز عبور"
+
+#~ msgid "Resend timer text"
+#~ msgstr "متن شمارنده ارسال مجدد"
+
+#~ msgid "Supported placeholder: {seconds}."
+#~ msgstr "Placeholder پشتیبانی‌شده: {seconds}."
+
+#~ msgid "Gap"
+#~ msgstr "فاصله"
+
+#~ msgid "Width"
+#~ msgstr "عرض"
+
+#~ msgid "Position"
+#~ msgstr "موقعیت"
+
+#, fuzzy
+#~| msgid "Preview Stages"
+#~ msgid "Preview stage"
+#~ msgstr "مراحل پیش‌نمایش"
+
+#, fuzzy
+#~| msgid "Back button"
+#~ msgid "Back Button"
+#~ msgstr "دکمه بازگشت"
+
+#~ msgid "Before text"
+#~ msgstr "قبل از متن"
+
+#, fuzzy
+#~| msgid "Before text"
+#~ msgid "After text"
+#~ msgstr "قبل از متن"
+
+#, fuzzy
+#~| msgid "Icon position"
+#~ msgid "Icon size"
+#~ msgstr "موقعیت آیکن"
+
+#, fuzzy
+#~| msgid "Input text color"
+#~ msgid "Icon color"
+#~ msgstr "رنگ متن ورودی"
+
+#~ msgid "Show text"
+#~ msgstr "نمایش متن"
+
+#~ msgid "Show icon"
+#~ msgstr "نمایش آیکن"
+
+#, fuzzy
+#~| msgid "Used when visible button text is hidden."
+#~ msgid "Used when visible text is hidden."
+#~ msgstr "وقتی متن دکمه مخفی است برای برچسب دسترسی‌پذیری استفاده می‌شود."
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "password"
+#~ msgstr "رمز عبور"
+
+#, fuzzy
+#~| msgid "Full name"
+#~ msgid "full_name"
+#~ msgstr "نام و نام خانوادگی"
+
+#, fuzzy
+#~| msgid "Save password"
+#~ msgid "save_password"
+#~ msgstr "ذخیره رمز عبور"
+
+#, fuzzy
+#~| msgid "New password"
+#~ msgid "new_password"
+#~ msgstr "رمز عبور جدید"
+
+#, fuzzy
+#~| msgid "Continue"
+#~ msgid "continue"
+#~ msgstr "ادامه"
+
+#, fuzzy
+#~| msgid "Verify"
+#~ msgid "verify"
+#~ msgstr "تأیید و ادامه"
+
+#, fuzzy
+#~| msgid "User login"
+#~ msgid "login"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Register"
+#~ msgid "register"
+#~ msgstr "ثبت‌نام"
+
+#, fuzzy
+#~| msgid "Resend"
+#~ msgid "resend"
+#~ msgstr "ارسال مجدد"
+
+#~ msgid "You are not allowed to save these settings."
+#~ msgstr "اجازه ذخیره این تنظیمات را ندارید."
+
+#~ msgid "You are not allowed to clear security blocks."
+#~ msgstr "شما مجاز به پاک کردن مسدودسازی‌های امنیتی نیستید."
+
+#~ msgid "You are not allowed to run the mobile number migration."
+#~ msgstr "شما مجاز به اجرای مهاجرت شماره همراه نیستید."
+
+#~ msgid "You are not allowed to view migration status."
+#~ msgstr "شما اجازه مشاهده وضعیت مهاجرت را ندارید."
+
+#~ msgid "You are not allowed to validate user meta."
+#~ msgstr "شما اجازه اعتبارسنجی متای کاربران را ندارید."
+
+#~ msgid "Enable SMS delivery"
+#~ msgstr "فعال‌سازی ارسال پیامک"
+
+#~ msgid "Enable email delivery"
+#~ msgstr "فعال‌سازی ارسال ایمیل"
+
+#, php-format
+#~ msgid "%s: %s"
+#~ msgstr "%s: %s"
+
+#~ msgid ""
+#~ "The phone number used by Peyvast Authentication. WordPress already provides "
+#~ "the account email field; Peyvast stores only the phone identity here."
+#~ msgstr ""
+#~ "این شماره همراه مورد استفاده احراز هویت پیوست است. وردپرس فیلد ایمیل حساب را "
+#~ "به‌صورت داخلی ارائه می‌کند؛ پیوست فقط شناسه شماره همراه را در این بخش ذخیره "
+#~ "می‌کند."
+
+#~ msgid "Google sign-in is currently unavailable."
+#~ msgstr "ورود با گوگل در حال حاضر در دسترس نیست."
+
+#~ msgid "Sending…"
+#~ msgstr "در حال ارسال…"
+
+#~ msgid "Provider test failed. Check the provider settings and Logs."
+#~ msgstr ""
+#~ "آزمایش ارائه‌دهنده ناموفق بود. تنظیمات ارائه‌دهنده و لاگ‌ها را بررسی کنید."
+
+#~ msgid ""
+#~ "%1$s completed. %2$d numbers updated, %3$d already in the requested format."
+#~ msgstr ""
+#~ "%1$s با موفقیت انجام شد. %2$d شماره به‌روزرسانی شد و %3$d شماره از قبل در "
+#~ "قالب درخواستی بود."
+
+#~ msgid "%1$s completed. %2$d numbers updated."
+#~ msgstr "%1$s کامل شد. %2$d شماره به‌روزرسانی شد."
+
+#~ msgid ""
+#~ "%1$s completed: %2$d numbers updated and %3$d already matched the requested "
+#~ "format."
+#~ msgstr ""
+#~ "%1$s تکمیل شد: %2$d شماره به‌روزرسانی و %3$d شماره از قبل در قالب درخواستی "
+#~ "بودند."
+
+#~ msgid ""
+#~ "%1$s completed: %2$d updated, %3$d unchanged and %4$d skipped because of "
+#~ "invalid data or conflicts."
+#~ msgstr ""
+#~ "%1$s تکمیل شد: %2$d به‌روزرسانی، %3$d بدون تغییر و %4$d مورد به‌دلیل داده "
+#~ "نامعتبر یا تعارض رد شد."
+
+#~ msgid ""
+#~ "%1$s completed: %2$d updated, %3$d unchanged, %4$d skipped and %5$d failed "
+#~ "because of invalid data or conflicts.%6$s"
+#~ msgstr ""
+#~ "%1$s تکمیل شد: %2$d به‌روزرسانی، %3$d بدون تغییر، %4$d مورد ردشده و %5$d مورد "
+#~ "ناموفق به‌دلیل داده نامعتبر یا تعارض.%6$s"
+
+#~ msgid ""
+#~ "%1$s failed after %2$d of %3$d users. Some changes may already have been "
+#~ "applied before the failure. %4$s"
+#~ msgstr ""
+#~ "%1$s پس از پردازش %2$d از %3$d کاربر با خطا به پایان رسید. ممکن است بخشی از "
+#~ "تغییرات پیش از خطا اعمال شده باشد. %4$s"
+
+#~ msgid ""
+#~ "%1$s finished with issues. %2$d updated, %3$d already unchanged, %4$d "
+#~ "failed: %5$s."
+#~ msgstr ""
+#~ "%1$s با مشکل به پایان رسید. %2$d به‌روزرسانی شد، %3$d بدون تغییر باقی ماند و "
+#~ "%4$d ناموفق بود: %5$s."
+
+#~ msgid "%1$s finished with issues. %2$d updated, %3$d failed: %4$s."
+#~ msgstr "%1$s با خطا به پایان رسید. %2$d به‌روزرسانی شد، %3$d ناموفق: %4$s."
+
+#~ msgid ""
+#~ "%1$s is running in the background: %2$d of %3$d users processed, %4$d "
+#~ "updated and %5$d skipped."
+#~ msgstr ""
+#~ "%1$s در پس‌زمینه در حال اجراست: %2$d از %3$d کاربر پردازش شد، %4$d به‌روزرسانی "
+#~ "و %5$d مورد رد شد."
+
+#~ msgid "%1$s reported %2$d failures."
+#~ msgstr "%1$s تعداد %2$d خطا گزارش کرد."
+
+#, python-format
+#~ msgid "%s %d"
+#~ msgstr "%s %d"
+
+#~ msgid "A customizable phone-first authentication interface for WordPress."
+#~ msgstr "رابط احراز هویت قابل شخصی‌سازی مبتنی بر شماره همراه برای وردپرس."
+
+#~ msgid "A verification code was sent to the selected contact method."
+#~ msgstr "کد تأیید به روش ارتباطی انتخاب‌شده ارسال شد."
+
+#, python-brace-format
+#~ msgid ""
+#~ "A verification code was sent to {identifier} and {email}.<br>This code is "
+#~ "valid for {valid_minutes} minutes."
+#~ msgstr ""
+#~ "کد تأیید به {identifier} و {email} ارسال شد. <br>کد تا {valid_minutes} دقیقه "
+#~ "معتبر است."
+
+#, python-brace-format
+#~ msgid ""
+#~ "A verification code was sent to {identifier}.<br>This code is valid for "
+#~ "{valid_minutes} minutes."
+#~ msgstr ""
+#~ "کد تأیید به {identifier} ارسال شد. این کد تا ۵ دقیقه معتبر است "
+#~ "{valid_minutes} minutes."
+
+#~ msgid "Absolute"
+#~ msgstr "مطلق"
+
+#~ msgid "Accepts phone, email or both as identifiers."
+#~ msgstr "شماره همراه، ایمیل یا هر دو را به عنوان شناسه می‌پذیرد."
+
+#~ msgid "Acknowledge"
+#~ msgstr "تأیید و بستن"
+
+#~ msgid "Action Buttons"
+#~ msgstr "دکمه‌های عملیاتی"
+
+#~ msgid "Action buttons"
+#~ msgstr "دکمه‌های عملیاتی"
+
+#~ msgid "Active security blocks cleared."
+#~ msgstr "مسدودسازی‌های امنیتی فعال پاک شدند."
+
+#~ msgid "Allow email-only password reset"
+#~ msgstr "اجازه بازیابی رمز عبور فقط با ایمیل"
+
+#~ msgid "An account already exists for this mobile number."
+#~ msgstr "حساب کاربری برای این شماره همراه از قبل وجود دارد."
+
+#~ msgid "Box shadow"
+#~ msgstr "سایه کادر"
+
+#~ msgid "Button background"
+#~ msgstr "پس‌زمینه دکمه"
+
+#~ msgid "Button radius"
+#~ msgstr "شعاع دکمه"
+
+#~ msgid "Button text color"
+#~ msgstr "رنگ متن دکمه"
+
+#~ msgid "CSS color value, for example #ffffff."
+#~ msgstr "مقدار رنگ CSS؛ برای مثال #ffffff."
+
+#~ msgid "Close icon"
+#~ msgstr "آیکن بستن"
+
+#~ msgid "Close icon background"
+#~ msgstr "پس‌زمینه آیکن بستن"
+
+#~ msgid "Close icon border"
+#~ msgstr "حاشیه آیکن بستن"
+
+#~ msgid "Close icon padding"
+#~ msgstr "فاصله داخلی آیکن بستن"
+
+#~ msgid "Close icon typography"
+#~ msgstr "تایپوگرافی آیکن بستن"
+
+#~ msgid "Component radius"
+#~ msgstr "شعاع کامپوننت"
+
+#~ msgid "Component surface"
+#~ msgstr "سطح کامپوننت"
+
+#~ msgid "Container background"
+#~ msgstr "پس‌زمینه کانتینر"
+
+#~ msgid "Container border"
+#~ msgstr "حاشیه کانتینر"
+
+#~ msgid "Container padding"
+#~ msgstr "فاصله داخلی کانتینر"
+
+#~ msgid "Container radius"
+#~ msgstr "شعاع کانتینر"
+
+#~ msgid "Container shadow"
+#~ msgstr "سایه کانتینر"
+
+#~ msgid "Content"
+#~ msgstr "محتوا"
+
+#~ msgid "Controls the main wrapper around the authentication element."
+#~ msgstr "کنترل پوشش اصلی اطراف عنصر احراز هویت."
+
+#~ msgid "Delete all logs? This action cannot be undone."
+#~ msgstr "همه لاگ‌ها حذف شوند؟ این عملیات قابل بازگشت نیست."
+
+#~ msgid "Description typography"
+#~ msgstr "تایپوگرافی توضیحات"
+
+#~ msgid "Design"
+#~ msgstr "طراحی"
+
+#~ msgid ""
+#~ "Diagnostic records for authentication, OTP delivery, providers and security. "
+#~ "Sensitive values are redacted before storage."
+#~ msgstr ""
+#~ "سوابق تشخیصی احراز هویت، ارسال OTP، ارائه‌دهندگان و امنیت. مقادیر حساس پیش از "
+#~ "ذخیره‌سازی حذف یا ماسک می‌شوند."
+
+#~ msgid "Element styles"
+#~ msgstr "استایل‌های عنصر"
+
+#~ msgid "Email placeholder"
+#~ msgstr "Placeholder ایمیل"
+
+#~ msgid "Enable WooCommerce integration"
+#~ msgstr "فعال‌سازی یکپارچگی ووکامرس"
+
+#~ msgid "Example: 12px 16px."
+#~ msgstr "مثال: 12px 16px."
+
+#~ msgid "Example: 1px solid #d0d5dd."
+#~ msgstr "مثال: 1px solid #d0d5dd."
+
+#~ msgid "Example: 8px."
+#~ msgstr "مثال: 8px."
+
+#~ msgid "Field background"
+#~ msgstr "پس‌زمینه فیلد"
+
+#~ msgid "Field border"
+#~ msgstr "حاشیه فیلد"
+
+#~ msgid "Field border color"
+#~ msgstr "رنگ حاشیه فیلد"
+
+#~ msgid "Field label typography"
+#~ msgstr "تایپوگرافی برچسب فیلد"
+
+#~ msgid "Field radius"
+#~ msgstr "شعاع فیلد"
+
+#~ msgid "Form"
+#~ msgstr "فرم"
+
+#~ msgid "Full name placeholder"
+#~ msgstr "Placeholder نام و نام خانوادگی"
+
+#~ msgid "Global description typography"
+#~ msgstr "تایپوگرافی توضیحات کلی"
+
+#~ msgid "Global title"
+#~ msgstr "عنوان کلی"
+
+#~ msgid "Global title typography"
+#~ msgstr "تایپوگرافی عنوان کلی"
+
+#~ msgid ""
+#~ "High-performance, extensible WordPress authentication with phone/email OTP, "
+#~ "password login, registration, WooCommerce integration, Bricks elements and "
+#~ "Blocks."
+#~ msgstr ""
+#~ "احراز هویت وردپرس با کارایی بالا و قابل توسعه با OTP تلفن/ایمیل، ورود با رمز "
+#~ "عبور، ثبت نام، ادغام با WooCommerce، عناصر Bricks و بلوک‌های گوتنبرگ."
+
+#~ msgid "Identifier placeholder"
+#~ msgstr "Placeholder شناسه ورود"
+
+#~ msgid "Independent back control for Peyvast authentication stages."
+#~ msgstr "کنترل مستقل بازگشت برای مراحل احراز هویت پیوست."
+
+#~ msgid "Information messages"
+#~ msgstr "پیام‌های اطلاعاتی"
+
+#~ msgid "Inherits password identifiers with its own delivery options."
+#~ msgstr "شناسه‌های رمز عبور را با گزینه‌های تحویل خاص خود به ارث می‌برد."
+
+#~ msgid "Inline error label typography"
+#~ msgstr "تایپوگرافی برچسب خطای درون‌خطی"
+
+#~ msgid "Inline error typography"
+#~ msgstr "تایپوگرافی خطای درون‌خطی"
+
+#~ msgid "Input outline"
+#~ msgstr "خط دور فیلد"
+
+#~ msgid "Input preview"
+#~ msgstr "پیش‌نمایش ورودی"
+
+#~ msgid "Input shadow"
+#~ msgstr "سایه ورودی"
+
+#~ msgid "Input typography"
+#~ msgstr "تایپوگرافی ورودی"
+
+#~ msgid "Iran (+98)"
+#~ msgstr "ایران (+98)"
+
+#~ msgid "Keeps WooCommerce phone values separate from user phone storage."
+#~ msgstr "فیلدهای خالی از مقادیر پیش‌فرض تولید شده استفاده می‌کنند."
+
+#~ msgid "Label typography"
+#~ msgstr "تایپوگرافی برچسب"
+
+#~ msgid "Large"
+#~ msgstr "بزرگ"
+
+#~ msgid "Leave text fields empty to use the dynamic system defaults."
+#~ msgstr ""
+#~ "فیلدهای متنی را خالی بگذارید تا مقادیر پویا و پیش‌فرض سیستم استفاده شوند."
+
+#~ msgid ""
+#~ "Leave title/description fields empty to use the translated system defaults."
+#~ msgstr ""
+#~ "برای استفاده از متن‌های پیش‌فرض ترجمه‌شده، عنوان و توضیحات را خالی بگذارید."
+
+#~ msgid "Link"
+#~ msgstr "لینک"
+
+#~ msgid "Medium"
+#~ msgstr "متوسط"
+
+#~ msgid "Messages & Information"
+#~ msgstr "پیام‌ها و اطلاعات"
+
+#~ msgid "Mobile number migration"
+#~ msgstr "مهاجرت شماره همراه"
+
+#~ msgid "Mobile number storage format."
+#~ msgstr "فرمت ذخیره شماره همراه."
+
+#~ msgid "Multiplies the default IP limits (default 3)."
+#~ msgstr "محدودیت‌های IP پیش‌فرض را در این ضریب ضرب می‌کند (پیش‌فرض: ۳)."
+
+#~ msgid "New password placeholder"
+#~ msgstr "Placeholder رمز عبور جدید"
+
+#~ msgid "Notice icons"
+#~ msgstr "آیکن‌های اعلان"
+
+#~ msgid "Notice layout"
+#~ msgstr "چیدمان اعلان"
+
+#~ msgid "Notice typography"
+#~ msgstr "تایپوگرافی اعلان"
+
+#~ msgid "OTP background"
+#~ msgstr "پس‌زمینه OTP"
+
+#~ msgid "OTP border"
+#~ msgstr "حاشیه OTP"
+
+#~ msgid "OTP cell gap"
+#~ msgstr "فاصله خانه‌های OTP"
+
+#~ msgid "OTP cell size"
+#~ msgstr "اندازه خانه OTP"
+
+#~ msgid "OTP field gap"
+#~ msgstr "فاصله فیلدهای OTP"
+
+#~ msgid "OTP field size"
+#~ msgstr "اندازه فیلد OTP"
+
+#~ msgid "OTP gap"
+#~ msgstr "فاصله OTP"
+
+#~ msgid "OTP size"
+#~ msgstr "اندازه OTP"
+
+#~ msgid "OTP typography"
+#~ msgstr "تایپوگرافی OTP"
+
+#~ msgid "OTPs, passwords, tokens and API secrets are never stored."
+#~ msgstr ""
+#~ "رمزهای عبور یک‌بارمصرف (OTP)، رمزهای عبور، توکن‌ها و اسرار API هرگز ذخیره "
+#~ "نمی‌شوند."
+
+#~ msgid "Outline"
+#~ msgstr "خط دور"
+
+#~ msgid "Password reset identifier placeholder"
+#~ msgstr "Placeholder شناسه بازیابی رمز عبور"
+
+#~ msgid "Password reset typography"
+#~ msgstr "تایپوگرافی بازیابی رمز عبور"
+
+#~ msgid "Password sign-in identifier placeholder"
+#~ msgstr "Placeholder شناسه ورود با رمز عبور"
+
+#~ msgid "Password sign-in typography"
+#~ msgstr "تایپوگرافی ورود با رمز عبور"
+
+#~ msgid "Peyvast Agency"
+#~ msgstr "آژانس پیوست"
+
+#~ msgid "Peyvast Auth Back Button"
+#~ msgstr "دکمه بازگشت احراز هویت پیوست"
+
+#~ msgid "Peyvast Authentication Identifier"
+#~ msgstr "شناسه احراز هویت پیوست"
+
+#~ msgid "Phone / sign-in"
+#~ msgstr "شماره همراه / ورود"
+
+#~ msgid "Placeholder color"
+#~ msgstr "رنگ Placeholder"
+
+#~ msgid "Placeholder typography"
+#~ msgstr "تایپوگرافی Placeholder"
+
+#, python-brace-format
+#~ msgid "Placeholder: {seconds}."
+#~ msgstr "جای‌نگهدار: {seconds}."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Placeholders: {identifier}, {identifiers}, {email}, {site_name}, "
+#~ "{otp_length}, {channel}, {channels}, {valid_minutes}."
+#~ msgstr ""
+#~ "متغیرهای قابل استفاده: {identifier}، {identifiers}، {email}، {site_name}، "
+#~ "{otp_length}، {channel}، {channels} و {valid_minutes}."
+
+#~ msgid "Preview"
+#~ msgstr "پیش‌نمایش"
+
+#~ msgid "Primary"
+#~ msgstr "اصلی"
+
+#~ msgid "Primary button background"
+#~ msgstr "پس‌زمینه دکمه اصلی"
+
+#~ msgid "Primary button text"
+#~ msgstr "متن دکمه اصلی"
+
+#~ msgid "Rate limiting"
+#~ msgstr "محدودیت درخواست"
+
+#~ msgid ""
+#~ "Reads phone-looking user_login values and fills the enabled billing and "
+#~ "shipping fields. Usernames never change."
+#~ msgstr ""
+#~ "مقادیر user_login شبیه شماره را می‌خواند و فیلدهای فعال صورت‌حساب و حمل‌ونقل را "
+#~ "پر می‌کند. نام کاربری هرگز تغییر نمی‌کند."
+
+#~ msgid ""
+#~ "Reads supported phone-looking user_login values and fills the enabled "
+#~ "billing and shipping phone fields. Usernames are never changed. Create a "
+#~ "database backup before running."
+#~ msgstr ""
+#~ "مقادیر user_login که به‌نظر شماره همراه هستند را بررسی می‌کند و فیلدهای تلفن "
+#~ "صورتحساب و ارسال فعال را تکمیل می‌کند. نام‌های کاربری هرگز تغییر نمی‌کنند. پیش "
+#~ "از اجرا از پایگاه داده نسخه پشتیبان تهیه کنید."
+
+#, python-format
+#~ msgid "Reasons: %s."
+#~ msgstr "دلایل: %s."
+
+#~ msgid "Configure account registration, fields and username generation."
+#~ msgstr "ثبت‌نام حساب، فیلدها و نحوه ساخت نام کاربری را تنظیم کنید."
+
+#~ msgid "Relative"
+#~ msgstr "نسبی"
+
+#~ msgid "Resend verification code in 00:30"
+#~ msgstr "ارسال مجدد کد تأیید تا 00:30"
+
+#~ msgid ""
+#~ "Run this after changing User/Username or WooCommerce phone storage format so "
+#~ "existing accounts are updated safely."
+#~ msgstr ""
+#~ "پس از تغییر فرمت ذخیره شماره کاربر یا ووکامرس، این عملیات را اجرا کنید تا "
+#~ "شماره‌های حساب‌های موجود نیز با فرمت جدید به‌روزرسانی شوند."
+
+#~ msgid ""
+#~ "Runs in the background. Reads supported phone sources, preserves user_login, "
+#~ "and applies the selected phone storage format. Create a database backup "
+#~ "before running."
+#~ msgstr ""
+#~ "در پس‌زمینه اجرا می‌شود. منابع پشتیبانی‌شده شماره همراه را می‌خواند، user_login "
+#~ "را حفظ می‌کند و فرمت انتخاب‌شده ذخیره شماره همراه را اعمال می‌کند. پیش از اجرا "
+#~ "از پایگاه داده نسخه پشتیبان تهیه کنید."
+
+#~ msgid ""
+#~ "Runs in the background. Reads user_login as the source and fills the plugin "
+#~ "phone field; usernames never change. Back up before running."
+#~ msgstr ""
+#~ "در پس‌زمینه اجرا می‌شود. منبع داده user_login است و شماره همراه در فیلد تلفن "
+#~ "افزونه ذخیره می‌شود؛ نام کاربری هرگز تغییر نمی‌کند. پیش از اجرا نسخه پشتیبان "
+#~ "بگیرید."
+
+#~ msgid "SVG icon"
+#~ msgstr "آیکن SVG"
+
+#~ msgid "Secondary"
+#~ msgstr "ثانویه"
+
+#~ msgid "Secondary delivery channel for existing accounts."
+#~ msgstr "کانال تحویل ثانویه برای حساب‌های موجود."
+
+#~ msgid "Server-side limits protect the endpoints."
+#~ msgstr "محدودیت‌های سمت سرور از نقاط پایانی محافظت می‌کنند."
+
+#~ msgid "Show description for"
+#~ msgstr "نمایش توضیحات برای"
+
+#~ msgid "Small"
+#~ msgstr "کوچک"
+
+#~ msgid "Stage title typography"
+#~ msgstr "تایپوگرافی عنوان مرحله"
+
+#~ msgid "Stage titles & descriptions"
+#~ msgstr "عنوان و توضیحات مراحل"
+
+#~ msgid "Standalone back control for Peyvast authentication stages."
+#~ msgstr "کنترل مستقل بازگشت برای مراحل احراز هویت پیوست."
+
+#~ msgid "Static"
+#~ msgstr "ثابت"
+
+#~ msgid "Surface color"
+#~ msgstr "رنگ سطح"
+
+#~ msgid "Sync the billing phone from the Peyvast user phone"
+#~ msgstr "همگام‌سازی شماره صورتحساب از شماره همراه کاربر پیوست"
+
+#~ msgid "Sync the shipping phone from the Peyvast user phone"
+#~ msgstr "همگام‌سازی شماره ارسال از شماره همراه کاربر پیوست"
+
+#~ msgid "The country code is fixed by the plugin."
+#~ msgstr "کد کشور توسط افزونه ثابت شده است."
+
+#~ msgid ""
+#~ "The editor preview is representative; authentication runs on the published "
+#~ "page."
+#~ msgstr "پیش‌نمایش ویرایشگر نمایشی است؛ احراز هویت در صفحه منتشرشده اجرا می‌شود."
+
+#~ msgid "The mobile number must be a valid Iranian mobile number."
+#~ msgstr "شماره همراه باید یک شماره همراه معتبر ایران باشد."
+
+#~ msgid ""
+#~ "The preview is representative. Authentication runs on the published page."
+#~ msgstr ""
+#~ "این پیش‌نمایش نمایی از ظاهر نهایی است؛ احراز هویت در صفحه منتشرشده اجرا می‌شود."
+
+#~ msgid "This authentication identifier is already assigned to another user."
+#~ msgstr "این شناسه احراز هویت قبلاً به کاربر دیگری اختصاص داده شده است."
+
+#~ msgid ""
+#~ "This is a persistent background job. It updates only Peyvast phone fields, "
+#~ "preserves user_login, resumes after the admin page closes, and reports "
+#~ "updated, unchanged, skipped and conflicting accounts."
+#~ msgstr ""
+#~ "این یک کار مداوم در پس‌زمینه است. فقط فیلدهای شماره همراه پیوست را به‌روزرسانی "
+#~ "می‌کند، user_login را حفظ می‌کند، پس از بسته شدن صفحه مدیریت، از سر گرفته "
+#~ "می‌شود و حساب‌های به‌روزرسانی‌شده، بدون تغییر، رد شده و دارای تداخل را گزارش "
+#~ "می‌دهد."
+
+#~ msgid ""
+#~ "This persistent background job updates WooCommerce billing and shipping "
+#~ "phones only. It never changes WordPress usernames and resumes through "
+#~ "WordPress Cron after the page is closed."
+#~ msgstr ""
+#~ "این کار پس‌زمینه پایدار فقط شماره‌های صورتحساب و ارسال ووکامرس را به‌روزرسانی "
+#~ "می‌کند. هرگز نام‌های کاربری وردپرس را تغییر نمی‌دهد و پس از بسته‌شدن صفحه از "
+#~ "طریق وردپرس کرون ادامه می‌یابد."
+
+#~ msgid "This setting affects WooCommerce phone values only."
+#~ msgstr "این تنظیم فقط روی مقادیر شماره همراه ووکامرس اثر می‌گذارد."
+
+#~ msgid "Timer typography"
+#~ msgstr "تایپوگرافی تایمر"
+
+#~ msgid ""
+#~ "Unified phone/email authentication with OTP, password and optional Google "
+#~ "sign-in."
+#~ msgstr ""
+#~ "احراز هویت یکپارچه با شماره همراه و ایمیل، OTP، رمز عبور و ورود اختیاری با "
+#~ "گوگل."
+
+#~ msgid ""
+#~ "Unique normalized identifier used for mobile authentication. Leave empty to "
+#~ "keep the current value."
+#~ msgstr ""
+#~ "شناسه نرمال‌شده و یکتای مورد استفاده برای احراز هویت موبایلی. برای حفظ مقدار "
+#~ "فعلی خالی بگذارید."
+
+#~ msgid ""
+#~ "Use the block toolbar and block settings for the outer wrapper. These "
+#~ "controls style the authentication components inside it."
+#~ msgstr ""
+#~ "برای پوشش بیرونی از نوار ابزار بلوک و تنظیمات بلوک استفاده کنید. این کنترلها "
+#~ "کامپوننت‌های احراز هویت داخل آن را استایل می‌دهند."
+
+#~ msgid "User phone meta and username use the same storage format."
+#~ msgstr ""
+#~ "متای شماره همراه کاربر و نام کاربری از یک قالب ذخیره‌سازی استفاده می‌کنند."
+
+#~ msgid "WooCommerce customer phone integration is available."
+#~ msgstr "یکپارچه‌سازی شماره همراه مشتری ووکامرس در دسترس است."
+
+#~ msgid "WooCommerce is not available in the current request."
+#~ msgstr "ووکامرس در درخواست فعلی در دسترس نیست."
+
+#~ msgid "WooCommerce phone synchronization."
+#~ msgstr "همگام‌سازی تلفن ووکامرس."
+
+#~ msgid "WooCommerce unavailable"
+#~ msgstr "ووکامرس در دسترس نیست"
+
+#~ msgid "Your previous verification session was restored."
+#~ msgstr "جلسه تأیید قبلی شما بازیابی شد."
+
+#~ msgid "conflicting custom phone fields"
+#~ msgstr "تعارض در فیلدهای سفارشی شماره همراه"
+
+#~ msgid "conflicting source username"
+#~ msgstr "تعارض در نام کاربری منبع"
+
+#~ msgid "description"
+#~ msgstr "توضیحات"
+
+#~ msgid "duplicate phone identity"
+#~ msgstr "شناسه شماره همراه تکراری"
+
+#~ msgid "icon"
+#~ msgstr "آیکن"
+
+#~ msgid "invalid phone data"
+#~ msgstr "داده شماره همراه نامعتبر"
+
+#~ msgid "label"
+#~ msgstr "برچسب"
+
+#~ msgid "missing WooCommerce customer profile"
+#~ msgstr "پروفایل مشتری ووکامرس موجود نیست"
+
+#~ msgid "other issue"
+#~ msgstr "مشکل دیگر"
+
+#~ msgid "placeholder"
+#~ msgstr "متن جایگزین"
+
+#~ msgid "save failure"
+#~ msgstr "خطا در ذخیره‌سازی"
+
+#~ msgid "stale canonical phone hash"
+#~ msgstr "هش استاندارد شماره همراه قدیمی یا ناسازگار"
+
+#~ msgid "title"
+#~ msgstr "عنوان"
+
+#~ msgid "unavailable user record"
+#~ msgstr "رکورد کاربر در دسترس نیست"
+
+#~ msgid "Current source"
+#~ msgstr "منبع فعلی"
+
+#~ msgid "Enter a user meta key first."
+#~ msgstr "ابتدا یک کلید متای کاربر وارد کنید."
+
+#~ msgid "Enter your mobile number, email address, or username"
+#~ msgstr "شماره همراه، ایمیل یا نام کاربری خود را وارد کنید"
+
+#~ msgid "You are not allowed to search user meta."
+#~ msgstr "شما اجازه جست‌وجوی متای کاربران را ندارید."
+
+#~ msgid "Phone source type"
+#~ msgstr "نوع منبع شماره همراه"
+
+#~ msgid ""
+#~ "All non-empty user meta keys currently used by users on this site are listed "
+#~ "here."
+#~ msgstr ""
+#~ "تمام کلیدهای متای کاربری که در حال حاضر برای کاربران این سایت مقدار دارند در "
+#~ "این فهرست نمایش داده می‌شوند."

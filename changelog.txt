@@ -1,0 +1,57 @@
+Peyvast Auth Changelog
+======================
+
+1.0.0
+---------------------------------
+First release.
+
+Fixes
+- OTP success/resend UI now presents only user-facing sent messages; background delivery states are kept out of the frontend.
+- Removed the secondary OTP email information message from the public presentation layer while retaining machine-readable channel data.
+- Fixed the recurring OTP challenge purge callback so the instance-based persistence store executes through a valid Action Scheduler callback.
+- Added independent WooCommerce and native WordPress logout redirect settings, with internal URL validation and platform-native redirect hooks.
+- Login/registration origin fallback controls are now disclosed only when Return to origin is selected; expired OTP errors clear the complete code and focus the first input.
+
+New
+- Phone and email OTP authentication: send, verify, login, registration, and password recovery, with resend cooldowns, expiry, bounded attempts, and guest-session-bound challenges.
+- Password login with phone, email, or username resolution; optional Google sign-in with local ID-token verification.
+- SMS providers: Kavenegar, Melipayamak, MsgWay, Sms.ir, IPPanel (API key and username/password modes); email delivery through the built-in WordPress mail adapter.
+- Action Scheduler integration: bundled Action Scheduler (4.1.0) is loaded from lib/action-scheduler and participates in the official multi-plugin version arbitration, so Peyvast Auth coexists with WooCommerce or any other plugin that bundles Action Scheduler.
+- Dedicated scheduling infrastructure layer (Infrastructure\Scheduling\Scheduler) with a stable namespaced action group (peyvast-auth), unique scheduling, missing-job recovery, and lifecycle management (activation/deactivation).
+- Asynchronous OTP provider delivery: authentication requests never wait for provider latency. The OTP is encrypted at rest in the {prefix}peyvast_auth_otp_deliveries table, never passed in plaintext to the scheduler, and a queued job re-validates the challenge before sending so it can never deliver an invalidated, replaced, expired, or consumed challenge. Delivery failures retry with exponential backoff and invalidate the challenge after the final attempt. When the queue is unavailable, delivery falls back to the synchronous path.
+- Recurring maintenance jobs (Action Scheduler): expired OTP challenge cleanup every 15 minutes, log retention cleanup daily, security-state cleanup daily, and a daily schema watchdog — all bounded, batch-limited, and index-backed.
+- Phone migration and phone-identity index rebuild run as chained Action Scheduler single actions (one batch per action), with idempotent batches, database-lock worker serialization, bounded exponential-backoff retries, and a daily watchdog that re-arms a stalled chain.
+- Lazy phone migration runs as a background Action Scheduler action instead of inline work on the login path.
+- Phone identity index with canonical phone normalization; the Phone Migration tab imports phone data stored by a previous or external authentication system.
+- Server-side rate limiting with IP/network/identifier buckets and progressive blocking.
+- WordPress Privacy export/erasure integration, including queued delivery rows.
+- Blocks and Bricks authentication elements, plus a back-button block.
+- WooCommerce integration (optional): customer phone sync, account/checkout/order-receipt redirects, HPOS compatibility.
+- Operational logging with redaction and retention cleanup.
+- Conditional data removal on uninstall.
+
+Security
+- Delivery-payload encryption keys derive from `wp_salt('auth')` deployment secrets — never a database-stored option — so a database dump alone cannot decrypt queued codes.
+- OTP identifier hashes are keyed with the plugin's site identifier key.
+- Provider security: IPPanel pattern-mode credentials travel in a POST body, provider diagnostics redact credentials and raw response bodies, and operational logs use stable error categories instead of raw database error text.
+- Registration and password reset hold the verified token in a recoverable processing state until every coupled write succeeds (user, metadata, index, WooCommerce sync, session), release it on every pre-finalization failure, and roll back partially created accounts.
+- OTP delivery channels are mandatory: a failed channel is retried independently with the queued payload rewritten to the remaining channels, and the challenge is invalidated only when a channel permanently fails; the synchronous fallback is all-or-nothing.
+- Unknown email OTP logins and unknown password-reset identifiers receive enumeration-neutral responses with the same shape as a real challenge, without storing or sending anything.
+- Password login runs the full core `authenticate` filter chain seeded with the verified user, so SSO/2FA/membership/audit plugins participate with core-level parity.
+- Guest nonce identities are isolated in a negative namespace; late guest-session cookie rotation is safe; redirect settings reject invalid login page IDs; rate-limit prechecks enforce fixed windows correctly.
+- Valid Google JWKS caches survive failed refreshes.
+- Runtime database-engine detection shows an admin notice when the site runs on a non-MySQL engine; database locking falls back to in-process serialization where native `GET_LOCK()` is unavailable.
+
+Migration
+- Batch migration admin notices map backend states (idle, busy, running, needs_review, completed, failed) to success, warning, error, and informational presentation without exposing internal exception messages.
+- Migration notice dismissal is race-safe: a closed notice cannot be undone by an already-running background worker; Close is optimistic and cancels stale polling immediately.
+- Migration lock state is serialized with a named database lock; uninstall cleanup removes the migration cancellation tombstone.
+- Migration controls use delegated click handling for settings-tab re-renders.
+- Phone source hierarchy: Peyvast phone primary, configured external source secondary, user_login tertiary fallback.
+
+Notes
+- Requires WordPress 6.8+ and PHP 8.1+. The native `wp_password_needs_rehash()` API is used directly.
+- All background work runs on the bundled Action Scheduler; no WP-Cron jobs are used.
+- Email provider settings live under `providers.email`; the default sender name is the site name and the default sender address is `noreply@{site_domain}`. HTML email fragments use the current locale direction; complete custom HTML documents are preserved unchanged.
+- Production deployments should use MySQL or MariaDB; WordPress Studio's SQLite layer is intended for local development.
+- This is the first release of the plugin; no backward compatibility with previous plugin versions is provided.

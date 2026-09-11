@@ -1,0 +1,1085 @@
+.peyvast-auth {
+  --peyvast-auth-primary: #111827;
+  --peyvast-auth-primary-contrast: #fff;
+  --peyvast-auth-border: #d9dee8;
+  --peyvast-auth-border-focus: #64748b;
+  --peyvast-auth-muted: #667085;
+  --peyvast-auth-text: #101828;
+  --peyvast-auth-danger: #b42318;
+  --peyvast-auth-danger-bg: #fff5f4;
+  --peyvast-auth-success: #067647;
+  --peyvast-auth-success-shadow:rgba(6, 118, 71, 0.15);
+  --peyvast-auth-success-bg: #ecfdf3;
+  --peyvast-auth-warning: #b54708;
+  --peyvast-auth-warning-bg: #fffaeb;
+  --peyvast-auth-info: #2b2b2b;
+  --peyvast-auth-info-bg: unset;
+  --peyvast-auth-surface: #fff;
+  --peyvast-auth-field-bg: #fff;
+  --peyvast-auth-radius: 20px;
+  --peyvast-auth-field-radius: 12px;
+  --peyvast-auth-button-radius: 12px;
+  --peyvast-auth-control-height: 48px;
+  --peyvast-auth-input-shadow: 0 0 0 2px rgba(100, 116, 139, 0.14);
+  --peyvast-auth-input-shadow-error: 0 0 0 2px rgba(134, 21, 21, 0.14);
+  box-sizing: border-box;
+}
+
+.peyvast-auth--standalone {
+  width: min(100%, 440px);
+  max-width: 100%;
+  padding: 24px;
+  border: 1px solid var(--peyvast-auth-border);
+  border-radius: var(--peyvast-auth-radius);
+  background: var(--peyvast-auth-surface);
+  color: var(--peyvast-auth-text);
+}
+
+.peyvast-auth * {
+  box-sizing: border-box;
+}
+.peyvast-auth [hidden],
+.peyvast-auth-stage[hidden],
+.peyvast-auth-stage[aria-hidden="true"] {
+  display: none !important;
+}
+
+.peyvast-auth-stage {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.peyvast-auth-stage__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--peyvast-auth-container-header-gap, 12px);
+  margin: var(--peyvast-auth-container-header-margin, 0);
+}
+.peyvast-auth-stage__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--peyvast-auth-container-content-gap, 14px);
+  margin: var(--peyvast-auth-container-content-margin, 0);
+  padding-top: 12px;
+}
+.peyvast-auth-stage__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--peyvast-auth-container-actions-gap, 10px);
+  margin: var(--peyvast-auth-container-actions-margin, 0);
+}
+
+.peyvast-auth__title {
+  text-align: var(--peyvast-auth-stage-title-text-align, inherit);
+  margin-top: var(--peyvast-auth-stage-title-margin-top, 0);
+  margin-right: var(--peyvast-auth-stage-title-margin-right, 0);
+  margin-bottom: var(--peyvast-auth-stage-title-margin-bottom, 0);
+  margin-left: var(--peyvast-auth-stage-title-margin-left, 0);
+  padding-top: var(--peyvast-auth-stage-title-padding-top, 0);
+  padding-right: var(--peyvast-auth-stage-title-padding-right, 0);
+  padding-bottom: var(--peyvast-auth-stage-title-padding-bottom, 0);
+  padding-left: var(--peyvast-auth-stage-title-padding-left, 0);
+  font-size: var(--peyvast-auth-stage-title-font-size, 18px);
+  line-height: var(--peyvast-auth-stage-title-line-height, 1.3);
+  letter-spacing: var(--peyvast-auth-stage-title-letter-spacing, normal);
+  font-weight: var(--peyvast-auth-stage-title-font-weight, 700);
+  color: var(--peyvast-auth-stage-title-color, inherit);
+}
+.peyvast-auth__description {
+  background: var(--peyvast-auth-stage-description-background, transparent);
+  text-align: var(--peyvast-auth-stage-description-text-align, inherit);
+  margin-top: var(--peyvast-auth-stage-description-margin-top, 0);
+  margin-right: var(--peyvast-auth-stage-description-margin-right, 0);
+  margin-bottom: var(--peyvast-auth-stage-description-margin-bottom, 0);
+  margin-left: var(--peyvast-auth-stage-description-margin-left, 0);
+  padding-top: var(--peyvast-auth-stage-description-padding-top, 0);
+  padding-right: var(--peyvast-auth-stage-description-padding-right, 0);
+  padding-bottom: var(--peyvast-auth-stage-description-padding-bottom, 0);
+  padding-left: var(--peyvast-auth-stage-description-padding-left, 0);
+  color: var(--peyvast-auth-stage-description-color, var(--peyvast-auth-muted));
+  font-size: var(--peyvast-auth-stage-description-font-size, 14px);
+  line-height: var(--peyvast-auth-stage-description-line-height, 1.7);
+  letter-spacing: var(--peyvast-auth-stage-description-letter-spacing, normal);
+  font-weight: var(--peyvast-auth-stage-description-font-weight, inherit);
+}
+.peyvast-auth__description > :first-child {
+  margin-top: 0;
+}
+.peyvast-auth__description > :last-child {
+  margin-bottom: 0;
+}
+
+.peyvast-auth__information {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+.peyvast-auth__information[hidden] {
+  display: none !important;
+}
+.peyvast-auth-information-item,
+.peyvast-auth__information-item {
+  padding: var(--peyvast-auth-information-padding);
+  margin: var(--peyvast-auth-information-margin, 0);
+  border: var(--peyvast-auth-information-border);
+  border-radius: 10px;
+  background: var(--peyvast-auth-information-background, var(--peyvast-auth-info-bg));
+  color: var(--peyvast-auth-info);
+  font-size: var(--peyvast-auth-information-font-size, 13px);
+  line-height: var(--peyvast-auth-information-line-height, 1.65);
+  letter-spacing: var(--peyvast-auth-information-letter-spacing, normal);
+  font-weight: var(--peyvast-auth-information-font-weight, inherit);
+  color: var(--peyvast-auth-information-color, var(--peyvast-auth-info));
+}
+.peyvast-auth__information-item--validity {
+  font-size: 12px;
+  opacity: 0.92;
+}
+.peyvast-auth__information-identifier,
+.peyvast-auth__information-channel,
+.peyvast-auth__information-phone,
+.peyvast-auth__information-email {
+  font-weight: 600;
+}
+
+.peyvast-auth-field {
+  display: block;
+  position: relative;
+  margin: 0;
+  outline: unset;
+}
+.peyvast-auth-field:has(.peyvast-auth-otp__input) {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.peyvast-auth-field__control {
+  position: relative;
+  width: 100%;
+}
+.peyvast-auth-field__label {
+  position: absolute;
+  top: 50%;
+  inset-inline-start: 13px;
+  transform: translateY(-50%);
+  max-width: calc(100% - 26px);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: var(--peyvast-auth-form-label-margin, 0);
+  padding: 0 4px;
+  font-size: var(--peyvast-auth-form-label-font-size, 13px);
+  font-weight: var(--peyvast-auth-form-label-font-weight, 600);
+  line-height: var(--peyvast-auth-form-label-line-height, 1.4);
+  letter-spacing: var(--peyvast-auth-form-label-letter-spacing, normal);
+  color: var(--peyvast-auth-form-label-color, var(--peyvast-auth-muted));
+  background: transparent;
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition:
+    top 0.16s ease,
+    font-size 0.16s ease,
+    color 0.16s ease;
+}
+.peyvast-auth-input:focus ~ .peyvast-auth-field__label,
+.peyvast-auth-input:not(:placeholder-shown) ~ .peyvast-auth-field__label {
+  top: 0;
+  font-size: var(
+    --peyvast-auth-form-label-focus-font-size,
+    var(--peyvast-auth-form-label-font-size, 12px)
+  );
+  font-weight: var(
+    --peyvast-auth-form-label-focus-font-weight,
+    var(--peyvast-auth-form-label-font-weight, 600)
+  );
+  line-height: var(
+    --peyvast-auth-form-label-focus-line-height,
+    var(--peyvast-auth-form-label-line-height, 1.4)
+  );
+  letter-spacing: var(
+    --peyvast-auth-form-label-focus-letter-spacing,
+    var(--peyvast-auth-form-label-letter-spacing, normal)
+  );
+  color: var(--peyvast-auth-text);
+  background: var(--peyvast-auth-input-background, var(--peyvast-auth-field-bg));
+}
+.peyvast-auth-field.has-error .peyvast-auth-field__label,
+.peyvast-auth-field.is-error .peyvast-auth-field__label {
+  color: var(--peyvast-auth-danger);
+  font-size: var(
+    --peyvast-auth-inline-error-label-font-size,
+    var(--peyvast-auth-form-label-font-size, 12px)
+  );
+  font-weight: var(
+    --peyvast-auth-inline-error-label-font-weight,
+    var(--peyvast-auth-form-label-font-weight, 600)
+  );
+}
+.peyvast-auth-field__required {
+  color: var(--peyvast-auth-danger);
+}
+.peyvast-auth-field__description {
+  margin: 0;
+  color: var(--peyvast-auth-muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.peyvast-auth-field__error {
+  display: block;
+  margin: var(--peyvast-auth-inline-error-margin, 6px 0 0);
+  padding: var(--peyvast-auth-inline-error-padding, 0);
+  border: var(--peyvast-auth-inline-error-border, 0);
+  color: var(--peyvast-auth-danger);
+  font-size: var(--peyvast-auth-inline-error-font-size, 12px);
+  font-weight: var(--peyvast-auth-inline-error-font-weight, inherit);
+  line-height: 1.55;
+}
+.peyvast-auth-field__error[hidden] {
+  display: none !important;
+}
+
+.peyvast-auth-input {
+  display: block;
+  width: 100%;
+  height: var(--peyvast-auth-input-height, var(--peyvast-auth-control-height));
+  border: var(--peyvast-auth-input-border, 1px solid var(--peyvast-auth-border));
+  border-radius: var(--peyvast-auth-field-radius);
+  padding: var(--peyvast-auth-input-padding, 0 13px);
+  background: var(--peyvast-auth-input-background, var(--peyvast-auth-field-bg));
+  color: var(--peyvast-auth-text);
+  box-shadow: none;
+  font: inherit;
+  font-size: var(--peyvast-auth-form-input-font-size, inherit);
+  font-weight: var(--peyvast-auth-form-input-font-weight, inherit);
+  line-height: var(--peyvast-auth-form-input-line-height, normal);
+  letter-spacing: var(--peyvast-auth-form-input-letter-spacing, normal);
+  color: var(--peyvast-auth-form-input-color, var(--peyvast-auth-text));
+  transition:
+    border-color 0.16s ease,
+    box-shadow 0.16s ease,
+    background 0.16s ease;
+}
+.peyvast-auth-input:hover {
+  border-color: #b8c0cc;
+}
+.peyvast-auth-input:focus {
+  outline:unset;
+  border-color: var(--peyvast-auth-border-focus);
+  box-shadow: var(
+    --peyvast-auth-input-shadow,
+    var(--peyvast-auth-form-input-shadow, 0 0 0 2px rgba(100, 116, 139, 0.14))
+  );
+}
+.peyvast-auth-input::placeholder {
+  font-size: var(--peyvast-auth-form-placeholder-font-size, inherit);
+  font-weight: var(--peyvast-auth-form-placeholder-font-weight, inherit);
+  line-height: var(--peyvast-auth-form-placeholder-line-height, normal);
+  letter-spacing: var(--peyvast-auth-form-placeholder-letter-spacing, normal);
+  color: var(--peyvast-auth-form-placeholder-color, transparent);
+}
+.peyvast-auth-input:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.peyvast-auth .peyvast-auth-field.has-error .peyvast-auth-input,
+.peyvast-auth .peyvast-auth-field.is-error .peyvast-auth-input,
+.peyvast-auth .peyvast-auth-input[aria-invalid="true"],
+.peyvast-auth .peyvast-auth-field.has-error .peyvast-auth-input:focus,
+.peyvast-auth .peyvast-auth-field.is-error .peyvast-auth-input:focus,
+.peyvast-auth .peyvast-auth-input[aria-invalid="true"]:focus {
+  border-width: var(--peyvast-auth-inline-error-input-border-width, 1px);
+  border-style: var(--peyvast-auth-inline-error-input-border-style, solid);
+  border-color: var(--peyvast-auth-inline-error-input-border-color, var(--peyvast-auth-danger)) !important;
+  box-shadow: var(
+    --peyvast-auth-inline-error-input-shadow,
+    var(--peyvast-auth-inline-error-input-outline, var(--peyvast-auth-input-shadow-error))
+  );
+  background: var(
+    --peyvast-auth-inline-error-input-background,
+    var(--peyvast-auth-input-background, var(--peyvast-auth-field-bg))
+  );
+}
+
+.peyvast-auth-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  min-height: var(--peyvast-auth-control-height);
+  border: 0;
+  border-radius: var(--peyvast-auth-button-radius);
+  padding: 0 16px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 0.16s ease,
+    opacity 0.16s ease,
+    background 0.16s ease;
+}
+.peyvast-auth-button:active {
+  transform: translateY(1px);
+}
+.peyvast-auth-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.peyvast-auth-button:focus-visible,
+.peyvast-auth-link:focus-visible,
+.peyvast-auth-back:focus-visible,
+.peyvast-auth-notice__close:focus-visible {
+  outline: 3px solid var(--peyvast-auth-border-focus);
+  outline-offset: 2px;
+}
+.peyvast-auth-button--primary:not([class*="bricks-background-"]):not(
+    [class*="bricks-color-"]
+  ) {
+  background: var(--peyvast-auth-primary);
+  color: var(--peyvast-auth-primary-contrast);
+}
+.peyvast-auth-button--secondary:not([class*="bricks-background-"]):not(
+    [class*="bricks-color-"]
+  ) {
+  background: transparent;
+  color: var(--peyvast-auth-muted);
+}
+.peyvast-auth-button--secondary:not([class*="bricks-background-"]):not(
+    [class*="bricks-color-"]
+  ):hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.peyvast-auth-button--continue {
+  gap: var(--peyvast-auth-continue-icon-gap, 8px);
+  padding: var(
+    --peyvast-auth-continue-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-continue-border, var(--peyvast-auth-primary-border, 0));
+  font-size: var(--peyvast-auth-continue-font-size, inherit);
+  font-weight: var(--peyvast-auth-continue-font-weight, 700);
+  color: var(--peyvast-auth-continue-color, inherit);
+}
+.peyvast-auth-button--primary.peyvast-auth-button--continue:not(
+    [class*="bricks-background-"]
+  ):not([class*="bricks-color-"]) {
+  background: var(
+    --peyvast-auth-continue-background,
+    var(--peyvast-auth-primary-background, var(--peyvast-auth-primary))
+  );
+}
+.peyvast-auth-button--verify {
+  gap: var(--peyvast-auth-verify-icon-gap, 8px);
+  padding: var(
+    --peyvast-auth-verify-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-verify-border, var(--peyvast-auth-primary-border, 0));
+  font-size: var(--peyvast-auth-verify-font-size, inherit);
+  font-weight: var(--peyvast-auth-verify-font-weight, 700);
+  color: var(--peyvast-auth-verify-color, inherit);
+}
+.peyvast-auth-button--primary.peyvast-auth-button--verify:not(
+    [class*="bricks-background-"]
+  ):not([class*="bricks-color-"]) {
+  background: var(
+    --peyvast-auth-verify-background,
+    var(--peyvast-auth-primary-background, var(--peyvast-auth-primary))
+  );
+}
+.peyvast-auth-button--login {
+  gap: var(--peyvast-auth-login-icon-gap, 8px);
+  padding: var(
+    --peyvast-auth-login-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-login-border, var(--peyvast-auth-primary-border, 0));
+  font-size: var(--peyvast-auth-login-font-size, inherit);
+  font-weight: var(--peyvast-auth-login-font-weight, 700);
+  color: var(--peyvast-auth-login-color, inherit);
+}
+.peyvast-auth-button--primary.peyvast-auth-button--login:not(
+    [class*="bricks-background-"]
+  ):not([class*="bricks-color-"]) {
+  background: var(
+    --peyvast-auth-login-background,
+    var(--peyvast-auth-primary-background, var(--peyvast-auth-primary))
+  );
+}
+.peyvast-auth-button--register {
+  gap: var(--peyvast-auth-register-icon-gap, 8px);
+  padding: var(
+    --peyvast-auth-register-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-register-border, var(--peyvast-auth-primary-border, 0));
+  font-size: var(--peyvast-auth-register-font-size, inherit);
+  font-weight: var(--peyvast-auth-register-font-weight, 700);
+  color: var(--peyvast-auth-register-color, inherit);
+}
+.peyvast-auth-button--primary.peyvast-auth-button--register:not(
+    [class*="bricks-background-"]
+  ):not([class*="bricks-color-"]) {
+  background: var(
+    --peyvast-auth-register-background,
+    var(--peyvast-auth-primary-background, var(--peyvast-auth-primary))
+  );
+}
+.peyvast-auth-button--forgot {
+  gap: var(--peyvast-auth-forgot-icon-gap, 8px);
+  padding: var(
+    --peyvast-auth-forgot-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-forgot-border, var(--peyvast-auth-primary-border, 0));
+  font-size: var(--peyvast-auth-forgot-font-size, inherit);
+  font-weight: var(--peyvast-auth-forgot-font-weight, 700);
+  color: var(--peyvast-auth-forgot-color, inherit);
+}
+.peyvast-auth-button--primary.peyvast-auth-button--forgot:not(
+    [class*="bricks-background-"]
+  ):not([class*="bricks-color-"]) {
+  background: var(
+    --peyvast-auth-forgot-background,
+    var(--peyvast-auth-primary-background, var(--peyvast-auth-primary))
+  );
+}
+.peyvast-auth-button--reset-password {
+  gap: var(--peyvast-auth-reset-password-icon-gap, 8px);
+  padding: var(
+    --peyvast-auth-reset-password-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(
+    --peyvast-auth-reset-password-border,
+    var(--peyvast-auth-primary-border, 0)
+  );
+  font-size: var(--peyvast-auth-reset-password-font-size, inherit);
+  font-weight: var(--peyvast-auth-reset-password-font-weight, 700);
+  color: var(--peyvast-auth-reset-password-color, inherit);
+}
+.peyvast-auth-button--primary.peyvast-auth-button--reset-password:not(
+    [class*="bricks-background-"]
+  ):not([class*="bricks-color-"]) {
+  background: var(
+    --peyvast-auth-reset-password-background,
+    var(--peyvast-auth-primary-background, var(--peyvast-auth-primary))
+  );
+}
+.peyvast-auth-link--resend {
+  gap: var(--peyvast-auth-resend-icon-gap, 8px);
+  width: max-content;
+  font-size: var(--peyvast-auth-resend-font-size, inherit);
+  font-weight: var(--peyvast-auth-resend-font-weight, inherit);
+  color: var(--peyvast-auth-resend-color, var(--peyvast-auth-muted));
+}
+.peyvast-auth-link--resend:not([class*="bricks-background-"]):not(
+    [class*="bricks-color-"]
+  ) {
+  background: transparent;
+}
+.peyvast-auth
+  .peyvast-auth-button--primary:not([class*="bricks-background-"]):not(
+    [class*="bricks-color-"]
+  ) {
+  background: var(--peyvast-auth-primary);
+  color: var(--peyvast-auth-primary-contrast);
+}
+
+.peyvast-auth-button svg {
+  width: 1em;
+  height: 1em;
+  display: block;
+  flex: 0 0 auto;
+  color: inherit;
+}
+.peyvast-auth-button.has-icon-space {
+  justify-content: space-between;
+}
+
+.peyvast-auth-button.is-loading,
+.peyvast-auth-link.is-loading {
+  cursor: wait;
+  font-size: 0 !important;
+}
+.peyvast-auth-button.is-loading > :not(.peyvast-auth-button__loading),
+.peyvast-auth-link.is-loading > :not(.peyvast-auth-button__loading) {
+  display: none !important;
+}
+/* Resend must remain visible while the request is in flight. */
+.peyvast-auth-link--resend.is-loading > :not(.peyvast-auth-button__loading) {
+  display: initial !important;
+}
+.peyvast-auth-link--resend.is-loading {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--peyvast-auth-resend-icon-gap, 8px);
+  font-size: inherit !important;
+}
+
+.peyvast-auth-button__loading {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  color: inherit;
+  font-size: initial !important;
+}
+.peyvast-auth-button__loading-icon {
+  width: 1em;
+  height: 1em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: peyvast-auth-spin 0.8s linear infinite;
+  display: block;
+  box-sizing: border-box;
+}
+
+.peyvast-auth-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  min-height: 36px;
+  margin: 0 auto;
+  border: 0;
+  background: transparent;
+  color: var(--peyvast-auth-muted);
+  cursor: pointer;
+  padding: 4px 7px;
+  font: inherit;
+}
+.peyvast-auth-link:hover {
+  text-decoration: underline;
+}
+.peyvast-auth-link--password-link,
+.peyvast-auth-link--forgot-link {
+  width: 100%;
+  padding: var(--peyvast-auth-secondary-padding, 4px 7px);
+  border: var(--peyvast-auth-secondary-border, 0);
+  box-shadow: var(--peyvast-auth-secondary-box-shadow, none);
+  font-size: var(--peyvast-auth-secondary-font-size, inherit);
+  font-weight: var(--peyvast-auth-secondary-font-weight, inherit);
+}
+.peyvast-auth-link--password-link:not([class*="bricks-background-"]):not(
+    [class*="bricks-color-"]
+  ),
+.peyvast-auth-link--forgot-link:not([class*="bricks-background-"]):not(
+    [class*="bricks-color-"]
+  ) {
+  background: var(--peyvast-auth-secondary-background, transparent);
+}
+.peyvast-auth-google-action {
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.peyvast-auth-otp {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 6px;
+  margin: 0;
+}
+.peyvast-auth-otp__input {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.35em;
+  text-indent: 0.35em;
+}
+.peyvast-auth-otp__fields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  direction: ltr;
+}
+.peyvast-auth-otp__digit {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  width: var(--peyvast-auth-otp-field-width, 48px);
+  height: var(--peyvast-auth-otp-field-height, auto);
+  text-align: center;
+  letter-spacing: normal;
+  text-indent: 0;
+  padding-left: 0;
+  padding-right: 0;
+  aspect-ratio:1/1;
+}
+.peyvast-auth-otp__digit.is-invalid {
+  animation: peyvast-auth-otp-shake 0.24s ease;
+}
+.peyvast-auth-otp__input.is-invalid {
+  animation: peyvast-auth-otp-shake 0.24s ease;
+}
+.peyvast-auth-otp__feedback:empty {
+  display: none;
+}
+.peyvast-auth-otp__resend {
+  display: flex;
+  justify-content: center;
+  min-height: 40px;
+}
+.peyvast-auth__resend-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+}
+.peyvast-auth__resend-slot[hidden] {
+  display: none !important;
+}
+.peyvast-auth__timer {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--peyvast-auth-muted);
+  font-size: var(--peyvast-auth-resend-timer-font-size, 12px);
+  font-weight: var(--peyvast-auth-resend-timer-font-weight, inherit);
+}
+.peyvast-auth__timer[hidden] {
+  display: none !important;
+}
+
+.peyvast-auth__notices {
+  display: grid;
+  gap: var(--peyvast-auth-notice-gap, 8px);
+  margin-top: 18px;
+  width: var(--peyvast-auth-notice-width, auto);
+  position: relative;
+}
+.peyvast-auth__notices--top {
+  order: -1;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+.peyvast-auth__notices--bottom {
+  order: 10;
+}
+.peyvast-auth__notices--left,
+.peyvast-auth__notices--right {
+  position: absolute;
+  top: 0;
+  width: min(100%, 360px);
+  z-index: 2;
+}
+.peyvast-auth__notices--left {
+  inset-inline-start: 0;
+  transform: translateX(calc(-100% - 16px));
+}
+.peyvast-auth__notices--right {
+  inset-inline-end: 0;
+  transform: translateX(calc(100% + 16px));
+}
+.peyvast-auth-notice {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 10px;
+  padding: 11px 12px;
+  border: 1px solid transparent;
+  border-radius: 11px;
+  color: var(--peyvast-auth-info);
+  opacity: 0;
+  transform: translateY(4px);
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+}
+.peyvast-auth-notice.is-visible {
+  opacity: 1;
+  transform: none;
+}
+.peyvast-auth-notice.is-removing {
+  opacity: 0;
+  transform: translateY(-4px);
+}
+.peyvast-auth-notice--success {
+  color: var(--peyvast-auth-success);
+  background: var(
+    --peyvast-auth-notice-success-background,
+    var(--peyvast-auth-success-bg)
+  );
+  border: var(--peyvast-auth-notice-success-border, 1px solid #abefc6);
+  padding: var(--peyvast-auth-notice-success-padding, 11px 12px);
+  box-shadow: var(--peyvast-auth-notice-success-shadow, none);
+  gap: 10px;
+  justify-content: start;
+}
+.peyvast-auth-notice--error {
+  color: var(--peyvast-auth-danger);
+  background: var(
+    --peyvast-auth-notice-error-background,
+    var(--peyvast-auth-danger-bg)
+  );
+  border: var(--peyvast-auth-notice-error-border, 1px solid #fecdca);
+  padding: var(--peyvast-auth-notice-error-padding, 11px 12px);
+  box-shadow: var(--peyvast-auth-notice-error-shadow, none);
+  gap: 10px;
+  justify-content: start;
+}
+.peyvast-auth-notice--warning {
+  color: var(--peyvast-auth-warning);
+  background: var(
+    --peyvast-auth-notice-warning-background,
+    var(--peyvast-auth-warning-bg)
+  );
+  border: var(--peyvast-auth-notice-warning-border, 1px solid #fedf89);
+  padding: var(--peyvast-auth-notice-warning-padding, 11px 12px);
+  box-shadow: var(--peyvast-auth-notice-warning-shadow, none);
+  gap: 10px;
+  justify-content: start;
+}
+.peyvast-auth-notice--info {
+  color: var(--peyvast-auth-info);
+  background: var(--peyvast-auth-notice-info-background, var(--peyvast-auth-info-bg));
+  border: var(--peyvast-auth-notice-info-border, 1px solid #b2ddff);
+  padding: var(--peyvast-auth-notice-info-padding, 11px 12px);
+  box-shadow: var(--peyvast-auth-notice-info-shadow, none);
+  gap: 10px;
+  justify-content: start;
+}
+.peyvast-auth-notice__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  margin-top: 1px;
+}
+.peyvast-auth-notice__icon svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+  flex: 0 0 auto;
+}
+.peyvast-auth-notice__content {
+  font-size: 13px;
+  line-height: 1.6;
+  min-width: 0;
+}
+.peyvast-auth-notice__close {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  border: var(--peyvast-auth-notice-close-border, 0);
+  background: var(--peyvast-auth-notice-close-background, transparent);
+  box-shadow: var(--peyvast-auth-notice-close-shadow, none);
+  color: var(--peyvast-auth-muted);
+  font-size: inherit;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: var(--peyvast-auth-notice-close-padding, 0);
+}
+.peyvast-auth-notice__close:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.peyvast-auth-notice__close svg {
+  display: block;
+}
+
+.peyvast-auth.is-loading {
+  pointer-events: none;
+}
+.peyvast-auth.is-loading .peyvast-auth-button {
+  opacity: 0.72;
+}
+.peyvast-auth.is-loading .peyvast-auth-otp__input {
+  opacity: 0.72;
+}
+
+.peyvast-auth-back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--peyvast-auth-back-icon-gap, 0.5rem);
+  min-height: 40px;
+  border: var(--peyvast-auth-back-border, 0);
+  background: var(--peyvast-auth-back-background, transparent);
+  color: inherit;
+  padding: var(--peyvast-auth-back-padding, 6px 8px);
+  border-radius: var(--peyvast-auth-back-radius, 9px);
+  font-size: var(--peyvast-auth-back-button-font-size, inherit);
+  font-weight: var(--peyvast-auth-back-button-font-weight, inherit);
+  cursor: pointer;
+}
+
+.peyvast-auth-back.has-icon-space {
+  justify-content: space-between;
+}
+.peyvast-auth-back svg {
+  flex-shrink: 0;
+  width: var(--peyvast-auth-back-icon-size, auto);
+  height: var(--peyvast-auth-back-icon-size, auto);
+  display: block;
+  font-size: var(--peyvast-auth-back-icon-size, inherit);
+  color: var(--peyvast-auth-back-icon-color, currentColor);
+}
+.peyvast-auth-back i {
+  font-style: normal;
+}
+.peyvast-auth-back__text {
+  line-height: 1.3;
+}
+
+@keyframes peyvast-auth-otp-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-4px);
+  }
+  66% {
+    transform: translateX(4px);
+  }
+}
+@keyframes peyvast-auth-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .peyvast-auth--standalone {
+    padding: 18px;
+    border-radius: 16px;
+  }
+  .peyvast-auth-otp__input {
+    font-size: 21px;
+  }
+  .peyvast-auth-otp__fields {
+    gap: 5px;
+  }
+}
+@media (max-width: 360px) {
+  .peyvast-auth--standalone {
+    padding: 15px;
+  }
+  .peyvast-auth-otp__input {
+    font-size: 19px;
+  }
+  .peyvast-auth-otp__fields {
+    gap: 4px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .peyvast-auth-button,
+  .peyvast-auth-input,
+  .peyvast-auth-otp__input,
+  .peyvast-auth-notice {
+    transition: none;
+  }
+  .peyvast-auth-notice {
+    transform: none;
+  }
+  .peyvast-auth-button__loading-icon {
+    animation: none;
+  }
+}
+
+.peyvast-auth--block .peyvast-auth-button--continue,
+.peyvast-auth--block .peyvast-auth-button--verify,
+.peyvast-auth--block .peyvast-auth-button--login,
+.peyvast-auth--block .peyvast-auth-button--register,
+.peyvast-auth--block .peyvast-auth-button--forgot,
+.peyvast-auth--block .peyvast-auth-button--reset-password {
+  color: inherit;
+  line-height: var(--peyvast-auth-current-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-current-letter-spacing, normal);
+  text-align: var(--peyvast-auth-current-text-align, inherit);
+}
+.peyvast-auth--block .peyvast-auth-button--continue > svg {
+  color: var(--peyvast-auth-continue-icon-color, currentColor);
+  width: var(--peyvast-auth-continue-icon-size, auto);
+  height: var(--peyvast-auth-continue-icon-size, auto);
+  display: block;
+}
+.peyvast-auth--block .peyvast-auth-button--verify > svg {
+  color: var(--peyvast-auth-verify-icon-color, currentColor);
+  width: var(--peyvast-auth-verify-icon-size, auto);
+  height: var(--peyvast-auth-verify-icon-size, auto);
+  display: block;
+}
+.peyvast-auth--block .peyvast-auth-button--login > svg {
+  color: var(--peyvast-auth-login-icon-color, currentColor);
+  width: var(--peyvast-auth-login-icon-size, auto);
+  height: var(--peyvast-auth-login-icon-size, auto);
+  display: block;
+}
+.peyvast-auth--block .peyvast-auth-button--register > svg {
+  color: var(--peyvast-auth-register-icon-color, currentColor);
+  width: var(--peyvast-auth-register-icon-size, auto);
+  height: var(--peyvast-auth-register-icon-size, auto);
+  display: block;
+}
+.peyvast-auth--block .peyvast-auth-button--forgot > svg {
+  color: var(--peyvast-auth-forgot-icon-color, currentColor);
+  width: var(--peyvast-auth-forgot-icon-size, auto);
+  height: var(--peyvast-auth-forgot-icon-size, auto);
+  display: block;
+}
+.peyvast-auth--block .peyvast-auth-button--reset-password > svg {
+  color: var(--peyvast-auth-reset-password-icon-color, currentColor);
+  width: var(--peyvast-auth-reset-password-icon-size, auto);
+  height: var(--peyvast-auth-reset-password-icon-size, auto);
+  display: block;
+}
+.peyvast-auth--block .peyvast-auth-link--resend > svg {
+  color: var(--peyvast-auth-resend-icon-color, currentColor);
+  width: var(--peyvast-auth-resend-icon-size, auto);
+  height: var(--peyvast-auth-resend-icon-size, auto);
+  display: block;
+}
+
+.peyvast-auth--block .peyvast-auth-button--continue {
+  line-height: var(--peyvast-auth-continue-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-continue-letter-spacing, normal);
+  text-align: var(--peyvast-auth-continue-text-align, inherit);
+  color: var(--peyvast-auth-continue-color, var(--peyvast-auth-primary-contrast));
+  background: var(--peyvast-auth-continue-background, var(--peyvast-auth-primary));
+  padding: var(
+    --peyvast-auth-continue-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-continue-border, var(--peyvast-auth-primary-border, 0));
+}
+.peyvast-auth--block .peyvast-auth-button--verify {
+  line-height: var(--peyvast-auth-verify-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-verify-letter-spacing, normal);
+  text-align: var(--peyvast-auth-verify-text-align, inherit);
+  color: var(--peyvast-auth-verify-color, var(--peyvast-auth-primary-contrast));
+  background: var(--peyvast-auth-verify-background, var(--peyvast-auth-primary));
+  padding: var(
+    --peyvast-auth-verify-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-verify-border, var(--peyvast-auth-primary-border, 0));
+}
+.peyvast-auth--block .peyvast-auth-button--login {
+  line-height: var(--peyvast-auth-login-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-login-letter-spacing, normal);
+  text-align: var(--peyvast-auth-login-text-align, inherit);
+  color: var(--peyvast-auth-login-color, var(--peyvast-auth-primary-contrast));
+  background: var(--peyvast-auth-login-background, var(--peyvast-auth-primary));
+  padding: var(
+    --peyvast-auth-login-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-login-border, var(--peyvast-auth-primary-border, 0));
+}
+.peyvast-auth--block .peyvast-auth-button--register {
+  line-height: var(--peyvast-auth-register-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-register-letter-spacing, normal);
+  text-align: var(--peyvast-auth-register-text-align, inherit);
+  color: var(--peyvast-auth-register-color, var(--peyvast-auth-primary-contrast));
+  background: var(--peyvast-auth-register-background, var(--peyvast-auth-primary));
+  padding: var(
+    --peyvast-auth-register-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-register-border, var(--peyvast-auth-primary-border, 0));
+}
+.peyvast-auth--block .peyvast-auth-button--forgot {
+  line-height: var(--peyvast-auth-forgot-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-forgot-letter-spacing, normal);
+  text-align: var(--peyvast-auth-forgot-text-align, inherit);
+  color: var(--peyvast-auth-forgot-color, var(--peyvast-auth-primary-contrast));
+  background: var(--peyvast-auth-forgot-background, var(--peyvast-auth-primary));
+  padding: var(
+    --peyvast-auth-forgot-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(--peyvast-auth-forgot-border, var(--peyvast-auth-primary-border, 0));
+}
+.peyvast-auth--block .peyvast-auth-button--reset-password {
+  line-height: var(--peyvast-auth-reset-password-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-reset-password-letter-spacing, normal);
+  text-align: var(--peyvast-auth-reset-password-text-align, inherit);
+  color: var(
+    --peyvast-auth-reset-password-color,
+    var(--peyvast-auth-primary-contrast)
+  );
+  background: var(
+    --peyvast-auth-reset-password-background,
+    var(--peyvast-auth-primary)
+  );
+  padding: var(
+    --peyvast-auth-reset-password-padding,
+    var(--peyvast-auth-primary-padding, 0 16px)
+  );
+  border: var(
+    --peyvast-auth-reset-password-border,
+    var(--peyvast-auth-primary-border, 0)
+  );
+}
+.peyvast-auth--block .peyvast-auth-link--resend {
+  line-height: var(--peyvast-auth-resend-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-resend-letter-spacing, normal);
+  text-align: var(--peyvast-auth-resend-text-align, inherit);
+  color: var(--peyvast-auth-resend-color, var(--peyvast-auth-muted));
+  background: var(--peyvast-auth-resend-background, transparent);
+  padding: var(--peyvast-auth-resend-padding, 4px 7px);
+  border: var(--peyvast-auth-resend-border, 0);
+}
+.peyvast-auth--block .peyvast-auth-link--password-link,
+.peyvast-auth--block .peyvast-auth-link--forgot-link {
+  line-height: var(--peyvast-auth-secondary-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-secondary-letter-spacing, normal);
+  text-align: var(--peyvast-auth-secondary-text-align, inherit);
+  color: var(--peyvast-auth-secondary-color, inherit);
+  background: var(--peyvast-auth-secondary-background, transparent);
+  padding: var(--peyvast-auth-secondary-padding, 4px 7px);
+  border: var(--peyvast-auth-secondary-border, 0);
+}
+.peyvast-auth--block .peyvast-auth-back {
+  line-height: var(--peyvast-auth-back-button-line-height, inherit);
+  letter-spacing: var(--peyvast-auth-back-button-letter-spacing, normal);
+  text-align: var(--peyvast-auth-back-button-text-align, inherit);
+  color: var(--peyvast-auth-back-button-color, inherit);
+  background: var(--peyvast-auth-back-background, transparent);
+  padding: var(--peyvast-auth-back-padding, 6px 8px);
+  border: var(--peyvast-auth-back-border, 0);
+}
+.peyvast-auth--bricks,
+.peyvast-auth--block {
+  --peyvast-auth-text: currentColor;
+}
+.peyvast-auth--bricks .peyvast-auth__form,
+.peyvast-auth--block .peyvast-auth__form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--peyvast-auth-text);
+  -webkit-box-shadow: 0 0 0 1000px var(--peyvast-auth-field-bg) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Separated OTP success state. Scoped to the OTP component so it cannot affect unrelated form controls. */
+.peyvast-auth-otp.is-success .peyvast-auth-otp__digit,
+.peyvast-auth-otp__digit.is-success {
+  border-color: var(--peyvast-auth-success, #067647) !important;
+  box-shadow: 0 0 0 2px var(--peyvast-auth-success-shadow, rgba(6, 118, 71, 0.15)) !important;
+}
